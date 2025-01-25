@@ -1,59 +1,72 @@
 import numpy as np
-
-def load_matrix(filename):
-    """Load a matrix from a CSV file."""
-    return np.loadtxt(filename, delimiter=',')
+import json
 
 def row_normalize(matrix):
-    """Perform row-wise normalization."""
+    """Normalise les lignes de la matrice."""
     row_sums = matrix.sum(axis=1, keepdims=True)
-    # Avoid division by zero
     row_sums[row_sums == 0] = 1
     return matrix / row_sums
 
-def concatenate_matrices(EP_matrix, C_matrix, In_matrix):
-    """
-    Concatenate EP, C, and In matrices with row normalization.
+def remove_zero_rows(EP_matrix, C_matrix, In_matrix, struct_matrix):
+    """Supprime les lignes de zéros et normalise la matrice X."""
+    row_mask = ~np.all(EP_matrix == 0, axis=1)
     
-    Args:
-    EP_matrix (np.ndarray): Entrypoint matrix
-    C_matrix (np.ndarray): Co-occurrence matrix
-    In_matrix (np.ndarray): Inheritance matrix
+    EP_filtered = EP_matrix[row_mask]
+    C_filtered = C_matrix[row_mask]
+    In_filtered = In_matrix[row_mask]
+    struct_filtered = struct_matrix[row_mask][:, row_mask]
     
-    Returns:
-    np.ndarray: Concatenated and row-normalized matrix X
-    """
-    # Normalize each matrix individually
-    EP_normalized = row_normalize(EP_matrix)
-    C_normalized = row_normalize(C_matrix)
-    In_normalized = row_normalize(In_matrix)
+    n_EP_cols = EP_matrix.shape[1]
+    n_C_cols = C_matrix.shape[1]
     
-    # Concatenate matrices horizontally
+    col_mask_EP = ~np.all(EP_filtered == 0, axis=0)
+    col_mask_C = ~np.all(C_filtered == 0, axis=0)
+    col_mask_In = ~np.all(In_filtered == 0, axis=0)
+    
+    EP_filtered = EP_filtered[:, col_mask_EP]
+    C_filtered = C_filtered[:, col_mask_C]
+    In_filtered = In_filtered[:, col_mask_In]
+    
+    EP_normalized = row_normalize(EP_filtered)
+    C_normalized = row_normalize(C_filtered)
+    In_normalized = row_normalize(In_filtered)
+    
     X = np.hstack((EP_normalized, C_normalized, In_normalized))
     
-    return X
-
-def save_matrix(matrix, filename):
-    """Save matrix to a CSV file."""
-    np.savetxt(filename, matrix, delimiter=',')
+    original_row_indices = np.arange(EP_matrix.shape[0])[row_mask]
+    original_col_indices = {
+        'EP': np.arange(EP_matrix.shape[1])[col_mask_EP],
+        'C': np.arange(n_EP_cols, n_EP_cols + n_C_cols)[col_mask_C],
+        'In': np.arange(n_EP_cols + n_C_cols, n_EP_cols + n_C_cols + In_matrix.shape[1])[col_mask_In]
+    }
+    
+    index_mapping = {
+        'rows': {new_idx: int(orig_idx) for new_idx, orig_idx in enumerate(original_row_indices)},
+        'columns': {
+            'EP': {new_idx: int(orig_idx) for new_idx, orig_idx in enumerate(original_col_indices['EP'])},
+            'C': {new_idx: int(orig_idx) for new_idx, orig_idx in enumerate(original_col_indices['C'])},
+            'In': {new_idx: int(orig_idx) for new_idx, orig_idx in enumerate(original_col_indices['In'])}
+        }
+    }
+    
+    return X, index_mapping, struct_filtered
 
 def main():
-    # Load matrices
-    EP_matrix = load_matrix('EP_matrix.csv')
-    C_matrix = load_matrix('C_matrix.csv')
-    In_matrix = load_matrix('inheritance_matrix.csv')
+    EP_matrix = np.loadtxt('EP_matrix.csv', delimiter=',')
+    C_matrix = np.loadtxt('C_matrix.csv', delimiter=',')
+    In_matrix = np.loadtxt('inheritance_matrix.csv', delimiter=',')
+    struct_matrix = np.loadtxt('cogcn/cogcn/data/apps/acmeair/struct.csv', delimiter=',')
     
-    # Concatenate and normalize
-    X_matrix = concatenate_matrices(EP_matrix, C_matrix, In_matrix)
+    X, index_mapping, struct_filtered = remove_zero_rows(EP_matrix, C_matrix, In_matrix, struct_matrix)
     
-    # Save concatenated matrix
-    save_matrix(X_matrix, 'X_matrix.csv')
+    with open('index_mapping.json', 'w') as f:
+        json.dump(index_mapping, f)
     
-    # Print dimensions for verification
-    print("Dimensions of X matrix:", X_matrix.shape)
-    print("Entrypoint matrix columns:", EP_matrix.shape[1])
-    print("Co-occurrence matrix columns:", C_matrix.shape[1])
-    print("Inheritance matrix columns:", In_matrix.shape[1])
+    np.savetxt('cogcn/cogcn/data/apps/acmeair/content.csv', X, delimiter=',', fmt='%.15f')
+    np.savetxt('cogcn/cogcn/data/apps/acmeair/struct.csv', struct_filtered, delimiter=',', fmt='%.15f')
+    
+    print("Dimensions matrice X :", X.shape)
+    print("Dimensions matrice struct :", struct_filtered.shape)
 
 if __name__ == "__main__":
     main()

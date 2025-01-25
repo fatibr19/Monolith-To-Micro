@@ -1,0 +1,6514 @@
+[
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\ProjetSiApplication.java",
+        "methods": [
+            "main"
+        ],
+        "main": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\configuration\\CorsConfig.java",
+        "methods": [
+            "addCorsMappings"
+        ],
+        "addCorsMappings": {
+            "calls": [
+                "registry"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "getAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "methods": [
+            "addCandidatWithDossier",
+            "getAllCandidats",
+            "getAccessByEmail",
+            "updateAccess",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "addCandidatWithDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAccess": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateAccess",
+            "addCompetence",
+            "getAccessByCode"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAccess": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "getDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "methods": [
+            "addEntreprise",
+            "updateEntreprise",
+            "getAllEntreprises",
+            "getEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "methods": [
+            "getEtudiantById",
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant"
+        ],
+        "getEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "getAllProfs",
+            "getProfById"
+        ],
+        "deleteProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "getPromoById"
+        ],
+        "updatePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "methods": [
+            "getAllStages",
+            "getStageById",
+            "updateStage",
+            "deleteStage",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "getTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "methods": [
+            "getAllTypesStage",
+            "getTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java",
+        "methods": [
+            "setAccessLibelle",
+            "setAuthority",
+            "getAccessLibelle",
+            "getAuthority",
+            "getAccessId",
+            "toString",
+            "setAccessId"
+        ],
+        "setAccessLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAuthority": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAuthority": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAccessId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java",
+        "methods": [
+            "getTypeStageId",
+            "getId",
+            "getNiveau",
+            "setTypeStageId",
+            "getCompetenceId",
+            "getCompetence",
+            "setTypeStage",
+            "setCompetenceId",
+            "getTypeStage",
+            "setId",
+            "setNiveau",
+            "setCompetence"
+        ],
+        "getTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNiveau": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompetenceId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCompetenceId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNiveau": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java",
+        "methods": [
+            "getAnnee",
+            "setAnnee"
+        ],
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java",
+        "methods": [
+            "getDossier",
+            "getEmail",
+            "getStatut",
+            "setDossierComplete",
+            "getPromo",
+            "getPrenom",
+            "setDossier",
+            "setPromo",
+            "getNom",
+            "setPrenom",
+            "setStatut",
+            "getDossierComplete",
+            "setEmail",
+            "setNom"
+        ],
+        "getDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getStatut": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDossierComplete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setStatut": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDossierComplete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java",
+        "methods": [
+            "getDesc",
+            "getCode",
+            "getLibelle",
+            "setLibelle",
+            "setCode",
+            "setDesc"
+        ],
+        "getDesc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDesc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java",
+        "methods": [
+            "setAnnee",
+            "getTypeStageId",
+            "getId",
+            "setDateDeb",
+            "getAnneeId",
+            "getDateFin",
+            "setTypeStageId",
+            "setTypeStage",
+            "setAnneeId",
+            "getTypeStage",
+            "setId",
+            "getDateDeb",
+            "setDateFin",
+            "getAnnee"
+        ],
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateDeb": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnneeId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateFin": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnneeId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateDeb": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateFin": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java",
+        "methods": [
+            "getRaisonSoc",
+            "getId",
+            "getContact",
+            "setFormeJur",
+            "setTelStandard",
+            "setContact",
+            "getTelContact",
+            "setAdrs",
+            "getAdrs",
+            "setTelContact",
+            "getFormeJur",
+            "setId",
+            "setRaisonSoc",
+            "getTelStandard"
+        ],
+        "getRaisonSoc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFormeJur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTelStandard": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTelContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTelContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFormeJur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRaisonSoc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTelStandard": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java",
+        "methods": [
+            "getId",
+            "getPrenom",
+            "setAdrs",
+            "getSexe",
+            "getDateNaissance",
+            "getAdrs",
+            "getNom",
+            "setPrenom",
+            "setDateNaissance",
+            "setId",
+            "setSexe",
+            "getMention",
+            "setTel",
+            "setPromo",
+            "getPromo",
+            "getTel",
+            "setMention",
+            "setNom"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getSexe": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateNaissance": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateNaissance": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setSexe": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getMention": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setMention": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java",
+        "methods": [
+            "setFileType",
+            "builder",
+            "setFileName",
+            "filePath",
+            "fileType",
+            "getFilePath",
+            "getFileName",
+            "setFilePath",
+            "build",
+            "setFileId",
+            "getFileType",
+            "fileName",
+            "getFileId"
+        ],
+        "setFileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "builder": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "filePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "fileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFilePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFilePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "build": {
+            "calls": [],
+            "classes_used": [
+                "FileData"
+            ],
+            "attributes": []
+        },
+        "setFileId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "fileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java",
+        "methods": [
+            "getId",
+            "setDateDepart",
+            "getPrenom",
+            "setAdrs",
+            "setTel",
+            "getAdrs",
+            "getNom",
+            "setPrenom",
+            "setDateEmbauche",
+            "setId",
+            "getDateDepart",
+            "getTel",
+            "setNom",
+            "getDateEmbauche"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateDepart": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateEmbauche": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateDepart": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateEmbauche": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java",
+        "methods": [
+            "setNbrRecus",
+            "getId",
+            "setNbrInscrits",
+            "getNbrInscrits",
+            "getNbrRecus",
+            "setId",
+            "setDirigeant",
+            "getDirigeant"
+        ],
+        "setNbrRecus": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNbrInscrits": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrInscrits": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrRecus": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDirigeant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDirigeant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java",
+        "methods": [
+            "getRoleId",
+            "getRoleAccesses",
+            "setRoleId",
+            "getRoleLibelle",
+            "setRoleAccesses",
+            "toString",
+            "setRoleLibelle"
+        ],
+        "getRoleId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getRoleAccesses": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getRoleLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleAccesses": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java",
+        "methods": [
+            "setCompteRendu",
+            "getId",
+            "setEntreprise",
+            "getProf",
+            "getEntreprise",
+            "setTypeStage",
+            "setEtudiant",
+            "getTypeStage",
+            "setProf",
+            "setId",
+            "setAnnee",
+            "setTuteur",
+            "getTuteur",
+            "getAnnee",
+            "getCompteRendu",
+            "getEtudiant"
+        ],
+        "setCompteRendu": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompteRendu": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java",
+        "methods": [
+            "getId",
+            "getPrenom",
+            "setTel",
+            "setPrenom",
+            "getNom",
+            "setId",
+            "getTel",
+            "setNom"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java",
+        "methods": [
+            "setId",
+            "setNbrSemaines",
+            "getId",
+            "getNbrSemaines"
+        ],
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNbrSemaines": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrSemaines": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java",
+        "methods": [
+            "getUsername",
+            "getUserId",
+            "setUserId",
+            "setUserRole",
+            "getUserPassword",
+            "toString",
+            "getUserRole",
+            "setUserPassword",
+            "setUsername"
+        ],
+        "getUsername": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserRole": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserPassword": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserRole": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserPassword": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUsername": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAcquerirById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java",
+        "methods": [
+            "findCandidatByEmail",
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findCandidatByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findCompetenceByCode",
+            "deleteCompetenceByCode",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findDateStageById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "deleteEntrepriseById",
+            "saveAll",
+            "deleteById",
+            "findEntrepriseById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java",
+        "methods": [
+            "findById",
+            "findEtudiantById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findByFileName",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findByFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findProfById",
+            "deleteProfById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findPromoById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findStageById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findTuteurById",
+            "deleteTuteurById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java",
+        "methods": [
+            "findTypeStageById",
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java",
+        "methods": [
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "findCandidatByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateCompetence",
+            "findCompetenceByCode",
+            "addCompetence"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "findDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java",
+        "methods": [
+            "addEntreprise",
+            "getAllEntreprises",
+            "updateEntreprise",
+            "findEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java",
+        "methods": [
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant",
+            "findEtudiantById"
+        ],
+        "addEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "findProfById",
+            "getAllProfs"
+        ],
+        "deleteProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "findPromoById"
+        ],
+        "updatePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java",
+        "methods": [
+            "getAllStages",
+            "updateStage",
+            "deleteStage",
+            "findStageById",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java",
+        "methods": [
+            "findFileDataByFileName",
+            "downloadFile",
+            "uploadFile"
+        ],
+        "findFileDataByFileName": {
+            "calls": [
+                "fileDataDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "downloadFile": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "uploadFile": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "findTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java",
+        "methods": [
+            "getAllTypesStage",
+            "findTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [
+                "acquerirDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [
+                "acquerirDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [
+                "acquerirDao",
+                "Acquerir"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [
+                "acquerirDao",
+                "Acquerir"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java",
+        "methods": [
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "findCandidatByEmail": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateCompetence",
+            "findCompetenceByCode",
+            "addCompetence"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "findDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [
+                "DateStage",
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [
+                "DateStage",
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java",
+        "methods": [
+            "addEntreprise",
+            "getAllEntreprises",
+            "updateEntreprise",
+            "findEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java",
+        "methods": [
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant",
+            "findEtudiantById"
+        ],
+        "addEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "findProfById",
+            "getAllProfs"
+        ],
+        "deleteProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "findPromoById"
+        ],
+        "updatePromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java",
+        "methods": [
+            "getAllStages",
+            "updateStage",
+            "deleteStage",
+            "findStageById",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "findTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java",
+        "methods": [
+            "getAllTypesStage",
+            "findTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTypeStageById": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\ProjetSiApplication.java",
+        "methods": [
+            "main"
+        ],
+        "main": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\configuration\\CorsConfig.java",
+        "methods": [
+            "addCorsMappings"
+        ],
+        "addCorsMappings": {
+            "calls": [
+                "registry"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "getAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "methods": [
+            "addCandidatWithDossier",
+            "getAllCandidats",
+            "getAccessByEmail",
+            "updateAccess",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "addCandidatWithDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAccess": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateAccess",
+            "addCompetence",
+            "getAccessByCode"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAccess": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "getDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "methods": [
+            "addEntreprise",
+            "updateEntreprise",
+            "getAllEntreprises",
+            "getEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "methods": [
+            "getEtudiantById",
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant"
+        ],
+        "getEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "getAllProfs",
+            "getProfById"
+        ],
+        "deleteProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "getPromoById"
+        ],
+        "updatePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "methods": [
+            "getAllStages",
+            "getStageById",
+            "updateStage",
+            "deleteStage",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "getTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "methods": [
+            "getAllTypesStage",
+            "getTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java",
+        "methods": [
+            "setAccessLibelle",
+            "setAuthority",
+            "getAccessLibelle",
+            "getAuthority",
+            "getAccessId",
+            "toString",
+            "setAccessId"
+        ],
+        "setAccessLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAuthority": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAuthority": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAccessId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAccessId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java",
+        "methods": [
+            "getTypeStageId",
+            "getId",
+            "getNiveau",
+            "setTypeStageId",
+            "getCompetenceId",
+            "getCompetence",
+            "setTypeStage",
+            "setCompetenceId",
+            "getTypeStage",
+            "setId",
+            "setNiveau",
+            "setCompetence"
+        ],
+        "getTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNiveau": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompetenceId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCompetenceId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNiveau": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java",
+        "methods": [
+            "getAnnee",
+            "setAnnee"
+        ],
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java",
+        "methods": [
+            "getDossier",
+            "getEmail",
+            "getStatut",
+            "setDossierComplete",
+            "getPromo",
+            "getPrenom",
+            "setDossier",
+            "setPromo",
+            "getNom",
+            "setPrenom",
+            "setStatut",
+            "getDossierComplete",
+            "setEmail",
+            "setNom"
+        ],
+        "getDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getStatut": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDossierComplete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDossier": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setStatut": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDossierComplete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java",
+        "methods": [
+            "getDesc",
+            "getCode",
+            "getLibelle",
+            "setLibelle",
+            "setCode",
+            "setDesc"
+        ],
+        "getDesc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDesc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java",
+        "methods": [
+            "setAnnee",
+            "getTypeStageId",
+            "getId",
+            "setDateDeb",
+            "getAnneeId",
+            "getDateFin",
+            "setTypeStageId",
+            "setTypeStage",
+            "setAnneeId",
+            "getTypeStage",
+            "setId",
+            "getDateDeb",
+            "setDateFin",
+            "getAnnee"
+        ],
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateDeb": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnneeId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateFin": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStageId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnneeId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateDeb": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateFin": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java",
+        "methods": [
+            "getRaisonSoc",
+            "getId",
+            "getContact",
+            "setFormeJur",
+            "setTelStandard",
+            "setContact",
+            "getTelContact",
+            "setAdrs",
+            "getAdrs",
+            "setTelContact",
+            "getFormeJur",
+            "setId",
+            "setRaisonSoc",
+            "getTelStandard"
+        ],
+        "getRaisonSoc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFormeJur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTelStandard": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTelContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTelContact": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFormeJur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRaisonSoc": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTelStandard": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java",
+        "methods": [
+            "getId",
+            "getPrenom",
+            "setAdrs",
+            "getSexe",
+            "getDateNaissance",
+            "getAdrs",
+            "getNom",
+            "setPrenom",
+            "setDateNaissance",
+            "setId",
+            "setSexe",
+            "getMention",
+            "setTel",
+            "setPromo",
+            "getPromo",
+            "getTel",
+            "setMention",
+            "setNom"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getSexe": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateNaissance": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateNaissance": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setSexe": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getMention": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setMention": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java",
+        "methods": [
+            "setFileType",
+            "builder",
+            "setFileName",
+            "filePath",
+            "fileType",
+            "getFilePath",
+            "getFileName",
+            "setFilePath",
+            "build",
+            "setFileId",
+            "getFileType",
+            "fileName",
+            "getFileId"
+        ],
+        "setFileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "builder": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "filePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "fileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFilePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setFilePath": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "build": {
+            "calls": [],
+            "classes_used": [
+                "FileData"
+            ],
+            "attributes": []
+        },
+        "setFileId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileType": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "fileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getFileId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java",
+        "methods": [
+            "getId",
+            "setDateDepart",
+            "getPrenom",
+            "setAdrs",
+            "setTel",
+            "getAdrs",
+            "getNom",
+            "setPrenom",
+            "setDateEmbauche",
+            "setId",
+            "getDateDepart",
+            "getTel",
+            "setNom",
+            "getDateEmbauche"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateDepart": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAdrs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDateEmbauche": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateDepart": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDateEmbauche": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java",
+        "methods": [
+            "setNbrRecus",
+            "getId",
+            "setNbrInscrits",
+            "getNbrInscrits",
+            "getNbrRecus",
+            "setId",
+            "setDirigeant",
+            "getDirigeant"
+        ],
+        "setNbrRecus": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNbrInscrits": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrInscrits": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrRecus": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setDirigeant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getDirigeant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java",
+        "methods": [
+            "getRoleId",
+            "getRoleAccesses",
+            "setRoleId",
+            "getRoleLibelle",
+            "setRoleAccesses",
+            "toString",
+            "setRoleLibelle"
+        ],
+        "getRoleId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getRoleAccesses": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getRoleLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleAccesses": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setRoleLibelle": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java",
+        "methods": [
+            "setCompteRendu",
+            "getId",
+            "setEntreprise",
+            "getProf",
+            "getEntreprise",
+            "setTypeStage",
+            "setEtudiant",
+            "getTypeStage",
+            "setProf",
+            "setId",
+            "setAnnee",
+            "setTuteur",
+            "getTuteur",
+            "getAnnee",
+            "getCompteRendu",
+            "getEtudiant"
+        ],
+        "setCompteRendu": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAnnee": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getCompteRendu": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java",
+        "methods": [
+            "getId",
+            "getPrenom",
+            "setTel",
+            "setPrenom",
+            "getNom",
+            "setId",
+            "getTel",
+            "setNom"
+        ],
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setPrenom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getTel": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNom": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java",
+        "methods": [
+            "setId",
+            "setNbrSemaines",
+            "getId",
+            "getNbrSemaines"
+        ],
+        "setId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setNbrSemaines": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getNbrSemaines": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java",
+        "methods": [
+            "getUsername",
+            "getUserId",
+            "setUserId",
+            "setUserRole",
+            "getUserPassword",
+            "toString",
+            "getUserRole",
+            "setUserPassword",
+            "setUsername"
+        ],
+        "getUsername": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserId": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserRole": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserPassword": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "toString": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getUserRole": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUserPassword": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "setUsername": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAcquerirById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java",
+        "methods": [
+            "findCandidatByEmail",
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findCandidatByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findCompetenceByCode",
+            "deleteCompetenceByCode",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findDateStageById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "deleteEntrepriseById",
+            "saveAll",
+            "deleteById",
+            "findEntrepriseById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java",
+        "methods": [
+            "findById",
+            "findEtudiantById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findByFileName",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findByFileName": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findProfById",
+            "deleteProfById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findPromoById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findStageById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java",
+        "methods": [
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findTuteurById",
+            "deleteTuteurById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java",
+        "methods": [
+            "findTypeStageById",
+            "findById",
+            "delete",
+            "deleteAll",
+            "count",
+            "saveAll",
+            "deleteById",
+            "findAllById",
+            "findAll",
+            "save",
+            "existsById"
+        ],
+        "findTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "delete": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "count": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "saveAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAllById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAll": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "save": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "existsById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java",
+        "methods": [
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "findCandidatByEmail": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateCompetence",
+            "findCompetenceByCode",
+            "addCompetence"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "findDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java",
+        "methods": [
+            "addEntreprise",
+            "getAllEntreprises",
+            "updateEntreprise",
+            "findEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java",
+        "methods": [
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant",
+            "findEtudiantById"
+        ],
+        "addEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "findProfById",
+            "getAllProfs"
+        ],
+        "deleteProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "findPromoById"
+        ],
+        "updatePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java",
+        "methods": [
+            "getAllStages",
+            "updateStage",
+            "deleteStage",
+            "findStageById",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java",
+        "methods": [
+            "findFileDataByFileName",
+            "downloadFile",
+            "uploadFile"
+        ],
+        "findFileDataByFileName": {
+            "calls": [
+                "fileDataDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "downloadFile": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "uploadFile": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "findTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java",
+        "methods": [
+            "getAllTypesStage",
+            "findTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTypeStageById": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java",
+        "methods": [
+            "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
+            "deleteAcquerir",
+            "getAllAcquerirs"
+        ],
+        "addAcquerir": {
+            "calls": [
+                "acquerirDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateAcquerir": {
+            "calls": [
+                "acquerirDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findAcquerirById": {
+            "calls": [
+                "acquerirDao",
+                "Acquerir"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteAcquerir": {
+            "calls": [
+                "acquerirDao",
+                "Acquerir"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllAcquerirs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java",
+        "methods": [
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat",
+            "addCandidat"
+        ],
+        "findCandidatByEmail": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllCandidats": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCandidat": {
+            "calls": [
+                "candidatDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java",
+        "methods": [
+            "getAllCompetences",
+            "deleteCompetence",
+            "updateCompetence",
+            "findCompetenceByCode",
+            "addCompetence"
+        ],
+        "getAllCompetences": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findCompetenceByCode": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addCompetence": {
+            "calls": [
+                "competenceDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java",
+        "methods": [
+            "deleteDateStage",
+            "updateDateStage",
+            "addDateStage",
+            "findDateStageById",
+            "getAllDatesStage"
+        ],
+        "deleteDateStage": {
+            "calls": [
+                "DateStage",
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateDateStage": {
+            "calls": [
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addDateStage": {
+            "calls": [
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findDateStageById": {
+            "calls": [
+                "DateStage",
+                "dateStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllDatesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java",
+        "methods": [
+            "addEntreprise",
+            "getAllEntreprises",
+            "updateEntreprise",
+            "findEntrepriseById",
+            "deleteEntreprise"
+        ],
+        "addEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEntreprises": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEntrepriseById": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEntreprise": {
+            "calls": [
+                "entrepriseDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java",
+        "methods": [
+            "addEtudiant",
+            "deleteEtudiant",
+            "getAllEtudiants",
+            "updateEtudiant",
+            "findEtudiantById"
+        ],
+        "addEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllEtudiants": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateEtudiant": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findEtudiantById": {
+            "calls": [
+                "etudiantDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java",
+        "methods": [
+            "deleteProf",
+            "addProf",
+            "updateProf",
+            "findProfById",
+            "getAllProfs"
+        ],
+        "deleteProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateProf": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findProfById": {
+            "calls": [
+                "profDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllProfs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java",
+        "methods": [
+            "updatePromo",
+            "addPromo",
+            "getAllPromos",
+            "deletePromo",
+            "findPromoById"
+        ],
+        "updatePromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addPromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllPromos": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deletePromo": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findPromoById": {
+            "calls": [
+                "promoDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java",
+        "methods": [
+            "getAllStages",
+            "updateStage",
+            "deleteStage",
+            "findStageById",
+            "addStage"
+        ],
+        "getAllStages": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findStageById": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addStage": {
+            "calls": [
+                "stageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java",
+        "methods": [
+            "deleteTuteur",
+            "updateTuteur",
+            "getAllTuteurs",
+            "addTuteur",
+            "findTuteurById"
+        ],
+        "deleteTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "getAllTuteurs": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTuteur": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTuteurById": {
+            "calls": [
+                "tuteurDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    },
+    {
+        "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java",
+        "methods": [
+            "getAllTypesStage",
+            "findTypeStageById",
+            "updateTypeStage",
+            "addTypeStage",
+            "deleteTypeStage"
+        ],
+        "getAllTypesStage": {
+            "calls": [],
+            "classes_used": [],
+            "attributes": []
+        },
+        "findTypeStageById": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "updateTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "addTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        },
+        "deleteTypeStage": {
+            "calls": [
+                "typeStageDao"
+            ],
+            "classes_used": [],
+            "attributes": []
+        }
+    }
+]

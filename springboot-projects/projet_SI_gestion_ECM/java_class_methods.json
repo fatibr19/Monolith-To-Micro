@@ -1,0 +1,477 @@
+[
+    {
+        "class_name": "ProjetSiApplication",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\ProjetSiApplication.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "CorsConfig",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\configuration\\CorsConfig.java",
+        "methods": [
+            "addCorsMappings"
+        ]
+    },
+    {
+        "class_name": "AcquerirController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "CandidatController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "CompetenceController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "DateStageController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "EntrepriseController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "EtudiantController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "ProfController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "PromoController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "StageController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "TuteurController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "TypeStageController",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "methods": [
+            "No methods found"
+        ]
+    },
+    {
+        "class_name": "Access",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java",
+        "methods": [
+            "getAccessId",
+            "getAccessLibelle",
+            "getAuthority",
+            "setAccessId",
+            "setAccessLibelle",
+            "setAuthority",
+            "toString"
+        ]
+    },
+    {
+        "class_name": "Acquerir",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java",
+        "methods": [
+            "getId",
+            "getTypeStage",
+            "getCompetence",
+            "getNiveau",
+            "setId",
+            "setTypeStage",
+            "setCompetence",
+            "setNiveau",
+            "getTypeStageId",
+            "getCompetenceId",
+            "setTypeStageId",
+            "setCompetenceId"
+        ]
+    },
+    {
+        "class_name": "Annee",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java",
+        "methods": [
+            "getAnnee",
+            "setAnnee"
+        ]
+    },
+    {
+        "class_name": "Candidat",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java",
+        "methods": [
+            "getEmail",
+            "getStatut",
+            "getDossier",
+            "getDossierComplete",
+            "getPromo",
+            "getNom",
+            "getPrenom",
+            "setEmail",
+            "setStatut",
+            "setDossierComplete",
+            "setDossier",
+            "setPromo",
+            "setNom",
+            "setPrenom"
+        ]
+    },
+    {
+        "class_name": "Competence",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java",
+        "methods": [
+            "getCode",
+            "getLibelle",
+            "getDesc",
+            "setCode",
+            "setLibelle",
+            "setDesc"
+        ]
+    },
+    {
+        "class_name": "DateStage",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java",
+        "methods": [
+            "getId",
+            "getTypeStage",
+            "getAnnee",
+            "getDateDeb",
+            "getDateFin",
+            "setId",
+            "setTypeStage",
+            "setAnnee",
+            "setDateDeb",
+            "setDateFin",
+            "getTypeStageId",
+            "getAnneeId",
+            "setTypeStageId",
+            "setAnneeId"
+        ]
+    },
+    {
+        "class_name": "Entreprise",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java",
+        "methods": [
+            "getId",
+            "getRaisonSoc",
+            "getFormeJur",
+            "getAdrs",
+            "getTelStandard",
+            "getContact",
+            "getTelContact",
+            "setId",
+            "setRaisonSoc",
+            "setFormeJur",
+            "setAdrs",
+            "setTelStandard",
+            "setContact",
+            "setTelContact"
+        ]
+    },
+    {
+        "class_name": "Etudiant",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java",
+        "methods": [
+            "getId",
+            "getNom",
+            "getPrenom",
+            "getAdrs",
+            "getDateNaissance",
+            "getSexe",
+            "getTel",
+            "getMention",
+            "getPromo",
+            "setId",
+            "setNom",
+            "setPrenom",
+            "setAdrs",
+            "setDateNaissance",
+            "setSexe",
+            "setTel",
+            "setMention",
+            "setPromo"
+        ]
+    },
+    {
+        "class_name": "FileData",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java",
+        "methods": [
+            "getFileId",
+            "getFileName",
+            "getFileType",
+            "getFilePath",
+            "setFileId",
+            "setFileName",
+            "setFileType",
+            "setFilePath",
+            "fileName",
+            "fileType",
+            "filePath",
+            "build"
+        ]
+    },
+    {
+        "class_name": "Professeur",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java",
+        "methods": [
+            "getId",
+            "getNom",
+            "getPrenom",
+            "getAdrs",
+            "getDateEmbauche",
+            "getTel",
+            "getDateDepart",
+            "setId",
+            "setNom",
+            "setPrenom",
+            "setAdrs",
+            "setDateEmbauche",
+            "setTel",
+            "setDateDepart"
+        ]
+    },
+    {
+        "class_name": "Promo",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java",
+        "methods": [
+            "getId",
+            "getNbrInscrits",
+            "getNbrRecus",
+            "getDirigeant",
+            "setId",
+            "setNbrInscrits",
+            "setNbrRecus",
+            "setDirigeant"
+        ]
+    },
+    {
+        "class_name": "Role",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java",
+        "methods": [
+            "getRoleId",
+            "getRoleLibelle",
+            "setRoleId",
+            "setRoleLibelle",
+            "setRoleAccesses",
+            "toString"
+        ]
+    },
+    {
+        "class_name": "Stage",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java",
+        "methods": [
+            "getId",
+            "getAnnee",
+            "getCompteRendu",
+            "getEtudiant",
+            "getEntreprise",
+            "getProf",
+            "getTypeStage",
+            "getTuteur",
+            "setId",
+            "setAnnee",
+            "setCompteRendu",
+            "setEtudiant",
+            "setEntreprise",
+            "setProf",
+            "setTypeStage",
+            "setTuteur"
+        ]
+    },
+    {
+        "class_name": "Tuteur",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java",
+        "methods": [
+            "getId",
+            "getNom",
+            "getPrenom",
+            "getTel",
+            "setId",
+            "setNom",
+            "setPrenom",
+            "setTel"
+        ]
+    },
+    {
+        "class_name": "TypeStage",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java",
+        "methods": [
+            "getId",
+            "getNbrSemaines",
+            "setId",
+            "setNbrSemaines"
+        ]
+    },
+    {
+        "class_name": "Utilisateur",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java",
+        "methods": [
+            "getUserId",
+            "getUserPassword",
+            "getUsername",
+            "getUserRole",
+            "setUserId",
+            "setUsername",
+            "setUserPassword",
+            "setUserRole",
+            "toString"
+        ]
+    },
+    {
+        "class_name": "StorageService",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java",
+        "methods": [
+            "findFileDataByFileName"
+        ]
+    },
+    {
+        "class_name": "AcquerirServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java",
+        "methods": [
+            "findAcquerirById",
+            "addAcquerir",
+            "updateAcquerir",
+            "deleteAcquerir"
+        ]
+    },
+    {
+        "class_name": "CandidatServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java",
+        "methods": [
+            "findCandidatByEmail",
+            "addCandidat",
+            "updateCandidat",
+            "deleteCandidat"
+        ]
+    },
+    {
+        "class_name": "CompetenceServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java",
+        "methods": [
+            "findCompetenceByCode",
+            "addCompetence",
+            "updateCompetence",
+            "deleteCompetence"
+        ]
+    },
+    {
+        "class_name": "DateStageServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java",
+        "methods": [
+            "findDateStageById",
+            "addDateStage",
+            "updateDateStage",
+            "deleteDateStage"
+        ]
+    },
+    {
+        "class_name": "EntrepriseServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java",
+        "methods": [
+            "findEntrepriseById",
+            "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise"
+        ]
+    },
+    {
+        "class_name": "EtudiantServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java",
+        "methods": [
+            "findEtudiantById",
+            "addEtudiant",
+            "updateEtudiant",
+            "deleteEtudiant"
+        ]
+    },
+    {
+        "class_name": "ProfServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java",
+        "methods": [
+            "findProfById",
+            "addProf",
+            "updateProf",
+            "deleteProf"
+        ]
+    },
+    {
+        "class_name": "PromoServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java",
+        "methods": [
+            "findPromoById",
+            "addPromo",
+            "updatePromo",
+            "deletePromo"
+        ]
+    },
+    {
+        "class_name": "StageServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java",
+        "methods": [
+            "findStageById",
+            "addStage",
+            "updateStage",
+            "deleteStage"
+        ]
+    },
+    {
+        "class_name": "TuteurServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java",
+        "methods": [
+            "findTuteurById",
+            "addTuteur",
+            "updateTuteur",
+            "deleteTuteur"
+        ]
+    },
+    {
+        "class_name": "TypeStageServiceImpl",
+        "file_path": "projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java",
+        "methods": [
+            "findTypeStageById",
+            "addTypeStage",
+            "updateTypeStage",
+            "deleteTypeStage"
+        ]
+    },
+    {
+        "class_name": "ProjetSiApplicationTests",
+        "file_path": "projet_SI_gestion_ECM\\src\\test\\java\\com\\example\\projetSI\\ProjetSiApplicationTests.java",
+        "methods": [
+            "No methods found"
+        ]
+    }
+]

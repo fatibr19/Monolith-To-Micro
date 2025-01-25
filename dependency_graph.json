@@ -2,317 +2,317 @@
   "nodes": [
     {
       "id": "1",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/configuration/CorsConfig.java",
+      "label": "com.example.projetSI.configuration.CorsConfig",
       "entity_type": "class"
     },
     {
       "id": "2",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/AcquerirController.java",
+      "label": "com.example.projetSI.controller.AcquerirController",
       "entity_type": "class"
     },
     {
       "id": "3",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/AcquerirService.java",
+      "label": "com.example.projetSI.service.AcquerirService",
       "entity_type": "class"
     },
     {
       "id": "4",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Acquerir.java",
+      "label": "com.example.projetSI.modal.Acquerir",
       "entity_type": "class"
     },
     {
       "id": "5",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/CandidatController.java",
+      "label": "com.example.projetSI.controller.CandidatController",
       "entity_type": "class"
     },
     {
       "id": "6",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/CandidatService.java",
+      "label": "com.example.projetSI.service.CandidatService",
       "entity_type": "class"
     },
     {
       "id": "7",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/StorageService.java",
+      "label": "com.example.projetSI.service.StorageService",
       "entity_type": "class"
     },
     {
       "id": "8",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Candidat.java",
+      "label": "com.example.projetSI.modal.Candidat",
       "entity_type": "class"
     },
     {
       "id": "9",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/CompetenceController.java",
+      "label": "com.example.projetSI.controller.CompetenceController",
       "entity_type": "class"
     },
     {
       "id": "10",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/CompetenceService.java",
+      "label": "com.example.projetSI.service.CompetenceService",
       "entity_type": "class"
     },
     {
       "id": "11",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Competence.java",
+      "label": "com.example.projetSI.modal.Competence",
       "entity_type": "class"
     },
     {
       "id": "12",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/DateStageController.java",
+      "label": "com.example.projetSI.controller.DateStageController",
       "entity_type": "class"
     },
     {
       "id": "13",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/DateStageService.java",
+      "label": "com.example.projetSI.service.DateStageService",
       "entity_type": "class"
     },
     {
       "id": "14",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/DateStage.java",
+      "label": "com.example.projetSI.modal.DateStage",
       "entity_type": "class"
     },
     {
       "id": "15",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/EntrepriseController.java",
+      "label": "com.example.projetSI.controller.EntrepriseController",
       "entity_type": "class"
     },
     {
       "id": "16",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/EntrepriseService.java",
+      "label": "com.example.projetSI.service.EntrepriseService",
       "entity_type": "class"
     },
     {
       "id": "17",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Entreprise.java",
+      "label": "com.example.projetSI.modal.Entreprise",
       "entity_type": "class"
     },
     {
       "id": "18",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/EtudiantController.java",
+      "label": "com.example.projetSI.controller.EtudiantController",
       "entity_type": "class"
     },
     {
       "id": "19",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/EtudiantService.java",
+      "label": "com.example.projetSI.service.EtudiantService",
       "entity_type": "class"
     },
     {
       "id": "20",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Etudiant.java",
+      "label": "com.example.projetSI.modal.Etudiant",
       "entity_type": "class"
     },
     {
       "id": "21",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/ProfController.java",
+      "label": "com.example.projetSI.controller.ProfController",
       "entity_type": "class"
     },
     {
       "id": "22",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/ProfService.java",
+      "label": "com.example.projetSI.service.ProfService",
       "entity_type": "class"
     },
     {
       "id": "23",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Professeur.java",
+      "label": "com.example.projetSI.modal.Professeur",
       "entity_type": "class"
     },
     {
       "id": "24",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/PromoController.java",
+      "label": "com.example.projetSI.controller.PromoController",
       "entity_type": "class"
     },
     {
       "id": "25",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/PromoService.java",
+      "label": "com.example.projetSI.service.PromoService",
       "entity_type": "class"
     },
     {
       "id": "26",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Promo.java",
+      "label": "com.example.projetSI.modal.Promo",
       "entity_type": "class"
     },
     {
       "id": "27",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/StageController.java",
+      "label": "com.example.projetSI.controller.StageController",
       "entity_type": "class"
     },
     {
       "id": "28",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/StageService.java",
+      "label": "com.example.projetSI.service.StageService",
       "entity_type": "class"
     },
     {
       "id": "29",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Stage.java",
+      "label": "com.example.projetSI.modal.Stage",
       "entity_type": "class"
     },
     {
       "id": "30",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/TuteurController.java",
+      "label": "com.example.projetSI.controller.TuteurController",
       "entity_type": "class"
     },
     {
       "id": "31",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/TuteurService.java",
+      "label": "com.example.projetSI.service.TuteurService",
       "entity_type": "class"
     },
     {
       "id": "32",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Tuteur.java",
+      "label": "com.example.projetSI.modal.Tuteur",
       "entity_type": "class"
     },
     {
       "id": "33",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/controller/TypeStageController.java",
+      "label": "com.example.projetSI.controller.TypeStageController",
       "entity_type": "class"
     },
     {
       "id": "34",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/TypeStageService.java",
+      "label": "com.example.projetSI.service.TypeStageService",
       "entity_type": "class"
     },
     {
       "id": "35",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/TypeStage.java",
+      "label": "com.example.projetSI.modal.TypeStage",
       "entity_type": "class"
     },
     {
       "id": "36",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Access.java",
+      "label": "com.example.projetSI.modal.Access",
       "entity_type": "class"
     },
     {
       "id": "37",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Annee.java",
+      "label": "com.example.projetSI.modal.Annee",
       "entity_type": "class"
     },
     {
       "id": "38",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/FileData.java",
+      "label": "com.example.projetSI.modal.FileData",
       "entity_type": "class"
     },
     {
       "id": "39",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Role.java",
+      "label": "com.example.projetSI.modal.Role",
       "entity_type": "class"
     },
     {
       "id": "40",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/modal/Utilisateur.java",
+      "label": "com.example.projetSI.modal.Utilisateur",
       "entity_type": "class"
     },
     {
       "id": "41",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/FileDataDao.java",
+      "label": "com.example.projetSI.repository.FileDataDao",
       "entity_type": "class"
     },
     {
       "id": "42",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/AcquerirServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.AcquerirServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "43",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/AcquerirDao.java",
+      "label": "com.example.projetSI.repository.AcquerirDao",
       "entity_type": "class"
     },
     {
       "id": "44",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/CandidatServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.CandidatServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "45",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/CandidatDao.java",
+      "label": "com.example.projetSI.repository.CandidatDao",
       "entity_type": "class"
     },
     {
       "id": "46",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/CompetenceServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.CompetenceServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "47",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/CompetenceDao.java",
+      "label": "com.example.projetSI.repository.CompetenceDao",
       "entity_type": "class"
     },
     {
       "id": "48",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/DateStageServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.DateStageServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "49",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/DateStageDao.java",
+      "label": "com.example.projetSI.repository.DateStageDao",
       "entity_type": "class"
     },
     {
       "id": "50",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/EntrepriseServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.EntrepriseServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "51",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/EntrepriseDao.java",
+      "label": "com.example.projetSI.repository.EntrepriseDao",
       "entity_type": "class"
     },
     {
       "id": "52",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/EtudiantServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.EtudiantServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "53",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/EtudiantDao.java",
+      "label": "com.example.projetSI.repository.EtudiantDao",
       "entity_type": "class"
     },
     {
       "id": "54",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/ProfServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.ProfServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "55",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/ProfDao.java",
+      "label": "com.example.projetSI.repository.ProfDao",
       "entity_type": "class"
     },
     {
       "id": "56",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/PromoServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.PromoServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "57",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/PromoDao.java",
+      "label": "com.example.projetSI.repository.PromoDao",
       "entity_type": "class"
     },
     {
       "id": "58",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/StageServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.StageServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "59",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/StageDao.java",
+      "label": "com.example.projetSI.repository.StageDao",
       "entity_type": "class"
     },
     {
       "id": "60",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/TuteurServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.TuteurServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "61",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/TuteurDao.java",
+      "label": "com.example.projetSI.repository.TuteurDao",
       "entity_type": "class"
     },
     {
       "id": "62",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/service/implementation/TypeStageServiceImpl.java",
+      "label": "com.example.projetSI.service.implementation.TypeStageServiceImpl",
       "entity_type": "class"
     },
     {
       "id": "63",
-      "label": "springboot-projects/projet_SI_gestion_ECM/src/main/java/com/example/projetSI/repository/TypeStageDao.java",
+      "label": "com.example.projetSI.repository.TypeStageDao",
       "entity_type": "class"
     }
   ],

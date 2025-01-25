@@ -14,51 +14,51 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "methods": [
-            "getAcquerirById",
-            "updateAcquerir",
             "getAllAcquerirs",
             "addAcquerir",
-            "deleteAcquerir"
+            "updateAcquerir",
+            "deleteAcquerir",
+            "getAcquerirById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "methods": [
-            "addCandidatWithDossier",
-            "deleteCandidat",
+            "addCandidat",
             "updateAccess",
             "getAccessByEmail",
-            "addCandidat",
-            "getAllCandidats"
+            "getAllCandidats",
+            "addCandidatWithDossier",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "methods": [
-            "deleteCompetence",
             "updateAccess",
+            "addCompetence",
+            "deleteCompetence",
             "getAllCompetences",
-            "getAccessByCode",
-            "addCompetence"
+            "getAccessByCode"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "methods": [
-            "addDateStage",
             "getAllDatesStage",
+            "getDateStageById",
             "updateDateStage",
-            "deleteDateStage",
-            "getDateStageById"
+            "addDateStage",
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "methods": [
-            "updateEntreprise",
             "getEntrepriseById",
-            "deleteEntreprise",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
@@ -66,18 +66,18 @@
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "methods": [
             "getEtudiantById",
-            "addEtudiant",
             "updateEtudiant",
-            "deleteEtudiant",
-            "getAllEtudiants"
+            "addEtudiant",
+            "getAllEtudiants",
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
+            "addProf",
             "updateProf",
             "getProfById"
         ]
@@ -85,271 +85,271 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
             "deletePromo",
+            "getPromoById",
             "updatePromo",
-            "getPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "methods": [
-            "deleteStage",
-            "addStage",
-            "updateStage",
             "getStageById",
-            "getAllStages"
+            "updateStage",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "methods": [
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
             "getTuteurById",
-            "updateTuteur"
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "methods": [
-            "addTypeStage",
-            "updateTypeStage",
+            "getAllTypesStage",
             "getTypeStageById",
+            "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java",
         "methods": [
-            "setAuthority",
-            "getAuthority",
             "setAccessLibelle",
             "setAccessId",
+            "setAuthority",
+            "getAuthority",
+            "toString",
             "getAccessLibelle",
-            "getAccessId",
-            "toString"
+            "getAccessId"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java",
         "methods": [
-            "setNiveau",
-            "getCompetenceId",
-            "setCompetence",
-            "setTypeStage",
-            "getCompetence",
-            "getTypeStage",
-            "getId",
             "getNiveau",
-            "setCompetenceId",
-            "setTypeStageId",
+            "getCompetenceId",
+            "getTypeStage",
+            "setCompetence",
+            "setId",
+            "getId",
             "getTypeStageId",
-            "setId"
+            "setTypeStageId",
+            "setTypeStage",
+            "setCompetenceId",
+            "setNiveau",
+            "getCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java",
         "methods": [
-            "setAnnee",
-            "getAnnee"
+            "getAnnee",
+            "setAnnee"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java",
         "methods": [
-            "getNom",
+            "getDossier",
+            "getStatut",
+            "getPromo",
             "setPromo",
+            "setPrenom",
+            "setDossierComplete",
+            "setNom",
             "setStatut",
             "setDossier",
-            "getStatut",
-            "getPrenom",
-            "setNom",
-            "getEmail",
             "getDossierComplete",
-            "setPrenom",
+            "getEmail",
+            "getPrenom",
             "setEmail",
-            "getDossier",
-            "setDossierComplete",
-            "getPromo"
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java",
         "methods": [
-            "getLibelle",
-            "getDesc",
             "getCode",
-            "setCode",
             "setLibelle",
-            "setDesc"
+            "setCode",
+            "setDesc",
+            "getDesc",
+            "getLibelle"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java",
         "methods": [
-            "setDateFin",
             "setAnneeId",
-            "getAnneeId",
-            "setAnnee",
-            "getDateDeb",
-            "setTypeStage",
-            "setTypeStageId",
+            "setDateFin",
             "getTypeStage",
+            "getAnnee",
+            "setId",
             "getId",
             "setDateDeb",
-            "getAnnee",
             "getTypeStageId",
+            "setTypeStageId",
+            "setTypeStage",
+            "getAnneeId",
+            "getDateDeb",
             "getDateFin",
-            "setId"
+            "setAnnee"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java",
         "methods": [
-            "getTelContact",
+            "setRaisonSoc",
+            "setTelStandard",
             "setTelContact",
+            "getRaisonSoc",
+            "getContact",
+            "setId",
+            "getId",
+            "getTelStandard",
+            "setAdrs",
             "setFormeJur",
-            "setContact",
+            "getTelContact",
             "getAdrs",
             "getFormeJur",
-            "setTelStandard",
-            "setRaisonSoc",
-            "getTelStandard",
-            "getRaisonSoc",
-            "getId",
-            "getContact",
-            "setAdrs",
-            "setId"
+            "setContact"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java",
         "methods": [
-            "getNom",
-            "setTel",
-            "setPromo",
-            "getAdrs",
-            "getPrenom",
-            "setId",
-            "setAdrs",
-            "setSexe",
-            "setMention",
-            "getTel",
-            "getMention",
+            "getPromo",
             "setPrenom",
-            "getId",
-            "setDateNaissance",
-            "setNom",
-            "getSexe",
+            "setPromo",
             "getDateNaissance",
-            "getPromo"
+            "setDateNaissance",
+            "setAdrs",
+            "setId",
+            "getId",
+            "setNom",
+            "setSexe",
+            "setTel",
+            "getTel",
+            "getAdrs",
+            "setMention",
+            "getSexe",
+            "getPrenom",
+            "getNom",
+            "getMention"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java",
         "methods": [
             "getFileType",
-            "getFileName",
-            "setFileType",
-            "build",
+            "builder",
+            "getFilePath",
             "getFileId",
             "setFileName",
-            "builder",
-            "fileName",
+            "setFilePath",
+            "fileType",
             "filePath",
             "setFileId",
-            "getFilePath",
-            "fileType",
-            "setFilePath"
+            "build",
+            "fileName",
+            "getFileName",
+            "setFileType"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java",
         "methods": [
-            "getNom",
-            "setTel",
             "getDateEmbauche",
-            "getDateDepart",
-            "setDateEmbauche",
-            "setDateDepart",
-            "getAdrs",
-            "getPrenom",
-            "getTel",
             "setPrenom",
+            "setDateEmbauche",
+            "getDateDepart",
+            "setAdrs",
+            "setId",
             "getId",
             "setNom",
-            "setAdrs",
-            "setId"
+            "setTel",
+            "getTel",
+            "getAdrs",
+            "setDateDepart",
+            "getPrenom",
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java",
         "methods": [
-            "getNbrRecus",
-            "setNbrInscrits",
+            "getNbrInscrits",
             "setNbrRecus",
+            "setNbrInscrits",
+            "getNbrRecus",
             "setDirigeant",
-            "getId",
-            "getDirigeant",
             "setId",
-            "getNbrInscrits"
+            "getId",
+            "getDirigeant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java",
         "methods": [
-            "getRoleLibelle",
             "getRoleAccesses",
-            "setRoleAccesses",
             "setRoleLibelle",
-            "getRoleId",
+            "setRoleAccesses",
+            "toString",
             "setRoleId",
-            "toString"
+            "getRoleId",
+            "getRoleLibelle"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java",
         "methods": [
-            "getEntreprise",
+            "getTypeStage",
             "getTuteur",
-            "setAnnee",
+            "getAnnee",
+            "getCompteRendu",
+            "setEntreprise",
             "setCompteRendu",
+            "setId",
             "getId",
+            "getProf",
+            "setTuteur",
+            "getEtudiant",
+            "setTypeStage",
             "setEtudiant",
             "setProf",
-            "setTuteur",
-            "setEntreprise",
-            "setTypeStage",
-            "getProf",
-            "getCompteRendu",
-            "getTypeStage",
-            "getAnnee",
-            "setId",
-            "getEtudiant"
+            "setAnnee",
+            "getEntreprise"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java",
         "methods": [
-            "getNom",
-            "getPrenom",
-            "getTel",
             "setPrenom",
+            "setId",
             "getId",
             "setNom",
             "setTel",
-            "setId"
+            "getTel",
+            "getPrenom",
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java",
         "methods": [
-            "setNbrSemaines",
             "getNbrSemaines",
+            "setNbrSemaines",
             "setId",
             "getId"
         ]
@@ -357,439 +357,439 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java",
         "methods": [
-            "getUserId",
-            "setUserId",
+            "toString",
             "getUserPassword",
             "getUserRole",
             "setUsername",
-            "getUsername",
-            "setUserPassword",
+            "setUserId",
+            "getUserId",
             "setUserRole",
-            "toString"
+            "setUserPassword",
+            "getUsername"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAcquerirById",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "findAcquerirById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findCandidatByEmail",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "findCandidatByEmail",
+            "saveAll",
             "delete",
-            "findById"
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "findCompetenceByCode",
+            "deleteCompetenceByCode",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "findCompetenceByCode",
-            "save",
-            "delete",
-            "deleteCompetenceByCode",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "findDateStageById",
-            "delete",
-            "findById"
+            "count",
+            "findDateStageById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "deleteAll",
+            "findEntrepriseById",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
+            "saveAll",
+            "delete",
             "deleteEntrepriseById",
             "save",
-            "findEntrepriseById",
-            "delete",
-            "findById"
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "findEtudiantById",
-            "delete",
-            "findById"
+            "count",
+            "findEtudiantById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java",
         "methods": [
+            "findByFileName",
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findByFileName",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "deleteProfById",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
-            "findProfById",
+            "findById",
             "findAllById",
-            "deleteProfById",
-            "save",
-            "delete",
-            "findById"
+            "count",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "findPromoById",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
-            "findPromoById",
+            "findById",
             "findAllById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findStageById",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "saveAll",
             "delete",
-            "findById"
+            "findStageById",
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findTuteurById",
-            "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
             "deleteTuteurById",
-            "findAllById",
-            "save",
+            "deleteById",
+            "saveAll",
             "delete",
-            "findById"
+            "findTuteurById",
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findTypeStageById",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "saveAll",
             "delete",
-            "findById"
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count",
+            "findTypeStageById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java",
         "methods": [
-            "updateAcquerir",
-            "findAcquerirById",
             "getAllAcquerirs",
             "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
             "deleteAcquerir"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java",
         "methods": [
-            "deleteCandidat",
-            "findCandidatByEmail",
-            "updateCandidat",
             "addCandidat",
-            "getAllCandidats"
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java",
         "methods": [
             "deleteCompetence",
+            "addCompetence",
             "getAllCompetences",
             "findCompetenceByCode",
-            "updateCompetence",
-            "addCompetence"
+            "updateCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java",
         "methods": [
-            "addDateStage",
+            "getAllDatesStage",
             "updateDateStage",
-            "deleteDateStage",
+            "addDateStage",
             "findDateStageById",
-            "getAllDatesStage"
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java",
         "methods": [
-            "updateEntreprise",
-            "deleteEntreprise",
             "findEntrepriseById",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java",
         "methods": [
-            "addEtudiant",
+            "findEtudiantById",
             "updateEtudiant",
-            "deleteEtudiant",
+            "addEtudiant",
             "getAllEtudiants",
-            "findEtudiantById"
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
-            "findProfById",
-            "updateProf"
+            "addProf",
+            "updateProf",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
+            "findPromoById",
             "deletePromo",
             "updatePromo",
-            "findPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java",
         "methods": [
-            "deleteStage",
-            "findStageById",
-            "addStage",
             "updateStage",
-            "getAllStages"
+            "findStageById",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java",
         "methods": [
-            "downloadFile",
+            "uploadFile",
             "findFileDataByFileName",
-            "uploadFile"
+            "downloadFile"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java",
         "methods": [
-            "findTuteurById",
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
-            "updateTuteur"
+            "findTuteurById",
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java",
         "methods": [
-            "addTypeStage",
+            "getAllTypesStage",
             "findTypeStageById",
             "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java",
         "methods": [
-            "updateAcquerir",
-            "findAcquerirById",
             "getAllAcquerirs",
             "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
             "deleteAcquerir"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java",
         "methods": [
-            "deleteCandidat",
-            "findCandidatByEmail",
-            "updateCandidat",
             "addCandidat",
-            "getAllCandidats"
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java",
         "methods": [
             "deleteCompetence",
+            "addCompetence",
             "getAllCompetences",
             "findCompetenceByCode",
-            "updateCompetence",
-            "addCompetence"
+            "updateCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java",
         "methods": [
-            "addDateStage",
+            "getAllDatesStage",
             "updateDateStage",
-            "deleteDateStage",
+            "addDateStage",
             "findDateStageById",
-            "getAllDatesStage"
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java",
         "methods": [
-            "updateEntreprise",
-            "deleteEntreprise",
             "findEntrepriseById",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java",
         "methods": [
-            "addEtudiant",
+            "findEtudiantById",
             "updateEtudiant",
-            "deleteEtudiant",
+            "addEtudiant",
             "getAllEtudiants",
-            "findEtudiantById"
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
-            "findProfById",
-            "updateProf"
+            "addProf",
+            "updateProf",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
+            "findPromoById",
             "deletePromo",
             "updatePromo",
-            "findPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java",
         "methods": [
-            "deleteStage",
-            "findStageById",
-            "addStage",
             "updateStage",
-            "getAllStages"
+            "findStageById",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java",
         "methods": [
-            "findTuteurById",
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
-            "updateTuteur"
+            "findTuteurById",
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java",
         "methods": [
-            "addTypeStage",
+            "getAllTypesStage",
             "findTypeStageById",
             "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     },
     {
@@ -807,51 +807,51 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "methods": [
-            "getAcquerirById",
-            "updateAcquerir",
             "getAllAcquerirs",
             "addAcquerir",
-            "deleteAcquerir"
+            "updateAcquerir",
+            "deleteAcquerir",
+            "getAcquerirById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "methods": [
-            "addCandidatWithDossier",
-            "deleteCandidat",
+            "addCandidat",
             "updateAccess",
             "getAccessByEmail",
-            "addCandidat",
-            "getAllCandidats"
+            "getAllCandidats",
+            "addCandidatWithDossier",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "methods": [
-            "deleteCompetence",
             "updateAccess",
+            "addCompetence",
+            "deleteCompetence",
             "getAllCompetences",
-            "getAccessByCode",
-            "addCompetence"
+            "getAccessByCode"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "methods": [
-            "addDateStage",
             "getAllDatesStage",
+            "getDateStageById",
             "updateDateStage",
-            "deleteDateStage",
-            "getDateStageById"
+            "addDateStage",
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "methods": [
-            "updateEntreprise",
             "getEntrepriseById",
-            "deleteEntreprise",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
@@ -859,18 +859,18 @@
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "methods": [
             "getEtudiantById",
-            "addEtudiant",
             "updateEtudiant",
-            "deleteEtudiant",
-            "getAllEtudiants"
+            "addEtudiant",
+            "getAllEtudiants",
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
+            "addProf",
             "updateProf",
             "getProfById"
         ]
@@ -878,271 +878,271 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
             "deletePromo",
+            "getPromoById",
             "updatePromo",
-            "getPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "methods": [
-            "deleteStage",
-            "addStage",
-            "updateStage",
             "getStageById",
-            "getAllStages"
+            "updateStage",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "methods": [
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
             "getTuteurById",
-            "updateTuteur"
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "methods": [
-            "addTypeStage",
-            "updateTypeStage",
+            "getAllTypesStage",
             "getTypeStageById",
+            "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java",
         "methods": [
-            "setAuthority",
-            "getAuthority",
             "setAccessLibelle",
             "setAccessId",
+            "setAuthority",
+            "getAuthority",
+            "toString",
             "getAccessLibelle",
-            "getAccessId",
-            "toString"
+            "getAccessId"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java",
         "methods": [
-            "setNiveau",
-            "getCompetenceId",
-            "setCompetence",
-            "setTypeStage",
-            "getCompetence",
-            "getTypeStage",
-            "getId",
             "getNiveau",
-            "setCompetenceId",
-            "setTypeStageId",
+            "getCompetenceId",
+            "getTypeStage",
+            "setCompetence",
+            "setId",
+            "getId",
             "getTypeStageId",
-            "setId"
+            "setTypeStageId",
+            "setTypeStage",
+            "setCompetenceId",
+            "setNiveau",
+            "getCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java",
         "methods": [
-            "setAnnee",
-            "getAnnee"
+            "getAnnee",
+            "setAnnee"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java",
         "methods": [
-            "getNom",
+            "getDossier",
+            "getStatut",
+            "getPromo",
             "setPromo",
+            "setPrenom",
+            "setDossierComplete",
+            "setNom",
             "setStatut",
             "setDossier",
-            "getStatut",
-            "getPrenom",
-            "setNom",
-            "getEmail",
             "getDossierComplete",
-            "setPrenom",
+            "getEmail",
+            "getPrenom",
             "setEmail",
-            "getDossier",
-            "setDossierComplete",
-            "getPromo"
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java",
         "methods": [
-            "getLibelle",
-            "getDesc",
             "getCode",
-            "setCode",
             "setLibelle",
-            "setDesc"
+            "setCode",
+            "setDesc",
+            "getDesc",
+            "getLibelle"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java",
         "methods": [
-            "setDateFin",
             "setAnneeId",
-            "getAnneeId",
-            "setAnnee",
-            "getDateDeb",
-            "setTypeStage",
-            "setTypeStageId",
+            "setDateFin",
             "getTypeStage",
+            "getAnnee",
+            "setId",
             "getId",
             "setDateDeb",
-            "getAnnee",
             "getTypeStageId",
+            "setTypeStageId",
+            "setTypeStage",
+            "getAnneeId",
+            "getDateDeb",
             "getDateFin",
-            "setId"
+            "setAnnee"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java",
         "methods": [
-            "getTelContact",
+            "setRaisonSoc",
+            "setTelStandard",
             "setTelContact",
+            "getRaisonSoc",
+            "getContact",
+            "setId",
+            "getId",
+            "getTelStandard",
+            "setAdrs",
             "setFormeJur",
-            "setContact",
+            "getTelContact",
             "getAdrs",
             "getFormeJur",
-            "setTelStandard",
-            "setRaisonSoc",
-            "getTelStandard",
-            "getRaisonSoc",
-            "getId",
-            "getContact",
-            "setAdrs",
-            "setId"
+            "setContact"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java",
         "methods": [
-            "getNom",
-            "setTel",
-            "setPromo",
-            "getAdrs",
-            "getPrenom",
-            "setId",
-            "setAdrs",
-            "setSexe",
-            "setMention",
-            "getTel",
-            "getMention",
+            "getPromo",
             "setPrenom",
-            "getId",
-            "setDateNaissance",
-            "setNom",
-            "getSexe",
+            "setPromo",
             "getDateNaissance",
-            "getPromo"
+            "setDateNaissance",
+            "setAdrs",
+            "setId",
+            "getId",
+            "setNom",
+            "setSexe",
+            "setTel",
+            "getTel",
+            "getAdrs",
+            "setMention",
+            "getSexe",
+            "getPrenom",
+            "getNom",
+            "getMention"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java",
         "methods": [
             "getFileType",
-            "getFileName",
-            "setFileType",
-            "build",
+            "builder",
+            "getFilePath",
             "getFileId",
             "setFileName",
-            "builder",
-            "fileName",
+            "setFilePath",
+            "fileType",
             "filePath",
             "setFileId",
-            "getFilePath",
-            "fileType",
-            "setFilePath"
+            "build",
+            "fileName",
+            "getFileName",
+            "setFileType"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java",
         "methods": [
-            "getNom",
-            "setTel",
             "getDateEmbauche",
-            "getDateDepart",
-            "setDateEmbauche",
-            "setDateDepart",
-            "getAdrs",
-            "getPrenom",
-            "getTel",
             "setPrenom",
+            "setDateEmbauche",
+            "getDateDepart",
+            "setAdrs",
+            "setId",
             "getId",
             "setNom",
-            "setAdrs",
-            "setId"
+            "setTel",
+            "getTel",
+            "getAdrs",
+            "setDateDepart",
+            "getPrenom",
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java",
         "methods": [
-            "getNbrRecus",
-            "setNbrInscrits",
+            "getNbrInscrits",
             "setNbrRecus",
+            "setNbrInscrits",
+            "getNbrRecus",
             "setDirigeant",
-            "getId",
-            "getDirigeant",
             "setId",
-            "getNbrInscrits"
+            "getId",
+            "getDirigeant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java",
         "methods": [
-            "getRoleLibelle",
             "getRoleAccesses",
-            "setRoleAccesses",
             "setRoleLibelle",
-            "getRoleId",
+            "setRoleAccesses",
+            "toString",
             "setRoleId",
-            "toString"
+            "getRoleId",
+            "getRoleLibelle"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java",
         "methods": [
-            "getEntreprise",
+            "getTypeStage",
             "getTuteur",
-            "setAnnee",
+            "getAnnee",
+            "getCompteRendu",
+            "setEntreprise",
             "setCompteRendu",
+            "setId",
             "getId",
+            "getProf",
+            "setTuteur",
+            "getEtudiant",
+            "setTypeStage",
             "setEtudiant",
             "setProf",
-            "setTuteur",
-            "setEntreprise",
-            "setTypeStage",
-            "getProf",
-            "getCompteRendu",
-            "getTypeStage",
-            "getAnnee",
-            "setId",
-            "getEtudiant"
+            "setAnnee",
+            "getEntreprise"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java",
         "methods": [
-            "getNom",
-            "getPrenom",
-            "getTel",
             "setPrenom",
+            "setId",
             "getId",
             "setNom",
             "setTel",
-            "setId"
+            "getTel",
+            "getPrenom",
+            "getNom"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java",
         "methods": [
-            "setNbrSemaines",
             "getNbrSemaines",
+            "setNbrSemaines",
             "setId",
             "getId"
         ]
@@ -1150,439 +1150,439 @@
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java",
         "methods": [
-            "getUserId",
-            "setUserId",
+            "toString",
             "getUserPassword",
             "getUserRole",
             "setUsername",
-            "getUsername",
-            "setUserPassword",
+            "setUserId",
+            "getUserId",
             "setUserRole",
-            "toString"
+            "setUserPassword",
+            "getUsername"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAcquerirById",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "findAcquerirById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findCandidatByEmail",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "findCandidatByEmail",
+            "saveAll",
             "delete",
-            "findById"
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "findCompetenceByCode",
+            "deleteCompetenceByCode",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "findCompetenceByCode",
-            "save",
-            "delete",
-            "deleteCompetenceByCode",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "findDateStageById",
-            "delete",
-            "findById"
+            "count",
+            "findDateStageById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "deleteAll",
+            "findEntrepriseById",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
+            "saveAll",
+            "delete",
             "deleteEntrepriseById",
             "save",
-            "findEntrepriseById",
-            "delete",
-            "findById"
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "findEtudiantById",
-            "delete",
-            "findById"
+            "count",
+            "findEtudiantById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java",
         "methods": [
+            "findByFileName",
+            "deleteById",
             "saveAll",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findByFileName",
-            "findAll",
+            "findById",
             "findAllById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "deleteProfById",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
-            "findProfById",
+            "findById",
             "findAllById",
-            "deleteProfById",
-            "save",
-            "delete",
-            "findById"
+            "count",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java",
         "methods": [
+            "deleteById",
             "saveAll",
+            "findPromoById",
+            "delete",
+            "save",
+            "findAll",
             "existsById",
             "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
-            "findPromoById",
+            "findById",
             "findAllById",
-            "save",
-            "delete",
-            "findById"
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findStageById",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "saveAll",
             "delete",
-            "findById"
+            "findStageById",
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findTuteurById",
-            "deleteAll",
-            "deleteById",
-            "count",
-            "findAll",
             "deleteTuteurById",
-            "findAllById",
-            "save",
+            "deleteById",
+            "saveAll",
             "delete",
-            "findById"
+            "findTuteurById",
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java",
         "methods": [
-            "saveAll",
-            "existsById",
-            "findTypeStageById",
-            "deleteAll",
             "deleteById",
-            "count",
-            "findAll",
-            "findAllById",
-            "save",
+            "saveAll",
             "delete",
-            "findById"
+            "save",
+            "findAll",
+            "existsById",
+            "deleteAll",
+            "findById",
+            "findAllById",
+            "count",
+            "findTypeStageById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java",
         "methods": [
-            "updateAcquerir",
-            "findAcquerirById",
             "getAllAcquerirs",
             "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
             "deleteAcquerir"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java",
         "methods": [
-            "deleteCandidat",
-            "findCandidatByEmail",
-            "updateCandidat",
             "addCandidat",
-            "getAllCandidats"
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java",
         "methods": [
             "deleteCompetence",
+            "addCompetence",
             "getAllCompetences",
             "findCompetenceByCode",
-            "updateCompetence",
-            "addCompetence"
+            "updateCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java",
         "methods": [
-            "addDateStage",
+            "getAllDatesStage",
             "updateDateStage",
-            "deleteDateStage",
+            "addDateStage",
             "findDateStageById",
-            "getAllDatesStage"
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java",
         "methods": [
-            "updateEntreprise",
-            "deleteEntreprise",
             "findEntrepriseById",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java",
         "methods": [
-            "addEtudiant",
+            "findEtudiantById",
             "updateEtudiant",
-            "deleteEtudiant",
+            "addEtudiant",
             "getAllEtudiants",
-            "findEtudiantById"
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
-            "findProfById",
-            "updateProf"
+            "addProf",
+            "updateProf",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
+            "findPromoById",
             "deletePromo",
             "updatePromo",
-            "findPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java",
         "methods": [
-            "deleteStage",
-            "findStageById",
-            "addStage",
             "updateStage",
-            "getAllStages"
+            "findStageById",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java",
         "methods": [
-            "downloadFile",
+            "uploadFile",
             "findFileDataByFileName",
-            "uploadFile"
+            "downloadFile"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java",
         "methods": [
-            "findTuteurById",
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
-            "updateTuteur"
+            "findTuteurById",
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java",
         "methods": [
-            "addTypeStage",
+            "getAllTypesStage",
             "findTypeStageById",
             "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java",
         "methods": [
-            "updateAcquerir",
-            "findAcquerirById",
             "getAllAcquerirs",
             "addAcquerir",
+            "updateAcquerir",
+            "findAcquerirById",
             "deleteAcquerir"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java",
         "methods": [
-            "deleteCandidat",
-            "findCandidatByEmail",
-            "updateCandidat",
             "addCandidat",
-            "getAllCandidats"
+            "findCandidatByEmail",
+            "getAllCandidats",
+            "updateCandidat",
+            "deleteCandidat"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java",
         "methods": [
             "deleteCompetence",
+            "addCompetence",
             "getAllCompetences",
             "findCompetenceByCode",
-            "updateCompetence",
-            "addCompetence"
+            "updateCompetence"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java",
         "methods": [
-            "addDateStage",
+            "getAllDatesStage",
             "updateDateStage",
-            "deleteDateStage",
+            "addDateStage",
             "findDateStageById",
-            "getAllDatesStage"
+            "deleteDateStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java",
         "methods": [
-            "updateEntreprise",
-            "deleteEntreprise",
             "findEntrepriseById",
             "addEntreprise",
+            "updateEntreprise",
+            "deleteEntreprise",
             "getAllEntreprises"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java",
         "methods": [
-            "addEtudiant",
+            "findEtudiantById",
             "updateEtudiant",
-            "deleteEtudiant",
+            "addEtudiant",
             "getAllEtudiants",
-            "findEtudiantById"
+            "deleteEtudiant"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java",
         "methods": [
             "getAllProfs",
-            "addProf",
             "deleteProf",
-            "findProfById",
-            "updateProf"
+            "addProf",
+            "updateProf",
+            "findProfById"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java",
         "methods": [
-            "addPromo",
             "getAllPromos",
+            "findPromoById",
             "deletePromo",
             "updatePromo",
-            "findPromoById"
+            "addPromo"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java",
         "methods": [
-            "deleteStage",
-            "findStageById",
-            "addStage",
             "updateStage",
-            "getAllStages"
+            "findStageById",
+            "getAllStages",
+            "deleteStage",
+            "addStage"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java",
         "methods": [
-            "findTuteurById",
+            "updateTuteur",
             "getAllTuteurs",
-            "deleteTuteur",
             "addTuteur",
-            "updateTuteur"
+            "findTuteurById",
+            "deleteTuteur"
         ]
     },
     {
         "file_path": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java",
         "methods": [
-            "addTypeStage",
+            "getAllTypesStage",
             "findTypeStageById",
             "updateTypeStage",
             "deleteTypeStage",
-            "getAllTypesStage"
+            "addTypeStage"
         ]
     }
 ]

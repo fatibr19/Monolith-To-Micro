@@ -10,33 +10,25 @@
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java": {
-        "getAcquerirById": [
-            "AcquerirServiceImpl.findAcquerirById"
-        ],
-        "updateAcquerir": [
-            "AcquerirServiceImpl.updateAcquerir"
-        ],
         "getAllAcquerirs": [
             "AcquerirServiceImpl.getAllAcquerirs"
         ],
         "addAcquerir": [
             "AcquerirServiceImpl.addAcquerir"
         ],
+        "updateAcquerir": [
+            "AcquerirServiceImpl.updateAcquerir"
+        ],
         "deleteAcquerir": [
             "AcquerirServiceImpl.deleteAcquerir"
+        ],
+        "getAcquerirById": [
+            "AcquerirServiceImpl.findAcquerirById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java": {
-        "addCandidatWithDossier": [
-            "CandidatServiceImpl.addCandidat",
-            "StorageService.uploadFile",
-            "Candidat.setDossier",
-            "MultipartFile.isEmpty",
-            "Exception.getMessage",
-            "ResponseEntity.status"
-        ],
-        "deleteCandidat": [
-            "CandidatServiceImpl.deleteCandidat"
+        "addCandidat": [
+            "CandidatServiceImpl.addCandidat"
         ],
         "updateAccess": [
             "CandidatServiceImpl.updateCandidat"
@@ -44,60 +36,68 @@
         "getAccessByEmail": [
             "CandidatServiceImpl.findCandidatByEmail"
         ],
-        "addCandidat": [
-            "CandidatServiceImpl.addCandidat"
-        ],
         "getAllCandidats": [
             "CandidatServiceImpl.getAllCandidats",
             "Candidat.getStatut"
+        ],
+        "addCandidatWithDossier": [
+            "Exception.getMessage",
+            "ResponseEntity.status",
+            "Candidat.setDossier",
+            "CandidatServiceImpl.addCandidat",
+            "StorageService.uploadFile",
+            "MultipartFile.isEmpty"
+        ],
+        "deleteCandidat": [
+            "CandidatServiceImpl.deleteCandidat"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java": {
-        "deleteCompetence": [
-            "CompetenceServiceImpl.deleteCompetence"
-        ],
         "updateAccess": [
             "CompetenceServiceImpl.updateCompetence"
+        ],
+        "addCompetence": [
+            "CompetenceServiceImpl.addCompetence"
+        ],
+        "deleteCompetence": [
+            "CompetenceServiceImpl.deleteCompetence"
         ],
         "getAllCompetences": [
             "CompetenceServiceImpl.getAllCompetences"
         ],
         "getAccessByCode": [
             "CompetenceServiceImpl.findCompetenceByCode"
-        ],
-        "addCompetence": [
-            "CompetenceServiceImpl.addCompetence"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java": {
-        "addDateStage": [
-            "DateStageServiceImpl.addDateStage"
-        ],
         "getAllDatesStage": [
             "DateStageServiceImpl.getAllDatesStage"
+        ],
+        "getDateStageById": [
+            "DateStageServiceImpl.findDateStageById"
         ],
         "updateDateStage": [
             "DateStageServiceImpl.updateDateStage"
         ],
+        "addDateStage": [
+            "DateStageServiceImpl.addDateStage"
+        ],
         "deleteDateStage": [
             "DateStageServiceImpl.deleteDateStage"
-        ],
-        "getDateStageById": [
-            "DateStageServiceImpl.findDateStageById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java": {
-        "updateEntreprise": [
-            "EntrepriseServiceImpl.updateEntreprise"
-        ],
         "getEntrepriseById": [
             "EntrepriseServiceImpl.findEntrepriseById"
         ],
-        "deleteEntreprise": [
-            "EntrepriseServiceImpl.deleteEntreprise"
-        ],
         "addEntreprise": [
             "EntrepriseServiceImpl.addEntreprise"
+        ],
+        "updateEntreprise": [
+            "EntrepriseServiceImpl.updateEntreprise"
+        ],
+        "deleteEntreprise": [
+            "EntrepriseServiceImpl.deleteEntreprise"
         ],
         "getAllEntreprises": [
             "EntrepriseServiceImpl.getAllEntreprises"
@@ -107,28 +107,28 @@
         "getEtudiantById": [
             "EtudiantServiceImpl.findEtudiantById"
         ],
-        "addEtudiant": [
-            "EtudiantServiceImpl.addEtudiant"
-        ],
         "updateEtudiant": [
             "EtudiantServiceImpl.updateEtudiant"
         ],
-        "deleteEtudiant": [
-            "EtudiantServiceImpl.deleteEtudiant"
+        "addEtudiant": [
+            "EtudiantServiceImpl.addEtudiant"
         ],
         "getAllEtudiants": [
             "EtudiantServiceImpl.getAllEtudiants"
+        ],
+        "deleteEtudiant": [
+            "EtudiantServiceImpl.deleteEtudiant"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java": {
         "getAllProfs": [
             "ProfServiceImpl.getAllProfs"
         ],
-        "addProf": [
-            "ProfServiceImpl.addProf"
-        ],
         "deleteProf": [
             "ProfServiceImpl.deleteProf"
+        ],
+        "addProf": [
+            "ProfServiceImpl.addProf"
         ],
         "updateProf": [
             "ProfServiceImpl.updateProf"
@@ -138,45 +138,45 @@
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java": {
-        "addPromo": [
-            "PromoServiceImpl.addPromo"
-        ],
         "getAllPromos": [
             "PromoServiceImpl.getAllPromos"
         ],
         "deletePromo": [
             "PromoServiceImpl.deletePromo"
         ],
+        "getPromoById": [
+            "PromoServiceImpl.findPromoById"
+        ],
         "updatePromo": [
             "PromoServiceImpl.updatePromo"
         ],
-        "getPromoById": [
-            "PromoServiceImpl.findPromoById"
+        "addPromo": [
+            "PromoServiceImpl.addPromo"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java": {
+        "getStageById": [
+            "StageServiceImpl.findStageById"
+        ],
+        "updateStage": [
+            "StageServiceImpl.updateStage"
+        ],
+        "getAllStages": [
+            "StageServiceImpl.getAllStages"
+        ],
         "deleteStage": [
             "StageServiceImpl.deleteStage"
         ],
         "addStage": [
             "StageServiceImpl.addStage"
-        ],
-        "updateStage": [
-            "StageServiceImpl.updateStage"
-        ],
-        "getStageById": [
-            "StageServiceImpl.findStageById"
-        ],
-        "getAllStages": [
-            "StageServiceImpl.getAllStages"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java": {
+        "updateTuteur": [
+            "TuteurServiceImpl.updateTuteur"
+        ],
         "getAllTuteurs": [
             "TuteurServiceImpl.getAllTuteurs"
-        ],
-        "deleteTuteur": [
-            "TuteurServiceImpl.deleteTuteur"
         ],
         "addTuteur": [
             "TuteurServiceImpl.addTuteur"
@@ -184,528 +184,531 @@
         "getTuteurById": [
             "TuteurServiceImpl.findTuteurById"
         ],
-        "updateTuteur": [
-            "TuteurServiceImpl.updateTuteur"
+        "deleteTuteur": [
+            "TuteurServiceImpl.deleteTuteur"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java": {
-        "addTypeStage": [
-            "TypeStageServiceImpl.addTypeStage"
-        ],
-        "updateTypeStage": [
-            "TypeStageServiceImpl.updateTypeStage"
+        "getAllTypesStage": [
+            "TypeStageServiceImpl.getAllTypesStage"
         ],
         "getTypeStageById": [
             "TypeStageServiceImpl.findTypeStageById"
         ],
+        "updateTypeStage": [
+            "TypeStageServiceImpl.updateTypeStage"
+        ],
         "deleteTypeStage": [
             "TypeStageServiceImpl.deleteTypeStage"
         ],
-        "getAllTypesStage": [
-            "TypeStageServiceImpl.getAllTypesStage"
+        "addTypeStage": [
+            "TypeStageServiceImpl.addTypeStage"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java": {
-        "setAuthority": [],
-        "getAuthority": [],
         "setAccessLibelle": [],
         "setAccessId": [],
+        "setAuthority": [],
+        "getAuthority": [],
+        "toString": [],
         "getAccessLibelle": [],
-        "getAccessId": [],
-        "toString": []
+        "getAccessId": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java": {
-        "setNiveau": [],
-        "getCompetenceId": [],
-        "setCompetence": [],
-        "setTypeStage": [],
-        "getCompetence": [],
-        "getTypeStage": [],
-        "getId": [],
         "getNiveau": [],
-        "setCompetenceId": [],
-        "setTypeStageId": [],
+        "getCompetenceId": [],
+        "getTypeStage": [],
+        "setCompetence": [],
+        "setId": [],
+        "getId": [],
         "getTypeStageId": [],
-        "setId": []
+        "setTypeStageId": [],
+        "setTypeStage": [],
+        "setCompetenceId": [],
+        "setNiveau": [],
+        "getCompetence": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java": {
-        "setAnnee": [],
-        "getAnnee": []
+        "getAnnee": [],
+        "setAnnee": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java": {
-        "getNom": [],
+        "getDossier": [],
+        "getStatut": [],
+        "getPromo": [],
         "setPromo": [],
+        "setPrenom": [],
+        "setDossierComplete": [],
+        "setNom": [],
         "setStatut": [],
         "setDossier": [],
-        "getStatut": [],
-        "getPrenom": [],
-        "setNom": [],
-        "getEmail": [],
         "getDossierComplete": [],
-        "setPrenom": [],
+        "getEmail": [],
+        "getPrenom": [],
         "setEmail": [],
-        "getDossier": [],
-        "setDossierComplete": [],
-        "getPromo": []
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java": {
-        "getLibelle": [],
-        "getDesc": [],
         "getCode": [],
-        "setCode": [],
         "setLibelle": [],
-        "setDesc": []
+        "setCode": [],
+        "setDesc": [],
+        "getDesc": [],
+        "getLibelle": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java": {
-        "setDateFin": [],
         "setAnneeId": [],
-        "getAnneeId": [],
-        "setAnnee": [],
-        "getDateDeb": [],
-        "setTypeStage": [],
-        "setTypeStageId": [],
+        "setDateFin": [],
         "getTypeStage": [],
+        "getAnnee": [],
+        "setId": [],
         "getId": [],
         "setDateDeb": [],
-        "getAnnee": [],
         "getTypeStageId": [],
+        "setTypeStageId": [],
+        "setTypeStage": [],
+        "getAnneeId": [],
+        "getDateDeb": [],
         "getDateFin": [],
-        "setId": []
+        "setAnnee": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java": {
-        "getTelContact": [],
+        "setRaisonSoc": [],
+        "setTelStandard": [],
         "setTelContact": [],
+        "getRaisonSoc": [],
+        "getContact": [],
+        "setId": [],
+        "getId": [],
+        "getTelStandard": [],
+        "setAdrs": [],
         "setFormeJur": [],
-        "setContact": [],
+        "getTelContact": [],
         "getAdrs": [],
         "getFormeJur": [],
-        "setTelStandard": [],
-        "setRaisonSoc": [],
-        "getTelStandard": [],
-        "getRaisonSoc": [],
-        "getId": [],
-        "getContact": [],
-        "setAdrs": [],
-        "setId": []
+        "setContact": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java": {
-        "getNom": [],
-        "setTel": [],
-        "setPromo": [],
-        "getAdrs": [],
-        "getPrenom": [],
-        "setId": [],
-        "setAdrs": [],
-        "setSexe": [],
-        "setMention": [],
-        "getTel": [],
-        "getMention": [],
+        "getPromo": [],
         "setPrenom": [],
-        "getId": [],
-        "setDateNaissance": [],
-        "setNom": [],
-        "getSexe": [],
+        "setPromo": [],
         "getDateNaissance": [],
-        "getPromo": []
+        "setDateNaissance": [],
+        "setAdrs": [],
+        "setId": [],
+        "getId": [],
+        "setNom": [],
+        "setSexe": [],
+        "setTel": [],
+        "getTel": [],
+        "getAdrs": [],
+        "setMention": [],
+        "getSexe": [],
+        "getPrenom": [],
+        "getNom": [],
+        "getMention": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java": {
         "getFileType": [],
-        "getFileName": [],
-        "setFileType": [],
-        "build": [],
+        "builder": [],
+        "getFilePath": [],
         "getFileId": [],
         "setFileName": [],
-        "builder": [],
-        "fileName": [],
+        "setFilePath": [],
+        "fileType": [],
         "filePath": [],
         "setFileId": [],
-        "getFilePath": [],
-        "fileType": [],
-        "setFilePath": []
+        "build": [],
+        "fileName": [],
+        "getFileName": [],
+        "setFileType": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java": {
-        "getNom": [],
-        "setTel": [],
         "getDateEmbauche": [],
-        "getDateDepart": [],
-        "setDateEmbauche": [],
-        "setDateDepart": [],
-        "getAdrs": [],
-        "getPrenom": [],
-        "getTel": [],
         "setPrenom": [],
+        "setDateEmbauche": [],
+        "getDateDepart": [],
+        "setAdrs": [],
+        "setId": [],
         "getId": [],
         "setNom": [],
-        "setAdrs": [],
-        "setId": []
+        "setTel": [],
+        "getTel": [],
+        "getAdrs": [],
+        "setDateDepart": [],
+        "getPrenom": [],
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java": {
-        "getNbrRecus": [],
-        "setNbrInscrits": [],
+        "getNbrInscrits": [],
         "setNbrRecus": [],
+        "setNbrInscrits": [],
+        "getNbrRecus": [],
         "setDirigeant": [],
-        "getId": [],
-        "getDirigeant": [],
         "setId": [],
-        "getNbrInscrits": []
+        "getId": [],
+        "getDirigeant": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java": {
-        "getRoleLibelle": [],
         "getRoleAccesses": [],
-        "setRoleAccesses": [],
         "setRoleLibelle": [],
-        "getRoleId": [],
+        "setRoleAccesses": [],
+        "toString": [],
         "setRoleId": [],
-        "toString": []
+        "getRoleId": [],
+        "getRoleLibelle": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java": {
-        "getEntreprise": [],
+        "getTypeStage": [],
         "getTuteur": [],
-        "setAnnee": [],
+        "getAnnee": [],
+        "getCompteRendu": [],
+        "setEntreprise": [],
         "setCompteRendu": [],
+        "setId": [],
         "getId": [],
+        "getProf": [],
+        "setTuteur": [],
+        "getEtudiant": [],
+        "setTypeStage": [],
         "setEtudiant": [],
         "setProf": [],
-        "setTuteur": [],
-        "setEntreprise": [],
-        "setTypeStage": [],
-        "getProf": [],
-        "getCompteRendu": [],
-        "getTypeStage": [],
-        "getAnnee": [],
-        "setId": [],
-        "getEtudiant": []
+        "setAnnee": [],
+        "getEntreprise": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java": {
-        "getNom": [],
-        "getPrenom": [],
-        "getTel": [],
         "setPrenom": [],
+        "setId": [],
         "getId": [],
         "setNom": [],
         "setTel": [],
-        "setId": []
+        "getTel": [],
+        "getPrenom": [],
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java": {
-        "setNbrSemaines": [],
         "getNbrSemaines": [],
+        "setNbrSemaines": [],
         "setId": [],
         "getId": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java": {
-        "getUserId": [],
-        "setUserId": [],
+        "toString": [],
         "getUserPassword": [],
         "getUserRole": [],
         "setUsername": [],
-        "getUsername": [],
-        "setUserPassword": [],
+        "setUserId": [],
+        "getUserId": [],
         "setUserRole": [],
-        "toString": []
+        "setUserPassword": [],
+        "getUsername": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAcquerirById": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "findAcquerirById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findCandidatByEmail": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "findCandidatByEmail": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "findCompetenceByCode": [],
+        "deleteCompetenceByCode": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "findCompetenceByCode": [],
-        "save": [],
-        "delete": [],
-        "deleteCompetenceByCode": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "findDateStageById": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findDateStageById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "deleteAll": [],
+        "findEntrepriseById": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
+        "saveAll": [],
+        "delete": [],
         "deleteEntrepriseById": [],
         "save": [],
-        "findEntrepriseById": [],
-        "delete": [],
-        "findById": []
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "findEtudiantById": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findEtudiantById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java": {
+        "findByFileName": [],
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findByFileName": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "deleteProfById": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findProfById": [],
+        "findById": [],
         "findAllById": [],
-        "deleteProfById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findProfById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "findPromoById": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findPromoById": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findStageById": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "findStageById": [],
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findTuteurById": [],
-        "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
         "deleteTuteurById": [],
-        "findAllById": [],
-        "save": [],
+        "deleteById": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "findTuteurById": [],
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findTypeStageById": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": [],
+        "findTypeStageById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java": {
-        "updateAcquerir": [],
-        "findAcquerirById": [],
         "getAllAcquerirs": [],
         "addAcquerir": [],
+        "updateAcquerir": [],
+        "findAcquerirById": [],
         "deleteAcquerir": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java": {
-        "deleteCandidat": [],
-        "findCandidatByEmail": [],
-        "updateCandidat": [],
         "addCandidat": [],
-        "getAllCandidats": []
+        "findCandidatByEmail": [],
+        "getAllCandidats": [],
+        "updateCandidat": [],
+        "deleteCandidat": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java": {
         "deleteCompetence": [],
+        "addCompetence": [],
         "getAllCompetences": [],
         "findCompetenceByCode": [],
-        "updateCompetence": [],
-        "addCompetence": []
+        "updateCompetence": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java": {
-        "addDateStage": [],
+        "getAllDatesStage": [],
         "updateDateStage": [],
-        "deleteDateStage": [],
+        "addDateStage": [],
         "findDateStageById": [],
-        "getAllDatesStage": []
+        "deleteDateStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java": {
-        "updateEntreprise": [],
-        "deleteEntreprise": [],
         "findEntrepriseById": [],
         "addEntreprise": [],
+        "updateEntreprise": [],
+        "deleteEntreprise": [],
         "getAllEntreprises": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java": {
-        "addEtudiant": [],
+        "findEtudiantById": [],
         "updateEtudiant": [],
-        "deleteEtudiant": [],
+        "addEtudiant": [],
         "getAllEtudiants": [],
-        "findEtudiantById": []
+        "deleteEtudiant": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java": {
         "getAllProfs": [],
-        "addProf": [],
         "deleteProf": [],
-        "findProfById": [],
-        "updateProf": []
+        "addProf": [],
+        "updateProf": [],
+        "findProfById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java": {
-        "addPromo": [],
         "getAllPromos": [],
+        "findPromoById": [],
         "deletePromo": [],
         "updatePromo": [],
-        "findPromoById": []
+        "addPromo": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java": {
-        "deleteStage": [],
-        "findStageById": [],
-        "addStage": [],
         "updateStage": [],
-        "getAllStages": []
+        "findStageById": [],
+        "getAllStages": [],
+        "deleteStage": [],
+        "addStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java": {
-        "downloadFile": [
-            "Files.readAllBytes",
-            "Optional<FileData>.isPresent",
-            "Paths.get",
+        "uploadFile": [
+            "Optional<FileData>.get",
+            "StringUtils.cleanPath",
             "FileDataDao.findByFileName",
-            "fileData.getFilePath"
+            "MultipartFile.getOriginalFilename",
+            "Optional<FileData>.isPresent",
+            "FileData.builder",
+            "FileData.setFileType",
+            "MultipartFile.transferTo",
+            "FileData.setFilePath",
+            "FileDataDao.save",
+            "MultipartFile.getContentType",
+            "String.contains",
+            "IOException.getMessage"
         ],
         "findFileDataByFileName": [
             "FileDataDao.findByFileName"
         ],
-        "uploadFile": [
-            "FileData.builder",
-            "Optional<FileData>.isPresent",
-            "MultipartFile.getOriginalFilename",
-            "StringUtils.cleanPath",
-            "Optional<FileData>.get",
-            "FileData.setFilePath",
-            "MultipartFile.transferTo",
-            "FileDataDao.save",
-            "FileData.setFileType",
-            "MultipartFile.getContentType",
+        "downloadFile": [
             "FileDataDao.findByFileName",
-            "String.contains",
-            "IOException.getMessage"
+            "Paths.get",
+            "Files.readAllBytes",
+            "Optional<FileData>.isPresent",
+            "fileData.getFilePath"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java": {
-        "findTuteurById": [],
+        "updateTuteur": [],
         "getAllTuteurs": [],
-        "deleteTuteur": [],
         "addTuteur": [],
-        "updateTuteur": []
+        "findTuteurById": [],
+        "deleteTuteur": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java": {
-        "addTypeStage": [],
+        "getAllTypesStage": [],
         "findTypeStageById": [],
         "updateTypeStage": [],
         "deleteTypeStage": [],
-        "getAllTypesStage": []
+        "addTypeStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java": {
-        "updateAcquerir": [
-            "AcquerirDao.save"
-        ],
-        "findAcquerirById": [
-            "Acquerir.AcquerirId",
-            "AcquerirDao.findAcquerirById"
-        ],
         "getAllAcquerirs": [
             "AcquerirDao.findAll"
         ],
         "addAcquerir": [
             "AcquerirDao.save"
         ],
+        "updateAcquerir": [
+            "AcquerirDao.save"
+        ],
+        "findAcquerirById": [
+            "AcquerirDao.findAcquerirById",
+            "Acquerir.AcquerirId"
+        ],
         "deleteAcquerir": [
-            "Acquerir.AcquerirId",
-            "AcquerirDao.findAcquerirById"
+            "AcquerirDao.findAcquerirById",
+            "Acquerir.AcquerirId"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java": {
-        "deleteCandidat": [
-            "CandidatDao.deleteById"
+        "addCandidat": [
+            "CandidatDao.save"
         ],
         "findCandidatByEmail": [
             "CandidatDao.findCandidatByEmail"
         ],
+        "getAllCandidats": [
+            "CandidatDao.findAll"
+        ],
         "updateCandidat": [
             "CandidatDao.save"
         ],
-        "addCandidat": [
-            "CandidatDao.save"
-        ],
-        "getAllCandidats": [
-            "CandidatDao.findAll"
+        "deleteCandidat": [
+            "CandidatDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java": {
         "deleteCompetence": [
             "CompetenceDao.deleteCompetenceByCode"
+        ],
+        "addCompetence": [
+            "CompetenceDao.save"
         ],
         "getAllCompetences": [
             "CompetenceDao.findAll"
@@ -715,87 +718,84 @@
         ],
         "updateCompetence": [
             "CompetenceDao.save"
-        ],
-        "addCompetence": [
-            "CompetenceDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java": {
-        "addDateStage": [
-            "DateStageDao.save"
+        "getAllDatesStage": [
+            "DateStageDao.findAll"
         ],
         "updateDateStage": [
             "DateStageDao.save"
         ],
-        "deleteDateStage": [
-            "DateStageDao.findDateStageById",
-            "DateStage.DateStageId"
+        "addDateStage": [
+            "DateStageDao.save"
         ],
         "findDateStageById": [
-            "DateStageDao.findDateStageById",
-            "DateStage.DateStageId"
+            "DateStage.DateStageId",
+            "DateStageDao.findDateStageById"
         ],
-        "getAllDatesStage": [
-            "DateStageDao.findAll"
+        "deleteDateStage": [
+            "DateStage.DateStageId",
+            "DateStageDao.findDateStageById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java": {
-        "updateEntreprise": [
-            "EntrepriseDao.save"
-        ],
-        "deleteEntreprise": [
-            "EntrepriseDao.deleteById"
-        ],
         "findEntrepriseById": [
             "EntrepriseDao.findEntrepriseById"
         ],
         "addEntreprise": [
             "EntrepriseDao.save"
         ],
+        "updateEntreprise": [
+            "EntrepriseDao.save"
+        ],
+        "deleteEntreprise": [
+            "EntrepriseDao.deleteById"
+        ],
         "getAllEntreprises": [
             "EntrepriseDao.findAll"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java": {
-        "addEtudiant": [
-            "EtudiantDao.save"
+        "findEtudiantById": [
+            "EtudiantDao.findEtudiantById"
         ],
         "updateEtudiant": [
             "EtudiantDao.save"
         ],
-        "deleteEtudiant": [
-            "EtudiantDao.deleteById"
+        "addEtudiant": [
+            "EtudiantDao.save"
         ],
         "getAllEtudiants": [
             "EtudiantDao.findAll"
         ],
-        "findEtudiantById": [
-            "EtudiantDao.findEtudiantById"
+        "deleteEtudiant": [
+            "EtudiantDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java": {
         "getAllProfs": [
             "ProfDao.findAll"
         ],
-        "addProf": [
-            "ProfDao.save"
-        ],
         "deleteProf": [
             "ProfDao.deleteProfById"
         ],
-        "findProfById": [
-            "ProfDao.findProfById"
+        "addProf": [
+            "ProfDao.save"
         ],
         "updateProf": [
             "ProfDao.save"
+        ],
+        "findProfById": [
+            "ProfDao.findProfById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java": {
-        "addPromo": [
-            "PromoDao.save"
-        ],
         "getAllPromos": [
             "PromoDao.findAll"
+        ],
+        "findPromoById": [
+            "PromoDao.findPromoById"
         ],
         "deletePromo": [
             "PromoDao.deleteById"
@@ -803,47 +803,47 @@
         "updatePromo": [
             "PromoDao.save"
         ],
-        "findPromoById": [
-            "PromoDao.findPromoById"
+        "addPromo": [
+            "PromoDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java": {
-        "deleteStage": [
-            "StageDao.deleteById"
+        "updateStage": [
+            "StageDao.save"
         ],
         "findStageById": [
             "StageDao.findStageById"
         ],
-        "addStage": [
-            "StageDao.save"
-        ],
-        "updateStage": [
-            "StageDao.save"
-        ],
         "getAllStages": [
             "StageDao.findAll"
+        ],
+        "deleteStage": [
+            "StageDao.deleteById"
+        ],
+        "addStage": [
+            "StageDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java": {
-        "findTuteurById": [
-            "TuteurDao.findTuteurById"
+        "updateTuteur": [
+            "TuteurDao.save"
         ],
         "getAllTuteurs": [
             "TuteurDao.findAll"
         ],
-        "deleteTuteur": [
-            "TuteurDao.deleteById"
-        ],
         "addTuteur": [
             "TuteurDao.save"
         ],
-        "updateTuteur": [
-            "TuteurDao.save"
+        "findTuteurById": [
+            "TuteurDao.findTuteurById"
+        ],
+        "deleteTuteur": [
+            "TuteurDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java": {
-        "addTypeStage": [
-            "TypeStageDao.save"
+        "getAllTypesStage": [
+            "TypeStageDao.findAll"
         ],
         "findTypeStageById": [
             "TypeStageDao.findTypeStageById"
@@ -854,8 +854,8 @@
         "deleteTypeStage": [
             "TypeStageDao.deleteById"
         ],
-        "getAllTypesStage": [
-            "TypeStageDao.findAll"
+        "addTypeStage": [
+            "TypeStageDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\ProjetSiApplication.java": {
@@ -869,33 +869,25 @@
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java": {
-        "getAcquerirById": [
-            "AcquerirServiceImpl.findAcquerirById"
-        ],
-        "updateAcquerir": [
-            "AcquerirServiceImpl.updateAcquerir"
-        ],
         "getAllAcquerirs": [
             "AcquerirServiceImpl.getAllAcquerirs"
         ],
         "addAcquerir": [
             "AcquerirServiceImpl.addAcquerir"
         ],
+        "updateAcquerir": [
+            "AcquerirServiceImpl.updateAcquerir"
+        ],
         "deleteAcquerir": [
             "AcquerirServiceImpl.deleteAcquerir"
+        ],
+        "getAcquerirById": [
+            "AcquerirServiceImpl.findAcquerirById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java": {
-        "addCandidatWithDossier": [
-            "CandidatServiceImpl.addCandidat",
-            "StorageService.uploadFile",
-            "Candidat.setDossier",
-            "MultipartFile.isEmpty",
-            "Exception.getMessage",
-            "ResponseEntity.status"
-        ],
-        "deleteCandidat": [
-            "CandidatServiceImpl.deleteCandidat"
+        "addCandidat": [
+            "CandidatServiceImpl.addCandidat"
         ],
         "updateAccess": [
             "CandidatServiceImpl.updateCandidat"
@@ -903,60 +895,68 @@
         "getAccessByEmail": [
             "CandidatServiceImpl.findCandidatByEmail"
         ],
-        "addCandidat": [
-            "CandidatServiceImpl.addCandidat"
-        ],
         "getAllCandidats": [
             "CandidatServiceImpl.getAllCandidats",
             "Candidat.getStatut"
+        ],
+        "addCandidatWithDossier": [
+            "Exception.getMessage",
+            "ResponseEntity.status",
+            "Candidat.setDossier",
+            "CandidatServiceImpl.addCandidat",
+            "StorageService.uploadFile",
+            "MultipartFile.isEmpty"
+        ],
+        "deleteCandidat": [
+            "CandidatServiceImpl.deleteCandidat"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java": {
-        "deleteCompetence": [
-            "CompetenceServiceImpl.deleteCompetence"
-        ],
         "updateAccess": [
             "CompetenceServiceImpl.updateCompetence"
+        ],
+        "addCompetence": [
+            "CompetenceServiceImpl.addCompetence"
+        ],
+        "deleteCompetence": [
+            "CompetenceServiceImpl.deleteCompetence"
         ],
         "getAllCompetences": [
             "CompetenceServiceImpl.getAllCompetences"
         ],
         "getAccessByCode": [
             "CompetenceServiceImpl.findCompetenceByCode"
-        ],
-        "addCompetence": [
-            "CompetenceServiceImpl.addCompetence"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java": {
-        "addDateStage": [
-            "DateStageServiceImpl.addDateStage"
-        ],
         "getAllDatesStage": [
             "DateStageServiceImpl.getAllDatesStage"
+        ],
+        "getDateStageById": [
+            "DateStageServiceImpl.findDateStageById"
         ],
         "updateDateStage": [
             "DateStageServiceImpl.updateDateStage"
         ],
+        "addDateStage": [
+            "DateStageServiceImpl.addDateStage"
+        ],
         "deleteDateStage": [
             "DateStageServiceImpl.deleteDateStage"
-        ],
-        "getDateStageById": [
-            "DateStageServiceImpl.findDateStageById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java": {
-        "updateEntreprise": [
-            "EntrepriseServiceImpl.updateEntreprise"
-        ],
         "getEntrepriseById": [
             "EntrepriseServiceImpl.findEntrepriseById"
         ],
-        "deleteEntreprise": [
-            "EntrepriseServiceImpl.deleteEntreprise"
-        ],
         "addEntreprise": [
             "EntrepriseServiceImpl.addEntreprise"
+        ],
+        "updateEntreprise": [
+            "EntrepriseServiceImpl.updateEntreprise"
+        ],
+        "deleteEntreprise": [
+            "EntrepriseServiceImpl.deleteEntreprise"
         ],
         "getAllEntreprises": [
             "EntrepriseServiceImpl.getAllEntreprises"
@@ -966,28 +966,28 @@
         "getEtudiantById": [
             "EtudiantServiceImpl.findEtudiantById"
         ],
-        "addEtudiant": [
-            "EtudiantServiceImpl.addEtudiant"
-        ],
         "updateEtudiant": [
             "EtudiantServiceImpl.updateEtudiant"
         ],
-        "deleteEtudiant": [
-            "EtudiantServiceImpl.deleteEtudiant"
+        "addEtudiant": [
+            "EtudiantServiceImpl.addEtudiant"
         ],
         "getAllEtudiants": [
             "EtudiantServiceImpl.getAllEtudiants"
+        ],
+        "deleteEtudiant": [
+            "EtudiantServiceImpl.deleteEtudiant"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java": {
         "getAllProfs": [
             "ProfServiceImpl.getAllProfs"
         ],
-        "addProf": [
-            "ProfServiceImpl.addProf"
-        ],
         "deleteProf": [
             "ProfServiceImpl.deleteProf"
+        ],
+        "addProf": [
+            "ProfServiceImpl.addProf"
         ],
         "updateProf": [
             "ProfServiceImpl.updateProf"
@@ -997,45 +997,45 @@
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java": {
-        "addPromo": [
-            "PromoServiceImpl.addPromo"
-        ],
         "getAllPromos": [
             "PromoServiceImpl.getAllPromos"
         ],
         "deletePromo": [
             "PromoServiceImpl.deletePromo"
         ],
+        "getPromoById": [
+            "PromoServiceImpl.findPromoById"
+        ],
         "updatePromo": [
             "PromoServiceImpl.updatePromo"
         ],
-        "getPromoById": [
-            "PromoServiceImpl.findPromoById"
+        "addPromo": [
+            "PromoServiceImpl.addPromo"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java": {
+        "getStageById": [
+            "StageServiceImpl.findStageById"
+        ],
+        "updateStage": [
+            "StageServiceImpl.updateStage"
+        ],
+        "getAllStages": [
+            "StageServiceImpl.getAllStages"
+        ],
         "deleteStage": [
             "StageServiceImpl.deleteStage"
         ],
         "addStage": [
             "StageServiceImpl.addStage"
-        ],
-        "updateStage": [
-            "StageServiceImpl.updateStage"
-        ],
-        "getStageById": [
-            "StageServiceImpl.findStageById"
-        ],
-        "getAllStages": [
-            "StageServiceImpl.getAllStages"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java": {
+        "updateTuteur": [
+            "TuteurServiceImpl.updateTuteur"
+        ],
         "getAllTuteurs": [
             "TuteurServiceImpl.getAllTuteurs"
-        ],
-        "deleteTuteur": [
-            "TuteurServiceImpl.deleteTuteur"
         ],
         "addTuteur": [
             "TuteurServiceImpl.addTuteur"
@@ -1043,528 +1043,531 @@
         "getTuteurById": [
             "TuteurServiceImpl.findTuteurById"
         ],
-        "updateTuteur": [
-            "TuteurServiceImpl.updateTuteur"
+        "deleteTuteur": [
+            "TuteurServiceImpl.deleteTuteur"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java": {
-        "addTypeStage": [
-            "TypeStageServiceImpl.addTypeStage"
-        ],
-        "updateTypeStage": [
-            "TypeStageServiceImpl.updateTypeStage"
+        "getAllTypesStage": [
+            "TypeStageServiceImpl.getAllTypesStage"
         ],
         "getTypeStageById": [
             "TypeStageServiceImpl.findTypeStageById"
         ],
+        "updateTypeStage": [
+            "TypeStageServiceImpl.updateTypeStage"
+        ],
         "deleteTypeStage": [
             "TypeStageServiceImpl.deleteTypeStage"
         ],
-        "getAllTypesStage": [
-            "TypeStageServiceImpl.getAllTypesStage"
+        "addTypeStage": [
+            "TypeStageServiceImpl.addTypeStage"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java": {
-        "setAuthority": [],
-        "getAuthority": [],
         "setAccessLibelle": [],
         "setAccessId": [],
+        "setAuthority": [],
+        "getAuthority": [],
+        "toString": [],
         "getAccessLibelle": [],
-        "getAccessId": [],
-        "toString": []
+        "getAccessId": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java": {
-        "setNiveau": [],
-        "getCompetenceId": [],
-        "setCompetence": [],
-        "setTypeStage": [],
-        "getCompetence": [],
-        "getTypeStage": [],
-        "getId": [],
         "getNiveau": [],
-        "setCompetenceId": [],
-        "setTypeStageId": [],
+        "getCompetenceId": [],
+        "getTypeStage": [],
+        "setCompetence": [],
+        "setId": [],
+        "getId": [],
         "getTypeStageId": [],
-        "setId": []
+        "setTypeStageId": [],
+        "setTypeStage": [],
+        "setCompetenceId": [],
+        "setNiveau": [],
+        "getCompetence": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Annee.java": {
-        "setAnnee": [],
-        "getAnnee": []
+        "getAnnee": [],
+        "setAnnee": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java": {
-        "getNom": [],
+        "getDossier": [],
+        "getStatut": [],
+        "getPromo": [],
         "setPromo": [],
+        "setPrenom": [],
+        "setDossierComplete": [],
+        "setNom": [],
         "setStatut": [],
         "setDossier": [],
-        "getStatut": [],
-        "getPrenom": [],
-        "setNom": [],
-        "getEmail": [],
         "getDossierComplete": [],
-        "setPrenom": [],
+        "getEmail": [],
+        "getPrenom": [],
         "setEmail": [],
-        "getDossier": [],
-        "setDossierComplete": [],
-        "getPromo": []
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java": {
-        "getLibelle": [],
-        "getDesc": [],
         "getCode": [],
-        "setCode": [],
         "setLibelle": [],
-        "setDesc": []
+        "setCode": [],
+        "setDesc": [],
+        "getDesc": [],
+        "getLibelle": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java": {
-        "setDateFin": [],
         "setAnneeId": [],
-        "getAnneeId": [],
-        "setAnnee": [],
-        "getDateDeb": [],
-        "setTypeStage": [],
-        "setTypeStageId": [],
+        "setDateFin": [],
         "getTypeStage": [],
+        "getAnnee": [],
+        "setId": [],
         "getId": [],
         "setDateDeb": [],
-        "getAnnee": [],
         "getTypeStageId": [],
+        "setTypeStageId": [],
+        "setTypeStage": [],
+        "getAnneeId": [],
+        "getDateDeb": [],
         "getDateFin": [],
-        "setId": []
+        "setAnnee": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Entreprise.java": {
-        "getTelContact": [],
+        "setRaisonSoc": [],
+        "setTelStandard": [],
         "setTelContact": [],
+        "getRaisonSoc": [],
+        "getContact": [],
+        "setId": [],
+        "getId": [],
+        "getTelStandard": [],
+        "setAdrs": [],
         "setFormeJur": [],
-        "setContact": [],
+        "getTelContact": [],
         "getAdrs": [],
         "getFormeJur": [],
-        "setTelStandard": [],
-        "setRaisonSoc": [],
-        "getTelStandard": [],
-        "getRaisonSoc": [],
-        "getId": [],
-        "getContact": [],
-        "setAdrs": [],
-        "setId": []
+        "setContact": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java": {
-        "getNom": [],
-        "setTel": [],
-        "setPromo": [],
-        "getAdrs": [],
-        "getPrenom": [],
-        "setId": [],
-        "setAdrs": [],
-        "setSexe": [],
-        "setMention": [],
-        "getTel": [],
-        "getMention": [],
+        "getPromo": [],
         "setPrenom": [],
-        "getId": [],
-        "setDateNaissance": [],
-        "setNom": [],
-        "getSexe": [],
+        "setPromo": [],
         "getDateNaissance": [],
-        "getPromo": []
+        "setDateNaissance": [],
+        "setAdrs": [],
+        "setId": [],
+        "getId": [],
+        "setNom": [],
+        "setSexe": [],
+        "setTel": [],
+        "getTel": [],
+        "getAdrs": [],
+        "setMention": [],
+        "getSexe": [],
+        "getPrenom": [],
+        "getNom": [],
+        "getMention": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java": {
         "getFileType": [],
-        "getFileName": [],
-        "setFileType": [],
-        "build": [],
+        "builder": [],
+        "getFilePath": [],
         "getFileId": [],
         "setFileName": [],
-        "builder": [],
-        "fileName": [],
+        "setFilePath": [],
+        "fileType": [],
         "filePath": [],
         "setFileId": [],
-        "getFilePath": [],
-        "fileType": [],
-        "setFilePath": []
+        "build": [],
+        "fileName": [],
+        "getFileName": [],
+        "setFileType": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Professeur.java": {
-        "getNom": [],
-        "setTel": [],
         "getDateEmbauche": [],
-        "getDateDepart": [],
-        "setDateEmbauche": [],
-        "setDateDepart": [],
-        "getAdrs": [],
-        "getPrenom": [],
-        "getTel": [],
         "setPrenom": [],
+        "setDateEmbauche": [],
+        "getDateDepart": [],
+        "setAdrs": [],
+        "setId": [],
         "getId": [],
         "setNom": [],
-        "setAdrs": [],
-        "setId": []
+        "setTel": [],
+        "getTel": [],
+        "getAdrs": [],
+        "setDateDepart": [],
+        "getPrenom": [],
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java": {
-        "getNbrRecus": [],
-        "setNbrInscrits": [],
+        "getNbrInscrits": [],
         "setNbrRecus": [],
+        "setNbrInscrits": [],
+        "getNbrRecus": [],
         "setDirigeant": [],
-        "getId": [],
-        "getDirigeant": [],
         "setId": [],
-        "getNbrInscrits": []
+        "getId": [],
+        "getDirigeant": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java": {
-        "getRoleLibelle": [],
         "getRoleAccesses": [],
-        "setRoleAccesses": [],
         "setRoleLibelle": [],
-        "getRoleId": [],
+        "setRoleAccesses": [],
+        "toString": [],
         "setRoleId": [],
-        "toString": []
+        "getRoleId": [],
+        "getRoleLibelle": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java": {
-        "getEntreprise": [],
+        "getTypeStage": [],
         "getTuteur": [],
-        "setAnnee": [],
+        "getAnnee": [],
+        "getCompteRendu": [],
+        "setEntreprise": [],
         "setCompteRendu": [],
+        "setId": [],
         "getId": [],
+        "getProf": [],
+        "setTuteur": [],
+        "getEtudiant": [],
+        "setTypeStage": [],
         "setEtudiant": [],
         "setProf": [],
-        "setTuteur": [],
-        "setEntreprise": [],
-        "setTypeStage": [],
-        "getProf": [],
-        "getCompteRendu": [],
-        "getTypeStage": [],
-        "getAnnee": [],
-        "setId": [],
-        "getEtudiant": []
+        "setAnnee": [],
+        "getEntreprise": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java": {
-        "getNom": [],
-        "getPrenom": [],
-        "getTel": [],
         "setPrenom": [],
+        "setId": [],
         "getId": [],
         "setNom": [],
         "setTel": [],
-        "setId": []
+        "getTel": [],
+        "getPrenom": [],
+        "getNom": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java": {
-        "setNbrSemaines": [],
         "getNbrSemaines": [],
+        "setNbrSemaines": [],
         "setId": [],
         "getId": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\modal\\Utilisateur.java": {
-        "getUserId": [],
-        "setUserId": [],
+        "toString": [],
         "getUserPassword": [],
         "getUserRole": [],
         "setUsername": [],
-        "getUsername": [],
-        "setUserPassword": [],
+        "setUserId": [],
+        "getUserId": [],
         "setUserRole": [],
-        "toString": []
+        "setUserPassword": [],
+        "getUsername": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAcquerirById": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "findAcquerirById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findCandidatByEmail": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "findCandidatByEmail": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "findCompetenceByCode": [],
+        "deleteCompetenceByCode": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "findCompetenceByCode": [],
-        "save": [],
-        "delete": [],
-        "deleteCompetenceByCode": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "findDateStageById": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findDateStageById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "deleteAll": [],
+        "findEntrepriseById": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
+        "saveAll": [],
+        "delete": [],
         "deleteEntrepriseById": [],
         "save": [],
-        "findEntrepriseById": [],
-        "delete": [],
-        "findById": []
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "findEtudiantById": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findEtudiantById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java": {
+        "findByFileName": [],
+        "deleteById": [],
         "saveAll": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findByFileName": [],
-        "findAll": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "deleteProfById": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findProfById": [],
+        "findById": [],
         "findAllById": [],
-        "deleteProfById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": [],
+        "findProfById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java": {
+        "deleteById": [],
         "saveAll": [],
+        "findPromoById": [],
+        "delete": [],
+        "save": [],
+        "findAll": [],
         "existsById": [],
         "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findPromoById": [],
+        "findById": [],
         "findAllById": [],
-        "save": [],
-        "delete": [],
-        "findById": []
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findStageById": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "findStageById": [],
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findTuteurById": [],
-        "deleteAll": [],
-        "deleteById": [],
-        "count": [],
-        "findAll": [],
         "deleteTuteurById": [],
-        "findAllById": [],
-        "save": [],
+        "deleteById": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "findTuteurById": [],
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java": {
-        "saveAll": [],
-        "existsById": [],
-        "findTypeStageById": [],
-        "deleteAll": [],
         "deleteById": [],
-        "count": [],
-        "findAll": [],
-        "findAllById": [],
-        "save": [],
+        "saveAll": [],
         "delete": [],
-        "findById": []
+        "save": [],
+        "findAll": [],
+        "existsById": [],
+        "deleteAll": [],
+        "findById": [],
+        "findAllById": [],
+        "count": [],
+        "findTypeStageById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java": {
-        "updateAcquerir": [],
-        "findAcquerirById": [],
         "getAllAcquerirs": [],
         "addAcquerir": [],
+        "updateAcquerir": [],
+        "findAcquerirById": [],
         "deleteAcquerir": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java": {
-        "deleteCandidat": [],
-        "findCandidatByEmail": [],
-        "updateCandidat": [],
         "addCandidat": [],
-        "getAllCandidats": []
+        "findCandidatByEmail": [],
+        "getAllCandidats": [],
+        "updateCandidat": [],
+        "deleteCandidat": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\CompetenceService.java": {
         "deleteCompetence": [],
+        "addCompetence": [],
         "getAllCompetences": [],
         "findCompetenceByCode": [],
-        "updateCompetence": [],
-        "addCompetence": []
+        "updateCompetence": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java": {
-        "addDateStage": [],
+        "getAllDatesStage": [],
         "updateDateStage": [],
-        "deleteDateStage": [],
+        "addDateStage": [],
         "findDateStageById": [],
-        "getAllDatesStage": []
+        "deleteDateStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java": {
-        "updateEntreprise": [],
-        "deleteEntreprise": [],
         "findEntrepriseById": [],
         "addEntreprise": [],
+        "updateEntreprise": [],
+        "deleteEntreprise": [],
         "getAllEntreprises": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java": {
-        "addEtudiant": [],
+        "findEtudiantById": [],
         "updateEtudiant": [],
-        "deleteEtudiant": [],
+        "addEtudiant": [],
         "getAllEtudiants": [],
-        "findEtudiantById": []
+        "deleteEtudiant": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\ProfService.java": {
         "getAllProfs": [],
-        "addProf": [],
         "deleteProf": [],
-        "findProfById": [],
-        "updateProf": []
+        "addProf": [],
+        "updateProf": [],
+        "findProfById": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java": {
-        "addPromo": [],
         "getAllPromos": [],
+        "findPromoById": [],
         "deletePromo": [],
         "updatePromo": [],
-        "findPromoById": []
+        "addPromo": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java": {
-        "deleteStage": [],
-        "findStageById": [],
-        "addStage": [],
         "updateStage": [],
-        "getAllStages": []
+        "findStageById": [],
+        "getAllStages": [],
+        "deleteStage": [],
+        "addStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java": {
-        "downloadFile": [
-            "Files.readAllBytes",
-            "Optional<FileData>.isPresent",
-            "Paths.get",
+        "uploadFile": [
+            "Optional<FileData>.get",
+            "StringUtils.cleanPath",
             "FileDataDao.findByFileName",
-            "fileData.getFilePath"
+            "MultipartFile.getOriginalFilename",
+            "Optional<FileData>.isPresent",
+            "FileData.builder",
+            "FileData.setFileType",
+            "MultipartFile.transferTo",
+            "FileData.setFilePath",
+            "FileDataDao.save",
+            "MultipartFile.getContentType",
+            "String.contains",
+            "IOException.getMessage"
         ],
         "findFileDataByFileName": [
             "FileDataDao.findByFileName"
         ],
-        "uploadFile": [
-            "FileData.builder",
-            "Optional<FileData>.isPresent",
-            "MultipartFile.getOriginalFilename",
-            "StringUtils.cleanPath",
-            "Optional<FileData>.get",
-            "FileData.setFilePath",
-            "MultipartFile.transferTo",
-            "FileDataDao.save",
-            "FileData.setFileType",
-            "MultipartFile.getContentType",
+        "downloadFile": [
             "FileDataDao.findByFileName",
-            "String.contains",
-            "IOException.getMessage"
+            "Paths.get",
+            "Files.readAllBytes",
+            "Optional<FileData>.isPresent",
+            "fileData.getFilePath"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TuteurService.java": {
-        "findTuteurById": [],
+        "updateTuteur": [],
         "getAllTuteurs": [],
-        "deleteTuteur": [],
         "addTuteur": [],
-        "updateTuteur": []
+        "findTuteurById": [],
+        "deleteTuteur": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java": {
-        "addTypeStage": [],
+        "getAllTypesStage": [],
         "findTypeStageById": [],
         "updateTypeStage": [],
         "deleteTypeStage": [],
-        "getAllTypesStage": []
+        "addTypeStage": []
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java": {
-        "updateAcquerir": [
-            "AcquerirDao.save"
-        ],
-        "findAcquerirById": [
-            "Acquerir.AcquerirId",
-            "AcquerirDao.findAcquerirById"
-        ],
         "getAllAcquerirs": [
             "AcquerirDao.findAll"
         ],
         "addAcquerir": [
             "AcquerirDao.save"
         ],
+        "updateAcquerir": [
+            "AcquerirDao.save"
+        ],
+        "findAcquerirById": [
+            "AcquerirDao.findAcquerirById",
+            "Acquerir.AcquerirId"
+        ],
         "deleteAcquerir": [
-            "Acquerir.AcquerirId",
-            "AcquerirDao.findAcquerirById"
+            "AcquerirDao.findAcquerirById",
+            "Acquerir.AcquerirId"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java": {
-        "deleteCandidat": [
-            "CandidatDao.deleteById"
+        "addCandidat": [
+            "CandidatDao.save"
         ],
         "findCandidatByEmail": [
             "CandidatDao.findCandidatByEmail"
         ],
+        "getAllCandidats": [
+            "CandidatDao.findAll"
+        ],
         "updateCandidat": [
             "CandidatDao.save"
         ],
-        "addCandidat": [
-            "CandidatDao.save"
-        ],
-        "getAllCandidats": [
-            "CandidatDao.findAll"
+        "deleteCandidat": [
+            "CandidatDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CompetenceServiceImpl.java": {
         "deleteCompetence": [
             "CompetenceDao.deleteCompetenceByCode"
+        ],
+        "addCompetence": [
+            "CompetenceDao.save"
         ],
         "getAllCompetences": [
             "CompetenceDao.findAll"
@@ -1574,87 +1577,84 @@
         ],
         "updateCompetence": [
             "CompetenceDao.save"
-        ],
-        "addCompetence": [
-            "CompetenceDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java": {
-        "addDateStage": [
-            "DateStageDao.save"
+        "getAllDatesStage": [
+            "DateStageDao.findAll"
         ],
         "updateDateStage": [
             "DateStageDao.save"
         ],
-        "deleteDateStage": [
-            "DateStageDao.findDateStageById",
-            "DateStage.DateStageId"
+        "addDateStage": [
+            "DateStageDao.save"
         ],
         "findDateStageById": [
-            "DateStageDao.findDateStageById",
-            "DateStage.DateStageId"
+            "DateStage.DateStageId",
+            "DateStageDao.findDateStageById"
         ],
-        "getAllDatesStage": [
-            "DateStageDao.findAll"
+        "deleteDateStage": [
+            "DateStage.DateStageId",
+            "DateStageDao.findDateStageById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java": {
-        "updateEntreprise": [
-            "EntrepriseDao.save"
-        ],
-        "deleteEntreprise": [
-            "EntrepriseDao.deleteById"
-        ],
         "findEntrepriseById": [
             "EntrepriseDao.findEntrepriseById"
         ],
         "addEntreprise": [
             "EntrepriseDao.save"
         ],
+        "updateEntreprise": [
+            "EntrepriseDao.save"
+        ],
+        "deleteEntreprise": [
+            "EntrepriseDao.deleteById"
+        ],
         "getAllEntreprises": [
             "EntrepriseDao.findAll"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java": {
-        "addEtudiant": [
-            "EtudiantDao.save"
+        "findEtudiantById": [
+            "EtudiantDao.findEtudiantById"
         ],
         "updateEtudiant": [
             "EtudiantDao.save"
         ],
-        "deleteEtudiant": [
-            "EtudiantDao.deleteById"
+        "addEtudiant": [
+            "EtudiantDao.save"
         ],
         "getAllEtudiants": [
             "EtudiantDao.findAll"
         ],
-        "findEtudiantById": [
-            "EtudiantDao.findEtudiantById"
+        "deleteEtudiant": [
+            "EtudiantDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\ProfServiceImpl.java": {
         "getAllProfs": [
             "ProfDao.findAll"
         ],
-        "addProf": [
-            "ProfDao.save"
-        ],
         "deleteProf": [
             "ProfDao.deleteProfById"
         ],
-        "findProfById": [
-            "ProfDao.findProfById"
+        "addProf": [
+            "ProfDao.save"
         ],
         "updateProf": [
             "ProfDao.save"
+        ],
+        "findProfById": [
+            "ProfDao.findProfById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java": {
-        "addPromo": [
-            "PromoDao.save"
-        ],
         "getAllPromos": [
             "PromoDao.findAll"
+        ],
+        "findPromoById": [
+            "PromoDao.findPromoById"
         ],
         "deletePromo": [
             "PromoDao.deleteById"
@@ -1662,47 +1662,47 @@
         "updatePromo": [
             "PromoDao.save"
         ],
-        "findPromoById": [
-            "PromoDao.findPromoById"
+        "addPromo": [
+            "PromoDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java": {
-        "deleteStage": [
-            "StageDao.deleteById"
+        "updateStage": [
+            "StageDao.save"
         ],
         "findStageById": [
             "StageDao.findStageById"
         ],
-        "addStage": [
-            "StageDao.save"
-        ],
-        "updateStage": [
-            "StageDao.save"
-        ],
         "getAllStages": [
             "StageDao.findAll"
+        ],
+        "deleteStage": [
+            "StageDao.deleteById"
+        ],
+        "addStage": [
+            "StageDao.save"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TuteurServiceImpl.java": {
-        "findTuteurById": [
-            "TuteurDao.findTuteurById"
+        "updateTuteur": [
+            "TuteurDao.save"
         ],
         "getAllTuteurs": [
             "TuteurDao.findAll"
         ],
-        "deleteTuteur": [
-            "TuteurDao.deleteById"
-        ],
         "addTuteur": [
             "TuteurDao.save"
         ],
-        "updateTuteur": [
-            "TuteurDao.save"
+        "findTuteurById": [
+            "TuteurDao.findTuteurById"
+        ],
+        "deleteTuteur": [
+            "TuteurDao.deleteById"
         ]
     },
     "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java": {
-        "addTypeStage": [
-            "TypeStageDao.save"
+        "getAllTypesStage": [
+            "TypeStageDao.findAll"
         ],
         "findTypeStageById": [
             "TypeStageDao.findTypeStageById"
@@ -1713,8 +1713,8 @@
         "deleteTypeStage": [
             "TypeStageDao.deleteById"
         ],
-        "getAllTypesStage": [
-            "TypeStageDao.findAll"
+        "addTypeStage": [
+            "TypeStageDao.save"
         ]
     }
 }

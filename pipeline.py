@@ -21,29 +21,30 @@ from project_analysis_results_with_inheritanceJson import process_project_analys
 from cogcn.cogcn.vi_output import load_pickle, visualize_embeddings, visualize_outliers
 from cogcn.cogcn.graph_visualisation import main_graph_visualisation
 
-def main():
+def main(uploaded_zip):
     # Current working directory operations
     base_project_dir = os.getcwd()  # Current project directory
-    uploaded_zip = "projet_SI_gestion_ECM.zip"
     project_dir = unzip_java_project(uploaded_zip, base_project_dir)
     print(f"Project extracted to: {project_dir}")
 
+    # Get project name from zip filename (without extension)
+    project_name = os.path.splitext(os.path.basename(uploaded_zip))[0]
+    project_path = os.path.join('springboot-projects', project_name)
+
     # Generate dependency graph
-    analyzer = SpringBootAnalyzer("springboot-projects/projet_SI_gestion_ECM")
+    analyzer = SpringBootAnalyzer(project_path)
     analyzer.save_to_file("dependency_graph.json")
     print("Dependency graph generated successfully!")
 
     # Update dependency graph
-    PROJECT_PATH = "springboot-projects/projet_SI_gestion_ECM/src/main/java"
+    PROJECT_PATH = os.path.join(project_path, 'src/main/java')
     JSON_FILEPATH = "dependency_graph.json"
     update_dependency_graph(PROJECT_PATH, JSON_FILEPATH)
 
     # Generate entrypoints
-    root_path = "springboot-projects/projet_SI_gestion_ECM"
-    output_file = "entrypoints.json"
-    entrypoints = analyze_files(root_path)
-    save_to_json(entrypoints, output_file)
-    print(f"Saved entrypoints to {output_file}")
+    entrypoints = analyze_files(project_path)
+    save_to_json(entrypoints, "entrypoints.json")
+    print(f"Saved entrypoints to entrypoints.json")
 
     # Generate adjacency matrix
     dependency_graph_file = "dependency_graph.json"
@@ -51,7 +52,7 @@ def main():
     save_adjacency_matrix_as_csv(adjacency_matrix, "cogcn/cogcn/data/apps/acmeair/struct.csv")
 
     # Inheritance relations
-    analyzer = InheritanceAnalyzer("springboot-projects/projet_SI_gestion_ECM")
+    analyzer = InheritanceAnalyzer(project_path)
     analyzer.analyze()
     analyzer.save_to_file("inheritance_relations.json")
 
@@ -77,8 +78,7 @@ def main():
     print("Class list saved to 'node_mapping.json'")
 
     # Java class methods
-    directory = 'springboot-projects/projet_SI_gestion_ECM'
-    results = analyze_java_directory(directory)
+    results = analyze_java_directory(project_path)
     save_results_to_json(results)
 
     # Project analysis with inheritance
@@ -122,7 +122,7 @@ def main():
     training_cmd = [
         sys.executable, 'train.py', 
         '--dataset-str', 'data/apps/ECM', 
-        '--k', '4'
+        '--k', '5'
     ]
     
     try:
@@ -135,26 +135,42 @@ def main():
         raise
     
     # Visualize embeddings
+    
+    # Path to your dataset directory
     dataset_dir = "data/apps/ECM"
     embeddings_file = os.path.join(dataset_dir, "embeddings.pkl")
     outliers_file = os.path.join(dataset_dir, "embeddings_outliers.pkl")
     membership_file = os.path.join(dataset_dir, "embeddings_membership.pkl")
-    
+
+    # Load embeddings
     embeddings = load_pickle(embeddings_file)
     print(f"Embeddings shape: {embeddings.shape}")
-    
+
+    # Load outlier scores
     outliers = load_pickle(outliers_file)
     o_1, o_2 = outliers
     print(f"Outlier scores (o_1): {o_1.shape}, (o_2): {o_2.shape}")
-    
+
+    # Load cluster memberships
     cluster_memberships = load_pickle(membership_file)
     print(f"Cluster memberships: {cluster_memberships}")
-    
-    visualize_embeddings(embeddings, labels=cluster_memberships, method='pca')
-    visualize_embeddings(embeddings, labels=cluster_memberships, method='tsne', perplexity=10)
+
+    if not os.path.exists('imgs'):
+        os.makedirs('imgs')
+
+    # Visualize embeddings and save as files
+    visualize_embeddings(embeddings, labels=cluster_memberships, method='pca', output_file='imgs/pca_embeddings.png')
+    visualize_embeddings(embeddings, labels=cluster_memberships, method='tsne', perplexity=10, output_file='imgs/tsne_embeddings.png')
+
+    # Visualize outlier scores and save as file
+    visualize_outliers(o_1, o_2, output_file='imgs/outlier_scores.png')
 
     # Graph decomposition visualization
     main_graph_visualisation()
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Process Java project ZIP file')
+    parser.add_argument('zip_file', help='Path to the Java project ZIP file')
+    args = parser.parse_args()
+    
+    main(args.zip_file)

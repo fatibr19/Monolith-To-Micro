@@ -39,7 +39,8 @@ def main(uploaded_zip):
     # Update dependency graph
     PROJECT_PATH = os.path.join(project_path, 'src/main/java')
     JSON_FILEPATH = "dependency_graph.json"
-    update_dependency_graph(PROJECT_PATH, JSON_FILEPATH)
+    update_dependency_graph(PROJECT_PATH.replace("\\","/"), JSON_FILEPATH)
+    print(f"depency graph updated successfully, project_path: {PROJECT_PATH}")
 
     # Generate entrypoints
     entrypoints = analyze_files(project_path)

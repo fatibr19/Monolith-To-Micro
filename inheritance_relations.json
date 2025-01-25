@@ -1,0 +1,114 @@
+{
+  "inheritance_relations": [
+    {
+      "child": "AcquerirServiceImpl",
+      "parent": "AcquerirService",
+      "type": "implements"
+    },
+    {
+      "child": "CandidatServiceImpl",
+      "parent": "CandidatService",
+      "type": "implements"
+    },
+    {
+      "child": "CompetenceServiceImpl",
+      "parent": "CompetenceService",
+      "type": "implements"
+    },
+    {
+      "child": "DateStageServiceImpl",
+      "parent": "DateStageService",
+      "type": "implements"
+    },
+    {
+      "child": "EntrepriseServiceImpl",
+      "parent": "EntrepriseService",
+      "type": "implements"
+    },
+    {
+      "child": "EtudiantServiceImpl",
+      "parent": "EtudiantService",
+      "type": "implements"
+    },
+    {
+      "child": "ProfServiceImpl",
+      "parent": "ProfService",
+      "type": "implements"
+    },
+    {
+      "child": "PromoServiceImpl",
+      "parent": "PromoService",
+      "type": "implements"
+    },
+    {
+      "child": "StageServiceImpl",
+      "parent": "StageService",
+      "type": "implements"
+    },
+    {
+      "child": "TuteurServiceImpl",
+      "parent": "TuteurService",
+      "type": "implements"
+    },
+    {
+      "child": "TypeStageServiceImpl",
+      "parent": "TypeStageService",
+      "type": "implements"
+    },
+    {
+      "child": "AcquerirServiceImpl",
+      "parent": "AcquerirService",
+      "type": "implements"
+    },
+    {
+      "child": "CandidatServiceImpl",
+      "parent": "CandidatService",
+      "type": "implements"
+    },
+    {
+      "child": "CompetenceServiceImpl",
+      "parent": "CompetenceService",
+      "type": "implements"
+    },
+    {
+      "child": "DateStageServiceImpl",
+      "parent": "DateStageService",
+      "type": "implements"
+    },
+    {
+      "child": "EntrepriseServiceImpl",
+      "parent": "EntrepriseService",
+      "type": "implements"
+    },
+    {
+      "child": "EtudiantServiceImpl",
+      "parent": "EtudiantService",
+      "type": "implements"
+    },
+    {
+      "child": "ProfServiceImpl",
+      "parent": "ProfService",
+      "type": "implements"
+    },
+    {
+      "child": "PromoServiceImpl",
+      "parent": "PromoService",
+      "type": "implements"
+    },
+    {
+      "child": "StageServiceImpl",
+      "parent": "StageService",
+      "type": "implements"
+    },
+    {
+      "child": "TuteurServiceImpl",
+      "parent": "TuteurService",
+      "type": "implements"
+    },
+    {
+      "child": "TypeStageServiceImpl",
+      "parent": "TypeStageService",
+      "type": "implements"
+    }
+  ]
+}

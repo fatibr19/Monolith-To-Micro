@@ -34,8 +34,9 @@ def main():
     print("Dependency graph generated successfully!")
 
     # Update dependency graph
-    project_base_path = os.path.join(os.getcwd(), 'springboot-projects', 'projet_SI_gestion_ECM')
-    update_dependency_graph(project_base_path)
+    PROJECT_PATH = "springboot-projects/projet_SI_gestion_ECM/src/main/java"
+    JSON_FILEPATH = "dependency_graph.json"
+    update_dependency_graph(PROJECT_PATH, JSON_FILEPATH)
 
     # Generate entrypoints
     root_path = "springboot-projects/projet_SI_gestion_ECM"

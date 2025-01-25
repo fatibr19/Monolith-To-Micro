@@ -133,7 +133,7 @@ def main():
         print("Training failed with error:")
         print(e.stderr)
         raise
-
+    
     # Visualize embeddings
     dataset_dir = "data/apps/ECM"
     embeddings_file = os.path.join(dataset_dir, "embeddings.pkl")

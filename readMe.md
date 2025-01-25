@@ -58,6 +58,12 @@ Avant de commencer, assurez-vous que votre environnement est correctement config
 - **Python 3.9.0**
 - **Bibliothèques Python** : `numpy`, `json`, `javalang`, `subprocess`, `scikit-learn`, `matplotlib`, etc.
 
+Les détails des versions des dépendances sont présents dans **requirements.txt**
+
 ## Lancer la Pipeline
 
 La pipeline est déclenchée à partir de l'upload du projet SpringBoot côté client (UI). Et donc toutes les étapes décrites ci-dessus, du déballage du projet à l'entraînement du modèle et à la visualisation des résultats vont être effectuées.
+
+## Piste pour la génération du projet Microservices
+
+Pour la partie concernant la génération du projet Microservices, le dossier **generate microservice** est soumis à votre disposition. C'est un projet du **Model Driven Engineering** ou MDE, qui consiste à la génération de projet microservices. Il n'est pas complet, mais il peut être considéré comme une piste solide pour le projet.

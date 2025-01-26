@@ -3,9 +3,11 @@ import { useDropzone } from "react-dropzone";
 import { Button, Card, Typography } from "@mui/material";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import axios from 'axios';
+import LoadingComponent from "./loading";
 
 function StyledDropzone() {
   const [fileInfo, setFileInfo] = useState<{ file: File; size: string } | null>(null);
+   const [isloading, setIsLoading] = useState<boolean>(false)
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     const file = acceptedFiles[0];
@@ -24,18 +26,20 @@ function StyledDropzone() {
     if (fileInfo) {
       const formData = new FormData();
       formData.append("file", fileInfo.file); // Correction ici, passer fileInfo.file
-
+      setIsLoading(true)
       try {
         const response = await axios.post("http://127.0.0.1:8000/upload/", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
         });
+        setIsLoading(false)
         alert('File uploaded successfully');
         console.log(response.data);
       } catch (error) {
         alert('Error uploading file');
         console.error('Error uploading file:', error);
+        setIsLoading(false)
       }
     } else {
       alert("Please upload a .zip file");
@@ -80,6 +84,9 @@ function StyledDropzone() {
           )}
         </Card>
       </Card>
+      {isloading &&(
+        <LoadingComponent/>
+      )}
       {fileInfo && (
         <Button
           variant="contained"

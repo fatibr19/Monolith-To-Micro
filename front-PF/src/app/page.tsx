@@ -8,6 +8,7 @@ import StyledDropzone from './dropZone';
 export default function Home() {
   const theme = useTheme();
   const [file, setFile] = useState<File | null>(null);
+ 
 
   const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files;

@@ -2,11 +2,10 @@ import React, { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import { Button, Card, Typography } from "@mui/material";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
+import axios from 'axios';
 
 function StyledDropzone() {
-  const [fileInfo, setFileInfo] = useState<{ file: File; size: string } | null>(
-    null
-  );
+  const [fileInfo, setFileInfo] = useState<{ file: File; size: string } | null>(null);
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     const file = acceptedFiles[0];
@@ -21,10 +20,25 @@ function StyledDropzone() {
     }
   }, []);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => { // Ajout de async ici
     if (fileInfo) {
-      console.log("Envoi du fichier:", fileInfo.file);
-      alert("Fichier envoyé avec succès !");
+      const formData = new FormData();
+      formData.append("file", fileInfo.file); // Correction ici, passer fileInfo.file
+
+      try {
+        const response = await axios.post("http://127.0.0.1:8000/upload/", formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+        alert('File uploaded successfully');
+        console.log(response.data);
+      } catch (error) {
+        alert('Error uploading file');
+        console.error('Error uploading file:', error);
+      }
+    } else {
+      alert("Please upload a .zip file");
     }
   };
 
@@ -37,40 +51,31 @@ function StyledDropzone() {
   return (
     <>
       <Card
+        {...getRootProps()}
         sx={{
           padding: "1px",
           border: "2px dashed #1f216f",
         }}
       >
         <Card
-          {...getRootProps()}
           sx={{
             padding: 2,
             textAlign: "center",
-            background: fileInfo ? "#FFFFFF" : "#1f216f", // Changement de fond après le téléchargement
-            color: fileInfo ? "#000000" : "#FFF", // Changement de couleur de texte
+            background: fileInfo ? "#FFFFFF" : "#1f216f",
+            color: fileInfo ? "#000000" : "#FFF",
           }}
         >
           <input {...getInputProps()} />
           {fileInfo ? (
             <>
               <InsertDriveFileIcon sx={{ fontSize: 60 }} />
-              <Typography
-                variant="body1"
-                sx={{ fontFamily: "'JetBrains Mono', monospace" }}
-              >
+              <Typography variant="body1" sx={{ fontFamily: "'JetBrains Mono', monospace" }}>
                 {fileInfo.file.name} - {fileInfo.size}
               </Typography>
-              
             </>
           ) : (
-            <Typography
-              variant="body2"
-              sx={{ fontFamily: "'JetBrains Mono', monospace" }}
-            >
-              {isDragActive
-                ? "Déposez votre fichier ici..."
-                : "Glissez et déposez votre fichier .zip ici ou cliquez pour sélectionner un fichier"}
+            <Typography variant="body2" sx={{ fontFamily: "'JetBrains Mono', monospace" }}>
+              {isDragActive ? "Déposez votre fichier ici..." : "Glissez et déposez votre fichier .zip ici ou cliquez pour sélectionner un fichier"}
             </Typography>
           )}
         </Card>

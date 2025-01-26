@@ -20,17 +20,8 @@
         "class_name": "CorsConfig"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java": {
-        "updateAcquerir": {
-            "method_index": 476,
-            "actions": [
-                "42.892"
-            ],
-            "entrypoint_ids": [
-                4
-            ]
-        },
         "addAcquerir": {
-            "method_index": 477,
+            "method_index": 476,
             "actions": [
                 "42.893"
             ],
@@ -38,105 +29,105 @@
                 3
             ]
         },
-        "getAcquerirById": {
-            "method_index": 478,
+        "deleteAcquerir": {
+            "method_index": 477,
             "actions": [
-                "42.896"
+                "42.894"
             ],
             "entrypoint_ids": [
-                2
+                5
             ]
         },
         "getAllAcquerirs": {
-            "method_index": 479,
+            "method_index": 478,
             "actions": [
-                "42.894"
+                "42.895"
             ],
             "entrypoint_ids": [
                 1
             ]
         },
-        "deleteAcquerir": {
-            "method_index": 480,
+        "getAcquerirById": {
+            "method_index": 479,
             "actions": [
-                "42.895"
+                "42.892"
             ],
             "entrypoint_ids": [
-                5
+                2
+            ]
+        },
+        "updateAcquerir": {
+            "method_index": 480,
+            "actions": [
+                "42.896"
+            ],
+            "entrypoint_ids": [
+                4
             ]
         },
         "class_id": "2",
         "class_name": "AcquerirController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java": {
-        "addCandidatWithDossier": {
-            "method_index": 481,
-            "actions": [],
-            "entrypoint_ids": [
-                9
-            ]
-        },
         "getAccessByEmail": {
-            "method_index": 482,
+            "method_index": 481,
             "actions": [
-                "44.899"
+                "44.897"
             ],
             "entrypoint_ids": [
                 7
             ]
         },
-        "getAllCandidats": {
-            "method_index": 483,
-            "actions": [
-                "44.897",
-                "8.561"
-            ],
-            "entrypoint_ids": [
-                6
-            ]
-        },
         "updateAccess": {
-            "method_index": 484,
+            "method_index": 482,
             "actions": [
-                "44.898"
+                "44.900"
             ],
             "entrypoint_ids": [
                 10
             ]
         },
-        "deleteCandidat": {
-            "method_index": 485,
+        "addCandidat": {
+            "method_index": 483,
             "actions": [
-                "44.900"
+                "44.898"
             ],
             "entrypoint_ids": [
-                11
+                8
             ]
         },
-        "addCandidat": {
+        "getAllCandidats": {
+            "method_index": 484,
+            "actions": [
+                "8.553",
+                "44.899"
+            ],
+            "entrypoint_ids": [
+                6
+            ]
+        },
+        "addCandidatWithDossier": {
+            "method_index": 485,
+            "actions": [],
+            "entrypoint_ids": [
+                9
+            ]
+        },
+        "deleteCandidat": {
             "method_index": 486,
             "actions": [
                 "44.901"
             ],
             "entrypoint_ids": [
-                8
+                11
             ]
         },
         "class_id": "5",
         "class_name": "CandidatController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java": {
-        "updateAccess": {
-            "method_index": 487,
-            "actions": [
-                "46.904"
-            ],
-            "entrypoint_ids": [
-                15
-            ]
-        },
         "addCompetence": {
-            "method_index": 488,
+            "method_index": 487,
             "actions": [
                 "46.902"
             ],
@@ -144,22 +135,31 @@
                 14
             ]
         },
-        "deleteCompetence": {
-            "method_index": 489,
+        "updateAccess": {
+            "method_index": 488,
             "actions": [
                 "46.903"
             ],
             "entrypoint_ids": [
-                16
+                15
             ]
         },
         "getAccessByCode": {
-            "method_index": 490,
+            "method_index": 489,
             "actions": [
                 "46.905"
             ],
             "entrypoint_ids": [
                 13
+            ]
+        },
+        "deleteCompetence": {
+            "method_index": 490,
+            "actions": [
+                "46.904"
+            ],
+            "entrypoint_ids": [
+                16
             ]
         },
         "getAllCompetences": {
@@ -175,71 +175,71 @@
         "class_name": "CompetenceController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 492,
             "actions": [
                 "48.907"
             ],
             "entrypoint_ids": [
-                21
+                19
             ]
         },
-        "getDateStageById": {
+        "updateDateStage": {
             "method_index": 493,
             "actions": [
                 "48.908"
             ],
             "entrypoint_ids": [
-                18
+                20
             ]
         },
-        "updateDateStage": {
+        "getAllDatesStage": {
             "method_index": 494,
             "actions": [
                 "48.909"
             ],
             "entrypoint_ids": [
-                20
+                17
             ]
         },
-        "addDateStage": {
+        "getDateStageById": {
             "method_index": 495,
             "actions": [
                 "48.910"
             ],
             "entrypoint_ids": [
-                19
+                18
             ]
         },
-        "getAllDatesStage": {
+        "deleteDateStage": {
             "method_index": 496,
             "actions": [
                 "48.911"
             ],
             "entrypoint_ids": [
-                17
+                21
             ]
         },
         "class_id": "12",
         "class_name": "DateStageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java": {
-        "getEntrepriseById": {
+        "getAllEntreprises": {
             "method_index": 497,
-            "actions": [
-                "50.913"
-            ],
-            "entrypoint_ids": [
-                23
-            ]
-        },
-        "addEntreprise": {
-            "method_index": 498,
             "actions": [
                 "50.912"
             ],
             "entrypoint_ids": [
-                24
+                22
+            ]
+        },
+        "updateEntreprise": {
+            "method_index": 498,
+            "actions": [
+                "50.913"
+            ],
+            "entrypoint_ids": [
+                25
             ]
         },
         "deleteEntreprise": {
@@ -251,62 +251,62 @@
                 26
             ]
         },
-        "updateEntreprise": {
+        "getEntrepriseById": {
             "method_index": 500,
-            "actions": [
-                "50.915"
-            ],
-            "entrypoint_ids": [
-                25
-            ]
-        },
-        "getAllEntreprises": {
-            "method_index": 501,
             "actions": [
                 "50.916"
             ],
             "entrypoint_ids": [
-                22
+                23
+            ]
+        },
+        "addEntreprise": {
+            "method_index": 501,
+            "actions": [
+                "50.915"
+            ],
+            "entrypoint_ids": [
+                24
             ]
         },
         "class_id": "15",
         "class_name": "EntrepriseController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java": {
-        "getAllEtudiants": {
+        "getEtudiantById": {
             "method_index": 502,
             "actions": [
-                "52.917"
-            ],
-            "entrypoint_ids": [
-                27
-            ]
-        },
-        "addEtudiant": {
-            "method_index": 503,
-            "actions": [
-                "52.919"
-            ],
-            "entrypoint_ids": [
-                29
-            ]
-        },
-        "getEtudiantById": {
-            "method_index": 504,
-            "actions": [
-                "52.918"
+                "52.920"
             ],
             "entrypoint_ids": [
                 28
             ]
         },
         "updateEtudiant": {
-            "method_index": 505,
+            "method_index": 503,
             "actions": [
-                "52.920"
+                "52.917"
             ],
             "entrypoint_ids": [
                 30
+            ]
+        },
+        "addEtudiant": {
+            "method_index": 504,
+            "actions": [
+                "52.918"
+            ],
+            "entrypoint_ids": [
+                29
+            ]
+        },
+        "getAllEtudiants": {
+            "method_index": 505,
+            "actions": [
+                "52.919"
+            ],
+            "entrypoint_ids": [
+                27
             ]
         },
         "deleteEtudiant": {
@@ -322,40 +322,40 @@
         "class_name": "EtudiantController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java": {
-        "deleteProf": {
+        "getProfById": {
             "method_index": 507,
             "actions": [
-                "54.922"
-            ],
-            "entrypoint_ids": [
-                36
-            ]
-        },
-        "getAllProfs": {
-            "method_index": 508,
-            "actions": [
                 "54.923"
-            ],
-            "entrypoint_ids": [
-                32
-            ]
-        },
-        "getProfById": {
-            "method_index": 509,
-            "actions": [
-                "54.924"
             ],
             "entrypoint_ids": [
                 33
             ]
         },
-        "updateProf": {
-            "method_index": 510,
+        "getAllProfs": {
+            "method_index": 508,
             "actions": [
                 "54.925"
             ],
             "entrypoint_ids": [
+                32
+            ]
+        },
+        "updateProf": {
+            "method_index": 509,
+            "actions": [
+                "54.924"
+            ],
+            "entrypoint_ids": [
                 35
+            ]
+        },
+        "deleteProf": {
+            "method_index": 510,
+            "actions": [
+                "54.922"
+            ],
+            "entrypoint_ids": [
+                36
             ]
         },
         "addProf": {
@@ -371,26 +371,35 @@
         "class_name": "ProfController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java": {
-        "getPromoById": {
+        "updatePromo": {
             "method_index": 512,
             "actions": [
                 "56.927"
             ],
             "entrypoint_ids": [
-                38
+                40
             ]
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 513,
             "actions": [
                 "56.928"
             ],
             "entrypoint_ids": [
-                40
+                37
+            ]
+        },
+        "getPromoById": {
+            "method_index": 514,
+            "actions": [
+                "56.931"
+            ],
+            "entrypoint_ids": [
+                38
             ]
         },
         "deletePromo": {
-            "method_index": 514,
+            "method_index": 515,
             "actions": [
                 "56.929"
             ],
@@ -398,19 +407,10 @@
                 41
             ]
         },
-        "getAllPromos": {
-            "method_index": 515,
-            "actions": [
-                "56.930"
-            ],
-            "entrypoint_ids": [
-                37
-            ]
-        },
         "addPromo": {
             "method_index": 516,
             "actions": [
-                "56.931"
+                "56.930"
             ],
             "entrypoint_ids": [
                 39
@@ -420,40 +420,40 @@
         "class_name": "PromoController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java": {
-        "addStage": {
+        "getStageById": {
             "method_index": 517,
             "actions": [
                 "58.932"
+            ],
+            "entrypoint_ids": [
+                43
+            ]
+        },
+        "getAllStages": {
+            "method_index": 518,
+            "actions": [
+                "58.933"
+            ],
+            "entrypoint_ids": [
+                42
+            ]
+        },
+        "addStage": {
+            "method_index": 519,
+            "actions": [
+                "58.934"
             ],
             "entrypoint_ids": [
                 44
             ]
         },
         "updateStage": {
-            "method_index": 518,
-            "actions": [
-                "58.934"
-            ],
-            "entrypoint_ids": [
-                45
-            ]
-        },
-        "getAllStages": {
-            "method_index": 519,
+            "method_index": 520,
             "actions": [
                 "58.935"
             ],
             "entrypoint_ids": [
-                42
-            ]
-        },
-        "getStageById": {
-            "method_index": 520,
-            "actions": [
-                "58.933"
-            ],
-            "entrypoint_ids": [
-                43
+                45
             ]
         },
         "deleteStage": {
@@ -469,17 +469,8 @@
         "class_name": "StageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java": {
-        "getTuteurById": {
-            "method_index": 522,
-            "actions": [
-                "60.940"
-            ],
-            "entrypoint_ids": [
-                48
-            ]
-        },
         "addTuteur": {
-            "method_index": 523,
+            "method_index": 522,
             "actions": [
                 "60.937"
             ],
@@ -487,17 +478,17 @@
                 49
             ]
         },
-        "updateTuteur": {
-            "method_index": 524,
+        "getTuteurById": {
+            "method_index": 523,
             "actions": [
                 "60.938"
             ],
             "entrypoint_ids": [
-                50
+                48
             ]
         },
         "deleteTuteur": {
-            "method_index": 525,
+            "method_index": 524,
             "actions": [
                 "60.939"
             ],
@@ -506,38 +497,38 @@
             ]
         },
         "getAllTuteurs": {
+            "method_index": 525,
+            "actions": [
+                "60.940"
+            ],
+            "entrypoint_ids": [
+                47
+            ]
+        },
+        "updateTuteur": {
             "method_index": 526,
             "actions": [
                 "60.941"
             ],
             "entrypoint_ids": [
-                47
+                50
             ]
         },
         "class_id": "30",
         "class_name": "TuteurController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 527,
             "actions": [
                 "62.942"
             ],
             "entrypoint_ids": [
-                56
-            ]
-        },
-        "getAllTypesStage": {
-            "method_index": 528,
-            "actions": [
-                "62.943"
-            ],
-            "entrypoint_ids": [
-                52
+                55
             ]
         },
         "getTypeStageById": {
-            "method_index": 529,
+            "method_index": 528,
             "actions": [
                 "62.944"
             ],
@@ -545,53 +536,62 @@
                 53
             ]
         },
-        "updateTypeStage": {
+        "addTypeStage": {
+            "method_index": 529,
+            "actions": [
+                "62.943"
+            ],
+            "entrypoint_ids": [
+                54
+            ]
+        },
+        "getAllTypesStage": {
             "method_index": 530,
             "actions": [
                 "62.945"
             ],
             "entrypoint_ids": [
-                55
+                52
             ]
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 531,
             "actions": [
                 "62.946"
             ],
             "entrypoint_ids": [
-                54
+                56
             ]
         },
         "class_id": "33",
         "class_name": "TypeStageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java": {
-        "getAccessLibelle": {
+        "setAccessLibelle": {
             "method_index": 532,
             "actions": []
         },
-        "getAuthority": {
+        "getAccessLibelle": {
             "method_index": 533,
             "actions": []
         },
-        "getAccessId": {
+        "setAuthority": {
             "method_index": 534,
             "actions": []
         },
-        "setAccessLibelle": {
+        "getAuthority": {
             "method_index": 535,
             "actions": []
         },
-        "setAccessId": {
+        "toString": {
             "method_index": 536,
             "actions": []
         },
-        "toString": {
+        "getAccessId": {
             "method_index": 537,
             "actions": []
         },
-        "setAuthority": {
+        "setAccessId": {
             "method_index": 538,
             "actions": []
         },
@@ -599,51 +599,51 @@
         "class_name": "Access"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java": {
-        "getTypeStageId": {
+        "setCompetenceId": {
             "method_index": 539,
             "actions": []
         },
-        "setCompetence": {
+        "getNiveau": {
             "method_index": 540,
             "actions": []
         },
-        "getCompetence": {
+        "getTypeStage": {
             "method_index": 541,
             "actions": []
         },
-        "setTypeStage": {
+        "getId": {
             "method_index": 542,
             "actions": []
         },
-        "getTypeStage": {
+        "getTypeStageId": {
             "method_index": 543,
             "actions": []
         },
-        "setId": {
+        "setTypeStageId": {
             "method_index": 544,
             "actions": []
         },
-        "getCompetenceId": {
+        "setTypeStage": {
             "method_index": 545,
             "actions": []
         },
-        "setCompetenceId": {
+        "getCompetenceId": {
             "method_index": 546,
             "actions": []
         },
-        "getId": {
+        "setNiveau": {
             "method_index": 547,
             "actions": []
         },
-        "setNiveau": {
+        "getCompetence": {
             "method_index": 548,
             "actions": []
         },
-        "setTypeStageId": {
+        "setCompetence": {
             "method_index": 549,
             "actions": []
         },
-        "getNiveau": {
+        "setId": {
             "method_index": 550,
             "actions": []
         },
@@ -663,47 +663,47 @@
         "class_name": "Annee"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java": {
-        "setEmail": {
+        "getStatut": {
             "method_index": 553,
             "actions": []
         },
-        "getDossierComplete": {
+        "getDossier": {
             "method_index": 554,
             "actions": []
         },
-        "getDossier": {
+        "setStatut": {
             "method_index": 555,
             "actions": []
         },
-        "getPromo": {
+        "setEmail": {
             "method_index": 556,
             "actions": []
         },
-        "setPromo": {
+        "setDossierComplete": {
             "method_index": 557,
             "actions": []
         },
-        "setNom": {
+        "getPromo": {
             "method_index": 558,
             "actions": []
         },
-        "getEmail": {
+        "setDossier": {
             "method_index": 559,
             "actions": []
         },
-        "setStatut": {
+        "setPromo": {
             "method_index": 560,
             "actions": []
         },
-        "getStatut": {
+        "getEmail": {
             "method_index": 561,
             "actions": []
         },
-        "setDossierComplete": {
+        "getPrenom": {
             "method_index": 562,
             "actions": []
         },
-        "setDossier": {
+        "setNom": {
             "method_index": 563,
             "actions": []
         },
@@ -711,11 +711,11 @@
             "method_index": 564,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 565,
             "actions": []
         },
-        "getNom": {
+        "getDossierComplete": {
             "method_index": 566,
             "actions": []
         },
@@ -723,23 +723,23 @@
         "class_name": "Candidat"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java": {
-        "setDesc": {
+        "getCode": {
             "method_index": 567,
             "actions": []
         },
-        "setCode": {
+        "getLibelle": {
             "method_index": 568,
             "actions": []
         },
-        "getLibelle": {
+        "setCode": {
             "method_index": 569,
             "actions": []
         },
-        "getCode": {
+        "setLibelle": {
             "method_index": 570,
             "actions": []
         },
-        "setLibelle": {
+        "setDesc": {
             "method_index": 571,
             "actions": []
         },
@@ -751,47 +751,47 @@
         "class_name": "Competence"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java": {
-        "setAnnee": {
+        "setDateDeb": {
             "method_index": 573,
             "actions": []
         },
-        "getTypeStageId": {
+        "getTypeStage": {
             "method_index": 574,
             "actions": []
         },
-        "setTypeStage": {
+        "setDateFin": {
             "method_index": 575,
             "actions": []
         },
-        "getTypeStage": {
+        "getId": {
             "method_index": 576,
             "actions": []
         },
-        "setDateDeb": {
+        "getTypeStageId": {
             "method_index": 577,
             "actions": []
         },
-        "setId": {
+        "setTypeStageId": {
             "method_index": 578,
             "actions": []
         },
-        "setAnneeId": {
+        "getAnneeId": {
             "method_index": 579,
             "actions": []
         },
-        "getAnnee": {
+        "setAnnee": {
             "method_index": 580,
             "actions": []
         },
-        "setDateFin": {
+        "getDateFin": {
             "method_index": 581,
             "actions": []
         },
-        "getDateFin": {
+        "getAnnee": {
             "method_index": 582,
             "actions": []
         },
-        "getId": {
+        "setTypeStage": {
             "method_index": 583,
             "actions": []
         },
@@ -799,11 +799,11 @@
             "method_index": 584,
             "actions": []
         },
-        "setTypeStageId": {
+        "setId": {
             "method_index": 585,
             "actions": []
         },
-        "getAnneeId": {
+        "setAnneeId": {
             "method_index": 586,
             "actions": []
         },
@@ -815,35 +815,35 @@
             "method_index": 587,
             "actions": []
         },
-        "getRaisonSoc": {
+        "setTelContact": {
             "method_index": 588,
             "actions": []
         },
-        "setId": {
+        "getAdrs": {
             "method_index": 589,
             "actions": []
         },
-        "getContact": {
+        "getTelContact": {
             "method_index": 590,
             "actions": []
         },
-        "getAdrs": {
+        "getId": {
             "method_index": 591,
             "actions": []
         },
-        "setFormeJur": {
+        "getContact": {
             "method_index": 592,
             "actions": []
         },
-        "getId": {
+        "setRaisonSoc": {
             "method_index": 593,
             "actions": []
         },
-        "getFormeJur": {
+        "getRaisonSoc": {
             "method_index": 594,
             "actions": []
         },
-        "setContact": {
+        "setFormeJur": {
             "method_index": 595,
             "actions": []
         },
@@ -851,19 +851,19 @@
             "method_index": 596,
             "actions": []
         },
-        "getTelStandard": {
+        "setContact": {
             "method_index": 597,
             "actions": []
         },
-        "setRaisonSoc": {
+        "getTelStandard": {
             "method_index": 598,
             "actions": []
         },
-        "setTelContact": {
+        "setId": {
             "method_index": 599,
             "actions": []
         },
-        "getTelContact": {
+        "getFormeJur": {
             "method_index": 600,
             "actions": []
         },
@@ -871,23 +871,23 @@
         "class_name": "Entreprise"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java": {
-        "getPromo": {
+        "setAdrs": {
             "method_index": 601,
             "actions": []
         },
-        "setAdrs": {
+        "setMention": {
             "method_index": 602,
             "actions": []
         },
-        "setPromo": {
+        "getSexe": {
             "method_index": 603,
             "actions": []
         },
-        "getMention": {
+        "getAdrs": {
             "method_index": 604,
             "actions": []
         },
-        "setNom": {
+        "getMention": {
             "method_index": 605,
             "actions": []
         },
@@ -895,11 +895,11 @@
             "method_index": 606,
             "actions": []
         },
-        "setId": {
+        "getId": {
             "method_index": 607,
             "actions": []
         },
-        "getAdrs": {
+        "getDateNaissance": {
             "method_index": 608,
             "actions": []
         },
@@ -907,23 +907,23 @@
             "method_index": 609,
             "actions": []
         },
-        "getDateNaissance": {
+        "setPromo": {
             "method_index": 610,
             "actions": []
         },
-        "setDateNaissance": {
+        "getPromo": {
             "method_index": 611,
             "actions": []
         },
-        "getId": {
+        "getPrenom": {
             "method_index": 612,
             "actions": []
         },
-        "getSexe": {
+        "setNom": {
             "method_index": 613,
             "actions": []
         },
-        "setMention": {
+        "setPrenom": {
             "method_index": 614,
             "actions": []
         },
@@ -931,15 +931,15 @@
             "method_index": 615,
             "actions": []
         },
-        "setPrenom": {
+        "getNom": {
             "method_index": 616,
             "actions": []
         },
-        "getPrenom": {
+        "setId": {
             "method_index": 617,
             "actions": []
         },
-        "getNom": {
+        "setDateNaissance": {
             "method_index": 618,
             "actions": []
         },
@@ -947,55 +947,55 @@
         "class_name": "Etudiant"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java": {
-        "setFileName": {
+        "setFilePath": {
             "method_index": 619,
             "actions": []
         },
-        "setFileId": {
+        "setFileName": {
             "method_index": 620,
             "actions": []
         },
-        "fileName": {
+        "fileType": {
             "method_index": 621,
             "actions": []
         },
-        "getFileName": {
+        "build": {
             "method_index": 622,
             "actions": []
         },
-        "build": {
+        "getFileId": {
             "method_index": 623,
             "actions": []
         },
-        "getFileType": {
+        "getFileName": {
             "method_index": 624,
             "actions": []
         },
-        "filePath": {
+        "fileName": {
             "method_index": 625,
             "actions": []
         },
-        "getFilePath": {
+        "builder": {
             "method_index": 626,
             "actions": []
         },
-        "builder": {
+        "getFilePath": {
             "method_index": 627,
             "actions": []
         },
-        "getFileId": {
+        "getFileType": {
             "method_index": 628,
             "actions": []
         },
-        "setFilePath": {
+        "setFileType": {
             "method_index": 629,
             "actions": []
         },
-        "setFileType": {
+        "setFileId": {
             "method_index": 630,
             "actions": []
         },
-        "fileType": {
+        "filePath": {
             "method_index": 631,
             "actions": []
         },
@@ -1007,19 +1007,19 @@
             "method_index": 632,
             "actions": []
         },
-        "setNom": {
+        "getAdrs": {
             "method_index": 633,
             "actions": []
         },
-        "setId": {
+        "getId": {
             "method_index": 634,
             "actions": []
         },
-        "setDateDepart": {
+        "getTel": {
             "method_index": 635,
             "actions": []
         },
-        "getAdrs": {
+        "setDateDepart": {
             "method_index": 636,
             "actions": []
         },
@@ -1027,35 +1027,35 @@
             "method_index": 637,
             "actions": []
         },
-        "getTel": {
+        "getPrenom": {
             "method_index": 638,
             "actions": []
         },
-        "getId": {
+        "setNom": {
             "method_index": 639,
             "actions": []
         },
-        "setTel": {
+        "setPrenom": {
             "method_index": 640,
             "actions": []
         },
-        "getDateDepart": {
+        "setId": {
             "method_index": 641,
             "actions": []
         },
-        "setDateEmbauche": {
+        "setTel": {
             "method_index": 642,
             "actions": []
         },
-        "setPrenom": {
+        "setDateEmbauche": {
             "method_index": 643,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 644,
             "actions": []
         },
-        "getNom": {
+        "getDateDepart": {
             "method_index": 645,
             "actions": []
         },
@@ -1063,31 +1063,31 @@
         "class_name": "Professeur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java": {
-        "getDirigeant": {
+        "setNbrRecus": {
             "method_index": 646,
             "actions": []
         },
-        "setId": {
+        "setNbrInscrits": {
             "method_index": 647,
             "actions": []
         },
-        "getId": {
+        "getDirigeant": {
             "method_index": 648,
             "actions": []
         },
-        "setNbrRecus": {
+        "getId": {
             "method_index": 649,
             "actions": []
         },
-        "getNbrInscrits": {
+        "getNbrRecus": {
             "method_index": 650,
             "actions": []
         },
-        "setNbrInscrits": {
+        "getNbrInscrits": {
             "method_index": 651,
             "actions": []
         },
-        "getNbrRecus": {
+        "setId": {
             "method_index": 652,
             "actions": []
         },
@@ -1099,31 +1099,31 @@
         "class_name": "Promo"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java": {
-        "setRoleLibelle": {
+        "getRoleAccesses": {
             "method_index": 654,
             "actions": []
         },
-        "setRoleAccesses": {
+        "setRoleId": {
             "method_index": 655,
             "actions": []
         },
-        "getRoleId": {
+        "setRoleAccesses": {
             "method_index": 656,
             "actions": []
         },
-        "getRoleLibelle": {
+        "toString": {
             "method_index": 657,
             "actions": []
         },
-        "setRoleId": {
+        "setRoleLibelle": {
             "method_index": 658,
             "actions": []
         },
-        "getRoleAccesses": {
+        "getRoleLibelle": {
             "method_index": 659,
             "actions": []
         },
-        "toString": {
+        "getRoleId": {
             "method_index": 660,
             "actions": []
         },
@@ -1131,35 +1131,35 @@
         "class_name": "Role"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java": {
-        "getCompteRendu": {
+        "getTypeStage": {
             "method_index": 661,
             "actions": []
         },
-        "getEntreprise": {
+        "getProf": {
             "method_index": 662,
             "actions": []
         },
-        "setAnnee": {
+        "getId": {
             "method_index": 663,
             "actions": []
         },
-        "getEtudiant": {
+        "getTuteur": {
             "method_index": 664,
             "actions": []
         },
-        "getTypeStage": {
+        "setAnnee": {
             "method_index": 665,
             "actions": []
         },
-        "setTypeStage": {
+        "setEntreprise": {
             "method_index": 666,
             "actions": []
         },
-        "getTuteur": {
+        "getAnnee": {
             "method_index": 667,
             "actions": []
         },
-        "setId": {
+        "setEtudiant": {
             "method_index": 668,
             "actions": []
         },
@@ -1167,15 +1167,15 @@
             "method_index": 669,
             "actions": []
         },
-        "getAnnee": {
+        "setTuteur": {
             "method_index": 670,
             "actions": []
         },
-        "getProf": {
+        "getEtudiant": {
             "method_index": 671,
             "actions": []
         },
-        "getId": {
+        "setTypeStage": {
             "method_index": 672,
             "actions": []
         },
@@ -1183,15 +1183,15 @@
             "method_index": 673,
             "actions": []
         },
-        "setEtudiant": {
+        "getEntreprise": {
             "method_index": 674,
             "actions": []
         },
-        "setTuteur": {
+        "getCompteRendu": {
             "method_index": 675,
             "actions": []
         },
-        "setEntreprise": {
+        "setId": {
             "method_index": 676,
             "actions": []
         },
@@ -1199,35 +1199,35 @@
         "class_name": "Stage"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java": {
-        "setNom": {
+        "getId": {
             "method_index": 677,
             "actions": []
         },
-        "setId": {
+        "getTel": {
             "method_index": 678,
             "actions": []
         },
-        "getTel": {
+        "getPrenom": {
             "method_index": 679,
             "actions": []
         },
-        "getId": {
+        "setNom": {
             "method_index": 680,
             "actions": []
         },
-        "setTel": {
+        "setPrenom": {
             "method_index": 681,
             "actions": []
         },
-        "setPrenom": {
+        "setTel": {
             "method_index": 682,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 683,
             "actions": []
         },
-        "getNom": {
+        "setId": {
             "method_index": 684,
             "actions": []
         },
@@ -1235,7 +1235,7 @@
         "class_name": "Tuteur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java": {
-        "setId": {
+        "getNbrSemaines": {
             "method_index": 685,
             "actions": []
         },
@@ -1243,7 +1243,7 @@
             "method_index": 686,
             "actions": []
         },
-        "getNbrSemaines": {
+        "setId": {
             "method_index": 687,
             "actions": []
         },
@@ -1259,15 +1259,15 @@
             "method_index": 689,
             "actions": []
         },
-        "getUsername": {
+        "setUsername": {
             "method_index": 690,
             "actions": []
         },
-        "getUserRole": {
+        "getUserPassword": {
             "method_index": 691,
             "actions": []
         },
-        "getUserPassword": {
+        "setUserPassword": {
             "method_index": 692,
             "actions": []
         },
@@ -1279,11 +1279,11 @@
             "method_index": 694,
             "actions": []
         },
-        "setUsername": {
+        "getUsername": {
             "method_index": 695,
             "actions": []
         },
-        "setUserPassword": {
+        "getUserRole": {
             "method_index": 696,
             "actions": []
         },
@@ -1295,47 +1295,47 @@
         "class_name": "Utilisateur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 698,
             "actions": []
         },
-        "save": {
+        "findAcquerirById": {
             "method_index": 699,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 700,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 701,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 702,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 703,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 704,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 705,
             "actions": []
         },
-        "existsById": {
+        "save": {
             "method_index": 706,
             "actions": []
         },
-        "findById": {
+        "findAllById": {
             "method_index": 707,
             "actions": []
         },
-        "findAcquerirById": {
+        "deleteById": {
             "method_index": 708,
             "actions": []
         },
@@ -1343,47 +1343,47 @@
         "class_name": "AcquerirDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java": {
-        "deleteById": {
+        "findCandidatByEmail": {
             "method_index": 709,
             "actions": []
         },
-        "save": {
+        "deleteAll": {
             "method_index": 710,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 711,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 712,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 713,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 714,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 715,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 716,
             "actions": []
         },
-        "findCandidatByEmail": {
+        "save": {
             "method_index": 717,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 718,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 719,
             "actions": []
         },
@@ -1391,15 +1391,15 @@
         "class_name": "CandidatDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 720,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 721,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 722,
             "actions": []
         },
@@ -1407,35 +1407,35 @@
             "method_index": 723,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 724,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 725,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 726,
             "actions": []
         },
-        "count": {
+        "deleteCompetenceByCode": {
             "method_index": 727,
             "actions": []
         },
-        "findCompetenceByCode": {
+        "save": {
             "method_index": 728,
             "actions": []
         },
-        "deleteCompetenceByCode": {
+        "findAllById": {
             "method_index": 729,
             "actions": []
         },
-        "existsById": {
+        "deleteById": {
             "method_index": 730,
             "actions": []
         },
-        "findById": {
+        "findCompetenceByCode": {
             "method_index": 731,
             "actions": []
         },
@@ -1443,15 +1443,15 @@
         "class_name": "CompetenceDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 732,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 733,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 734,
             "actions": []
         },
@@ -1459,31 +1459,31 @@
             "method_index": 735,
             "actions": []
         },
-        "findDateStageById": {
+        "count": {
             "method_index": 736,
             "actions": []
         },
-        "findAllById": {
+        "findDateStageById": {
             "method_index": 737,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 738,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 739,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 740,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 741,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 742,
             "actions": []
         },
@@ -1491,15 +1491,15 @@
         "class_name": "DateStageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 743,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 744,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 745,
             "actions": []
         },
@@ -1507,35 +1507,35 @@
             "method_index": 746,
             "actions": []
         },
-        "findEntrepriseById": {
+        "deleteEntrepriseById": {
             "method_index": 747,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 748,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 749,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 750,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 751,
             "actions": []
         },
-        "deleteEntrepriseById": {
+        "findAllById": {
             "method_index": 752,
             "actions": []
         },
-        "existsById": {
+        "deleteById": {
             "method_index": 753,
             "actions": []
         },
-        "findById": {
+        "findEntrepriseById": {
             "method_index": 754,
             "actions": []
         },
@@ -1543,27 +1543,27 @@
         "class_name": "EntrepriseDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 755,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 756,
             "actions": []
         },
-        "findEtudiantById": {
+        "findAll": {
             "method_index": 757,
             "actions": []
         },
-        "deleteAll": {
+        "saveAll": {
             "method_index": 758,
             "actions": []
         },
-        "saveAll": {
+        "count": {
             "method_index": 759,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 760,
             "actions": []
         },
@@ -1571,19 +1571,19 @@
             "method_index": 761,
             "actions": []
         },
-        "findAll": {
+        "findEtudiantById": {
             "method_index": 762,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 763,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 764,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 765,
             "actions": []
         },
@@ -1591,47 +1591,47 @@
         "class_name": "EtudiantDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 766,
             "actions": []
         },
-        "save": {
+        "findByFileName": {
             "method_index": 767,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 768,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 769,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 770,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 771,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 772,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 773,
             "actions": []
         },
-        "findByFileName": {
+        "save": {
             "method_index": 774,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 775,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 776,
             "actions": []
         },
@@ -1639,11 +1639,11 @@
         "class_name": "FileDataDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 777,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 778,
             "actions": []
         },
@@ -1651,7 +1651,7 @@
             "method_index": 779,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 780,
             "actions": []
         },
@@ -1659,11 +1659,11 @@
             "method_index": 781,
             "actions": []
         },
-        "findProfById": {
+        "count": {
             "method_index": 782,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 783,
             "actions": []
         },
@@ -1671,19 +1671,19 @@
             "method_index": 784,
             "actions": []
         },
-        "findAll": {
+        "findProfById": {
             "method_index": 785,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 786,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 787,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 788,
             "actions": []
         },
@@ -1691,15 +1691,15 @@
         "class_name": "ProfDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 789,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 790,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 791,
             "actions": []
         },
@@ -1707,11 +1707,11 @@
             "method_index": 792,
             "actions": []
         },
-        "findPromoById": {
+        "count": {
             "method_index": 793,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 794,
             "actions": []
         },
@@ -1719,19 +1719,19 @@
             "method_index": 795,
             "actions": []
         },
-        "findAll": {
+        "save": {
             "method_index": 796,
             "actions": []
         },
-        "count": {
+        "findAllById": {
             "method_index": 797,
             "actions": []
         },
-        "existsById": {
+        "findPromoById": {
             "method_index": 798,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 799,
             "actions": []
         },
@@ -1739,15 +1739,15 @@
         "class_name": "PromoDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 800,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 801,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 802,
             "actions": []
         },
@@ -1755,31 +1755,31 @@
             "method_index": 803,
             "actions": []
         },
-        "findAllById": {
+        "findStageById": {
             "method_index": 804,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 805,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 806,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 807,
             "actions": []
         },
-        "existsById": {
+        "save": {
             "method_index": 808,
             "actions": []
         },
-        "findById": {
+        "findAllById": {
             "method_index": 809,
             "actions": []
         },
-        "findStageById": {
+        "deleteById": {
             "method_index": 810,
             "actions": []
         },
@@ -1787,15 +1787,15 @@
         "class_name": "StageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 811,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 812,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 813,
             "actions": []
         },
@@ -1803,35 +1803,35 @@
             "method_index": 814,
             "actions": []
         },
-        "findAllById": {
+        "deleteTuteurById": {
             "method_index": 815,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 816,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 817,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 818,
             "actions": []
         },
-        "findTuteurById": {
+        "save": {
             "method_index": 819,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 820,
             "actions": []
         },
-        "findById": {
+        "findTuteurById": {
             "method_index": 821,
             "actions": []
         },
-        "deleteTuteurById": {
+        "deleteById": {
             "method_index": 822,
             "actions": []
         },
@@ -1839,15 +1839,15 @@
         "class_name": "TuteurDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 823,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 824,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 825,
             "actions": []
         },
@@ -1855,31 +1855,31 @@
             "method_index": 826,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 827,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 828,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 829,
             "actions": []
         },
-        "count": {
+        "findTypeStageById": {
             "method_index": 830,
             "actions": []
         },
-        "findTypeStageById": {
+        "save": {
             "method_index": 831,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 832,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 833,
             "actions": []
         },
@@ -1887,7 +1887,7 @@
         "class_name": "TypeStageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java": {
-        "updateAcquerir": {
+        "findAcquerirById": {
             "method_index": 834,
             "actions": []
         },
@@ -1895,15 +1895,15 @@
             "method_index": 835,
             "actions": []
         },
-        "getAllAcquerirs": {
+        "deleteAcquerir": {
             "method_index": 836,
             "actions": []
         },
-        "deleteAcquerir": {
+        "getAllAcquerirs": {
             "method_index": 837,
             "actions": []
         },
-        "findAcquerirById": {
+        "updateAcquerir": {
             "method_index": 838,
             "actions": []
         },
@@ -1911,23 +1911,23 @@
         "class_name": "AcquerirService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java": {
-        "getAllCandidats": {
+        "findCandidatByEmail": {
             "method_index": 839,
             "actions": []
         },
-        "updateCandidat": {
+        "addCandidat": {
             "method_index": 840,
             "actions": []
         },
-        "findCandidatByEmail": {
+        "getAllCandidats": {
             "method_index": 841,
             "actions": []
         },
-        "deleteCandidat": {
+        "updateCandidat": {
             "method_index": 842,
             "actions": []
         },
-        "addCandidat": {
+        "deleteCandidat": {
             "method_index": 843,
             "actions": []
         },
@@ -1939,11 +1939,11 @@
             "method_index": 844,
             "actions": []
         },
-        "deleteCompetence": {
+        "updateCompetence": {
             "method_index": 845,
             "actions": []
         },
-        "updateCompetence": {
+        "deleteCompetence": {
             "method_index": 846,
             "actions": []
         },
@@ -1959,23 +1959,23 @@
         "class_name": "CompetenceService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 849,
             "actions": []
         },
-        "findDateStageById": {
+        "updateDateStage": {
             "method_index": 850,
             "actions": []
         },
-        "updateDateStage": {
+        "getAllDatesStage": {
             "method_index": 851,
             "actions": []
         },
-        "addDateStage": {
+        "findDateStageById": {
             "method_index": 852,
             "actions": []
         },
-        "getAllDatesStage": {
+        "deleteDateStage": {
             "method_index": 853,
             "actions": []
         },
@@ -1983,11 +1983,11 @@
         "class_name": "DateStageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java": {
-        "addEntreprise": {
+        "getAllEntreprises": {
             "method_index": 854,
             "actions": []
         },
-        "findEntrepriseById": {
+        "updateEntreprise": {
             "method_index": 855,
             "actions": []
         },
@@ -1995,11 +1995,11 @@
             "method_index": 856,
             "actions": []
         },
-        "updateEntreprise": {
+        "addEntreprise": {
             "method_index": 857,
             "actions": []
         },
-        "getAllEntreprises": {
+        "findEntrepriseById": {
             "method_index": 858,
             "actions": []
         },
@@ -2007,19 +2007,19 @@
         "class_name": "EntrepriseService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java": {
-        "getAllEtudiants": {
+        "updateEtudiant": {
             "method_index": 859,
             "actions": []
         },
-        "findEtudiantById": {
+        "addEtudiant": {
             "method_index": 860,
             "actions": []
         },
-        "addEtudiant": {
+        "getAllEtudiants": {
             "method_index": 861,
             "actions": []
         },
-        "updateEtudiant": {
+        "findEtudiantById": {
             "method_index": 862,
             "actions": []
         },
@@ -2035,15 +2035,15 @@
             "method_index": 864,
             "actions": []
         },
-        "getAllProfs": {
+        "findProfById": {
             "method_index": 865,
             "actions": []
         },
-        "findProfById": {
+        "updateProf": {
             "method_index": 866,
             "actions": []
         },
-        "updateProf": {
+        "getAllProfs": {
             "method_index": 867,
             "actions": []
         },
@@ -2055,11 +2055,11 @@
         "class_name": "ProfService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java": {
-        "findPromoById": {
+        "updatePromo": {
             "method_index": 869,
             "actions": []
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 870,
             "actions": []
         },
@@ -2067,11 +2067,11 @@
             "method_index": 871,
             "actions": []
         },
-        "getAllPromos": {
+        "addPromo": {
             "method_index": 872,
             "actions": []
         },
-        "addPromo": {
+        "findPromoById": {
             "method_index": 873,
             "actions": []
         },
@@ -2079,19 +2079,19 @@
         "class_name": "PromoService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java": {
-        "addStage": {
+        "findStageById": {
             "method_index": 874,
             "actions": []
         },
-        "findStageById": {
+        "getAllStages": {
             "method_index": 875,
             "actions": []
         },
-        "updateStage": {
+        "addStage": {
             "method_index": 876,
             "actions": []
         },
-        "getAllStages": {
+        "updateStage": {
             "method_index": 877,
             "actions": []
         },
@@ -2103,38 +2103,38 @@
         "class_name": "StageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java": {
-        "uploadFile": {
+        "findFileDataByFileName": {
             "method_index": 879,
             "actions": [
-                "38.627",
+                "41.767"
+            ]
+        },
+        "uploadFile": {
+            "method_index": 880,
+            "actions": [
+                "41.767",
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
                 "38.629",
                 "unknown.unknown",
                 "unknown.unknown",
+                "41.774",
                 "unknown.unknown",
                 "unknown.unknown",
                 "unknown.unknown",
-                "41.767",
-                "38.630",
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "41.774"
+                "38.619",
+                "38.626"
             ]
         },
         "downloadFile": {
-            "method_index": 880,
-            "actions": [
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "41.774"
-            ]
-        },
-        "findFileDataByFileName": {
             "method_index": 881,
             "actions": [
-                "41.774"
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
+                "41.767"
             ]
         },
         "class_id": "7",
@@ -2145,7 +2145,7 @@
             "method_index": 882,
             "actions": []
         },
-        "updateTuteur": {
+        "findTuteurById": {
             "method_index": 883,
             "actions": []
         },
@@ -2153,11 +2153,11 @@
             "method_index": 884,
             "actions": []
         },
-        "findTuteurById": {
+        "getAllTuteurs": {
             "method_index": 885,
             "actions": []
         },
-        "getAllTuteurs": {
+        "updateTuteur": {
             "method_index": 886,
             "actions": []
         },
@@ -2165,11 +2165,11 @@
         "class_name": "TuteurService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 887,
             "actions": []
         },
-        "getAllTypesStage": {
+        "addTypeStage": {
             "method_index": 888,
             "actions": []
         },
@@ -2177,11 +2177,11 @@
             "method_index": 889,
             "actions": []
         },
-        "updateTypeStage": {
+        "getAllTypesStage": {
             "method_index": 890,
             "actions": []
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 891,
             "actions": []
         },
@@ -2189,70 +2189,70 @@
         "class_name": "TypeStageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java": {
-        "updateAcquerir": {
+        "findAcquerirById": {
             "method_index": 892,
             "actions": [
-                "43.699"
+                "43.699",
+                "unknown.unknown"
             ]
         },
         "addAcquerir": {
             "method_index": 893,
             "actions": [
-                "43.699"
-            ]
-        },
-        "getAllAcquerirs": {
-            "method_index": 894,
-            "actions": [
-                "43.704"
+                "43.706"
             ]
         },
         "deleteAcquerir": {
-            "method_index": 895,
+            "method_index": 894,
             "actions": [
-                "unknown.unknown",
-                "43.708"
+                "43.699",
+                "unknown.unknown"
             ]
         },
-        "findAcquerirById": {
+        "getAllAcquerirs": {
+            "method_index": 895,
+            "actions": [
+                "43.701"
+            ]
+        },
+        "updateAcquerir": {
             "method_index": 896,
             "actions": [
-                "unknown.unknown",
-                "43.708"
+                "43.706"
             ]
         },
         "class_id": "42",
         "class_name": "AcquerirServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java": {
-        "getAllCandidats": {
-            "method_index": 897,
-            "actions": [
-                "45.715"
-            ]
-        },
-        "updateCandidat": {
-            "method_index": 898,
-            "actions": [
-                "45.710"
-            ]
-        },
         "findCandidatByEmail": {
-            "method_index": 899,
-            "actions": [
-                "45.717"
-            ]
-        },
-        "deleteCandidat": {
-            "method_index": 900,
+            "method_index": 897,
             "actions": [
                 "45.709"
             ]
         },
         "addCandidat": {
+            "method_index": 898,
+            "actions": [
+                "45.717"
+            ]
+        },
+        "getAllCandidats": {
+            "method_index": 899,
+            "actions": [
+                "45.712"
+            ]
+        },
+        "updateCandidat": {
+            "method_index": 900,
+            "actions": [
+                "45.717"
+            ]
+        },
+        "deleteCandidat": {
             "method_index": 901,
             "actions": [
-                "45.710"
+                "45.719"
             ]
         },
         "class_id": "44",
@@ -2262,135 +2262,135 @@
         "addCompetence": {
             "method_index": 902,
             "actions": [
-                "47.721"
-            ]
-        },
-        "deleteCompetence": {
-            "method_index": 903,
-            "actions": [
-                "47.729"
+                "47.728"
             ]
         },
         "updateCompetence": {
+            "method_index": 903,
+            "actions": [
+                "47.728"
+            ]
+        },
+        "deleteCompetence": {
             "method_index": 904,
             "actions": [
-                "47.721"
+                "47.727"
             ]
         },
         "findCompetenceByCode": {
             "method_index": 905,
             "actions": [
-                "47.728"
+                "47.731"
             ]
         },
         "getAllCompetences": {
             "method_index": 906,
             "actions": [
-                "47.726"
+                "47.722"
             ]
         },
         "class_id": "46",
         "class_name": "CompetenceServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 907,
             "actions": [
-                "unknown.unknown",
-                "49.736"
-            ]
-        },
-        "findDateStageById": {
-            "method_index": 908,
-            "actions": [
-                "unknown.unknown",
-                "49.736"
+                "49.740"
             ]
         },
         "updateDateStage": {
-            "method_index": 909,
+            "method_index": 908,
             "actions": [
-                "49.733"
-            ]
-        },
-        "addDateStage": {
-            "method_index": 910,
-            "actions": [
-                "49.733"
+                "49.740"
             ]
         },
         "getAllDatesStage": {
+            "method_index": 909,
+            "actions": [
+                "49.734"
+            ]
+        },
+        "findDateStageById": {
+            "method_index": 910,
+            "actions": [
+                "49.737",
+                "unknown.unknown"
+            ]
+        },
+        "deleteDateStage": {
             "method_index": 911,
             "actions": [
-                "49.739"
+                "49.737",
+                "unknown.unknown"
             ]
         },
         "class_id": "48",
         "class_name": "DateStageServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java": {
-        "addEntreprise": {
+        "getAllEntreprises": {
             "method_index": 912,
             "actions": [
-                "51.744"
+                "51.745"
             ]
         },
-        "findEntrepriseById": {
+        "updateEntreprise": {
             "method_index": 913,
             "actions": [
-                "51.747"
+                "51.751"
             ]
         },
         "deleteEntreprise": {
             "method_index": 914,
             "actions": [
-                "51.743"
+                "51.753"
             ]
         },
-        "updateEntreprise": {
+        "addEntreprise": {
             "method_index": 915,
             "actions": [
-                "51.744"
+                "51.751"
             ]
         },
-        "getAllEntreprises": {
+        "findEntrepriseById": {
             "method_index": 916,
             "actions": [
-                "51.750"
+                "51.754"
             ]
         },
         "class_id": "50",
         "class_name": "EntrepriseServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java": {
-        "getAllEtudiants": {
+        "updateEtudiant": {
             "method_index": 917,
             "actions": [
-                "53.762"
+                "53.763"
             ]
         },
-        "findEtudiantById": {
+        "addEtudiant": {
             "method_index": 918,
+            "actions": [
+                "53.763"
+            ]
+        },
+        "getAllEtudiants": {
+            "method_index": 919,
             "actions": [
                 "53.757"
             ]
         },
-        "addEtudiant": {
-            "method_index": 919,
-            "actions": [
-                "53.756"
-            ]
-        },
-        "updateEtudiant": {
+        "findEtudiantById": {
             "method_index": 920,
             "actions": [
-                "53.756"
+                "53.762"
             ]
         },
         "deleteEtudiant": {
             "method_index": 921,
             "actions": [
-                "53.755"
+                "53.765"
             ]
         },
         "class_id": "52",
@@ -2403,96 +2403,96 @@
                 "55.779"
             ]
         },
-        "getAllProfs": {
+        "findProfById": {
             "method_index": 923,
             "actions": [
                 "55.785"
             ]
         },
-        "findProfById": {
+        "updateProf": {
             "method_index": 924,
             "actions": [
-                "55.782"
+                "55.786"
             ]
         },
-        "updateProf": {
+        "getAllProfs": {
             "method_index": 925,
             "actions": [
-                "55.778"
+                "55.780"
             ]
         },
         "addProf": {
             "method_index": 926,
             "actions": [
-                "55.778"
+                "55.786"
             ]
         },
         "class_id": "54",
         "class_name": "ProfServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java": {
-        "findPromoById": {
+        "updatePromo": {
             "method_index": 927,
             "actions": [
-                "57.793"
+                "57.796"
             ]
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 928,
             "actions": [
-                "57.790"
+                "57.791"
             ]
         },
         "deletePromo": {
             "method_index": 929,
             "actions": [
-                "57.789"
+                "57.799"
             ]
         },
-        "getAllPromos": {
+        "addPromo": {
             "method_index": 930,
             "actions": [
                 "57.796"
             ]
         },
-        "addPromo": {
+        "findPromoById": {
             "method_index": 931,
             "actions": [
-                "57.790"
+                "57.798"
             ]
         },
         "class_id": "56",
         "class_name": "PromoServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java": {
-        "addStage": {
+        "findStageById": {
             "method_index": 932,
             "actions": [
-                "59.801"
-            ]
-        },
-        "findStageById": {
-            "method_index": 933,
-            "actions": [
-                "59.810"
-            ]
-        },
-        "updateStage": {
-            "method_index": 934,
-            "actions": [
-                "59.801"
+                "59.804"
             ]
         },
         "getAllStages": {
+            "method_index": 933,
+            "actions": [
+                "59.802"
+            ]
+        },
+        "addStage": {
+            "method_index": 934,
+            "actions": [
+                "59.808"
+            ]
+        },
+        "updateStage": {
             "method_index": 935,
             "actions": [
-                "59.806"
+                "59.808"
             ]
         },
         "deleteStage": {
             "method_index": 936,
             "actions": [
-                "59.800"
+                "59.810"
             ]
         },
         "class_id": "58",
@@ -2502,65 +2502,65 @@
         "addTuteur": {
             "method_index": 937,
             "actions": [
-                "61.812"
+                "61.819"
             ]
         },
-        "updateTuteur": {
+        "findTuteurById": {
             "method_index": 938,
             "actions": [
-                "61.812"
+                "61.821"
             ]
         },
         "deleteTuteur": {
             "method_index": 939,
             "actions": [
-                "61.811"
-            ]
-        },
-        "findTuteurById": {
-            "method_index": 940,
-            "actions": [
-                "61.819"
+                "61.822"
             ]
         },
         "getAllTuteurs": {
+            "method_index": 940,
+            "actions": [
+                "61.813"
+            ]
+        },
+        "updateTuteur": {
             "method_index": 941,
             "actions": [
-                "61.817"
+                "61.819"
             ]
         },
         "class_id": "60",
         "class_name": "TuteurServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 942,
             "actions": [
-                "63.823"
+                "63.831"
             ]
         },
-        "getAllTypesStage": {
+        "addTypeStage": {
             "method_index": 943,
             "actions": [
-                "63.829"
+                "63.831"
             ]
         },
         "findTypeStageById": {
             "method_index": 944,
             "actions": [
-                "63.831"
+                "63.830"
             ]
         },
-        "updateTypeStage": {
+        "getAllTypesStage": {
             "method_index": 945,
             "actions": [
-                "63.824"
+                "63.825"
             ]
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 946,
             "actions": [
-                "63.824"
+                "63.833"
             ]
         },
         "class_id": "62",
@@ -2587,17 +2587,8 @@
         "class_name": "CorsConfig"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java": {
-        "updateAcquerir": {
-            "method_index": 476,
-            "actions": [
-                "42.892"
-            ],
-            "entrypoint_ids": [
-                60
-            ]
-        },
         "addAcquerir": {
-            "method_index": 477,
+            "method_index": 476,
             "actions": [
                 "42.893"
             ],
@@ -2605,105 +2596,105 @@
                 59
             ]
         },
-        "getAcquerirById": {
-            "method_index": 478,
+        "deleteAcquerir": {
+            "method_index": 477,
             "actions": [
-                "42.896"
+                "42.894"
             ],
             "entrypoint_ids": [
-                58
+                61
             ]
         },
         "getAllAcquerirs": {
-            "method_index": 479,
+            "method_index": 478,
             "actions": [
-                "42.894"
+                "42.895"
             ],
             "entrypoint_ids": [
                 57
             ]
         },
-        "deleteAcquerir": {
-            "method_index": 480,
+        "getAcquerirById": {
+            "method_index": 479,
             "actions": [
-                "42.895"
+                "42.892"
             ],
             "entrypoint_ids": [
-                61
+                58
+            ]
+        },
+        "updateAcquerir": {
+            "method_index": 480,
+            "actions": [
+                "42.896"
+            ],
+            "entrypoint_ids": [
+                60
             ]
         },
         "class_id": "2",
         "class_name": "AcquerirController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java": {
-        "addCandidatWithDossier": {
-            "method_index": 481,
-            "actions": [],
-            "entrypoint_ids": [
-                65
-            ]
-        },
         "getAccessByEmail": {
-            "method_index": 482,
+            "method_index": 481,
             "actions": [
-                "44.899"
+                "44.897"
             ],
             "entrypoint_ids": [
                 63
             ]
         },
-        "getAllCandidats": {
-            "method_index": 483,
-            "actions": [
-                "44.897",
-                "8.561"
-            ],
-            "entrypoint_ids": [
-                62
-            ]
-        },
         "updateAccess": {
-            "method_index": 484,
+            "method_index": 482,
             "actions": [
-                "44.898"
+                "44.900"
             ],
             "entrypoint_ids": [
                 66
             ]
         },
-        "deleteCandidat": {
-            "method_index": 485,
+        "addCandidat": {
+            "method_index": 483,
             "actions": [
-                "44.900"
+                "44.898"
             ],
             "entrypoint_ids": [
-                67
+                64
             ]
         },
-        "addCandidat": {
+        "getAllCandidats": {
+            "method_index": 484,
+            "actions": [
+                "8.553",
+                "44.899"
+            ],
+            "entrypoint_ids": [
+                62
+            ]
+        },
+        "addCandidatWithDossier": {
+            "method_index": 485,
+            "actions": [],
+            "entrypoint_ids": [
+                65
+            ]
+        },
+        "deleteCandidat": {
             "method_index": 486,
             "actions": [
                 "44.901"
             ],
             "entrypoint_ids": [
-                64
+                67
             ]
         },
         "class_id": "5",
         "class_name": "CandidatController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java": {
-        "updateAccess": {
-            "method_index": 487,
-            "actions": [
-                "46.904"
-            ],
-            "entrypoint_ids": [
-                71
-            ]
-        },
         "addCompetence": {
-            "method_index": 488,
+            "method_index": 487,
             "actions": [
                 "46.902"
             ],
@@ -2711,22 +2702,31 @@
                 70
             ]
         },
-        "deleteCompetence": {
-            "method_index": 489,
+        "updateAccess": {
+            "method_index": 488,
             "actions": [
                 "46.903"
             ],
             "entrypoint_ids": [
-                72
+                71
             ]
         },
         "getAccessByCode": {
-            "method_index": 490,
+            "method_index": 489,
             "actions": [
                 "46.905"
             ],
             "entrypoint_ids": [
                 69
+            ]
+        },
+        "deleteCompetence": {
+            "method_index": 490,
+            "actions": [
+                "46.904"
+            ],
+            "entrypoint_ids": [
+                72
             ]
         },
         "getAllCompetences": {
@@ -2742,71 +2742,71 @@
         "class_name": "CompetenceController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 492,
             "actions": [
                 "48.907"
             ],
             "entrypoint_ids": [
-                77
+                75
             ]
         },
-        "getDateStageById": {
+        "updateDateStage": {
             "method_index": 493,
             "actions": [
                 "48.908"
             ],
             "entrypoint_ids": [
-                74
+                76
             ]
         },
-        "updateDateStage": {
+        "getAllDatesStage": {
             "method_index": 494,
             "actions": [
                 "48.909"
             ],
             "entrypoint_ids": [
-                76
+                73
             ]
         },
-        "addDateStage": {
+        "getDateStageById": {
             "method_index": 495,
             "actions": [
                 "48.910"
             ],
             "entrypoint_ids": [
-                75
+                74
             ]
         },
-        "getAllDatesStage": {
+        "deleteDateStage": {
             "method_index": 496,
             "actions": [
                 "48.911"
             ],
             "entrypoint_ids": [
-                73
+                77
             ]
         },
         "class_id": "12",
         "class_name": "DateStageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java": {
-        "getEntrepriseById": {
+        "getAllEntreprises": {
             "method_index": 497,
-            "actions": [
-                "50.913"
-            ],
-            "entrypoint_ids": [
-                79
-            ]
-        },
-        "addEntreprise": {
-            "method_index": 498,
             "actions": [
                 "50.912"
             ],
             "entrypoint_ids": [
-                80
+                78
+            ]
+        },
+        "updateEntreprise": {
+            "method_index": 498,
+            "actions": [
+                "50.913"
+            ],
+            "entrypoint_ids": [
+                81
             ]
         },
         "deleteEntreprise": {
@@ -2818,62 +2818,62 @@
                 82
             ]
         },
-        "updateEntreprise": {
+        "getEntrepriseById": {
             "method_index": 500,
-            "actions": [
-                "50.915"
-            ],
-            "entrypoint_ids": [
-                81
-            ]
-        },
-        "getAllEntreprises": {
-            "method_index": 501,
             "actions": [
                 "50.916"
             ],
             "entrypoint_ids": [
-                78
+                79
+            ]
+        },
+        "addEntreprise": {
+            "method_index": 501,
+            "actions": [
+                "50.915"
+            ],
+            "entrypoint_ids": [
+                80
             ]
         },
         "class_id": "15",
         "class_name": "EntrepriseController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java": {
-        "getAllEtudiants": {
+        "getEtudiantById": {
             "method_index": 502,
             "actions": [
-                "52.917"
-            ],
-            "entrypoint_ids": [
-                83
-            ]
-        },
-        "addEtudiant": {
-            "method_index": 503,
-            "actions": [
-                "52.919"
-            ],
-            "entrypoint_ids": [
-                85
-            ]
-        },
-        "getEtudiantById": {
-            "method_index": 504,
-            "actions": [
-                "52.918"
+                "52.920"
             ],
             "entrypoint_ids": [
                 84
             ]
         },
         "updateEtudiant": {
-            "method_index": 505,
+            "method_index": 503,
             "actions": [
-                "52.920"
+                "52.917"
             ],
             "entrypoint_ids": [
                 86
+            ]
+        },
+        "addEtudiant": {
+            "method_index": 504,
+            "actions": [
+                "52.918"
+            ],
+            "entrypoint_ids": [
+                85
+            ]
+        },
+        "getAllEtudiants": {
+            "method_index": 505,
+            "actions": [
+                "52.919"
+            ],
+            "entrypoint_ids": [
+                83
             ]
         },
         "deleteEtudiant": {
@@ -2889,40 +2889,40 @@
         "class_name": "EtudiantController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java": {
-        "deleteProf": {
+        "getProfById": {
             "method_index": 507,
             "actions": [
-                "54.922"
-            ],
-            "entrypoint_ids": [
-                92
-            ]
-        },
-        "getAllProfs": {
-            "method_index": 508,
-            "actions": [
                 "54.923"
-            ],
-            "entrypoint_ids": [
-                88
-            ]
-        },
-        "getProfById": {
-            "method_index": 509,
-            "actions": [
-                "54.924"
             ],
             "entrypoint_ids": [
                 89
             ]
         },
-        "updateProf": {
-            "method_index": 510,
+        "getAllProfs": {
+            "method_index": 508,
             "actions": [
                 "54.925"
             ],
             "entrypoint_ids": [
+                88
+            ]
+        },
+        "updateProf": {
+            "method_index": 509,
+            "actions": [
+                "54.924"
+            ],
+            "entrypoint_ids": [
                 91
+            ]
+        },
+        "deleteProf": {
+            "method_index": 510,
+            "actions": [
+                "54.922"
+            ],
+            "entrypoint_ids": [
+                92
             ]
         },
         "addProf": {
@@ -2938,26 +2938,35 @@
         "class_name": "ProfController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java": {
-        "getPromoById": {
+        "updatePromo": {
             "method_index": 512,
             "actions": [
                 "56.927"
             ],
             "entrypoint_ids": [
-                94
+                96
             ]
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 513,
             "actions": [
                 "56.928"
             ],
             "entrypoint_ids": [
-                96
+                93
+            ]
+        },
+        "getPromoById": {
+            "method_index": 514,
+            "actions": [
+                "56.931"
+            ],
+            "entrypoint_ids": [
+                94
             ]
         },
         "deletePromo": {
-            "method_index": 514,
+            "method_index": 515,
             "actions": [
                 "56.929"
             ],
@@ -2965,19 +2974,10 @@
                 97
             ]
         },
-        "getAllPromos": {
-            "method_index": 515,
-            "actions": [
-                "56.930"
-            ],
-            "entrypoint_ids": [
-                93
-            ]
-        },
         "addPromo": {
             "method_index": 516,
             "actions": [
-                "56.931"
+                "56.930"
             ],
             "entrypoint_ids": [
                 95
@@ -2987,40 +2987,40 @@
         "class_name": "PromoController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java": {
-        "addStage": {
+        "getStageById": {
             "method_index": 517,
             "actions": [
                 "58.932"
+            ],
+            "entrypoint_ids": [
+                99
+            ]
+        },
+        "getAllStages": {
+            "method_index": 518,
+            "actions": [
+                "58.933"
+            ],
+            "entrypoint_ids": [
+                98
+            ]
+        },
+        "addStage": {
+            "method_index": 519,
+            "actions": [
+                "58.934"
             ],
             "entrypoint_ids": [
                 100
             ]
         },
         "updateStage": {
-            "method_index": 518,
-            "actions": [
-                "58.934"
-            ],
-            "entrypoint_ids": [
-                101
-            ]
-        },
-        "getAllStages": {
-            "method_index": 519,
+            "method_index": 520,
             "actions": [
                 "58.935"
             ],
             "entrypoint_ids": [
-                98
-            ]
-        },
-        "getStageById": {
-            "method_index": 520,
-            "actions": [
-                "58.933"
-            ],
-            "entrypoint_ids": [
-                99
+                101
             ]
         },
         "deleteStage": {
@@ -3036,17 +3036,8 @@
         "class_name": "StageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java": {
-        "getTuteurById": {
-            "method_index": 522,
-            "actions": [
-                "60.940"
-            ],
-            "entrypoint_ids": [
-                104
-            ]
-        },
         "addTuteur": {
-            "method_index": 523,
+            "method_index": 522,
             "actions": [
                 "60.937"
             ],
@@ -3054,17 +3045,17 @@
                 105
             ]
         },
-        "updateTuteur": {
-            "method_index": 524,
+        "getTuteurById": {
+            "method_index": 523,
             "actions": [
                 "60.938"
             ],
             "entrypoint_ids": [
-                106
+                104
             ]
         },
         "deleteTuteur": {
-            "method_index": 525,
+            "method_index": 524,
             "actions": [
                 "60.939"
             ],
@@ -3073,38 +3064,38 @@
             ]
         },
         "getAllTuteurs": {
+            "method_index": 525,
+            "actions": [
+                "60.940"
+            ],
+            "entrypoint_ids": [
+                103
+            ]
+        },
+        "updateTuteur": {
             "method_index": 526,
             "actions": [
                 "60.941"
             ],
             "entrypoint_ids": [
-                103
+                106
             ]
         },
         "class_id": "30",
         "class_name": "TuteurController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 527,
             "actions": [
                 "62.942"
             ],
             "entrypoint_ids": [
-                112
-            ]
-        },
-        "getAllTypesStage": {
-            "method_index": 528,
-            "actions": [
-                "62.943"
-            ],
-            "entrypoint_ids": [
-                108
+                111
             ]
         },
         "getTypeStageById": {
-            "method_index": 529,
+            "method_index": 528,
             "actions": [
                 "62.944"
             ],
@@ -3112,53 +3103,62 @@
                 109
             ]
         },
-        "updateTypeStage": {
+        "addTypeStage": {
+            "method_index": 529,
+            "actions": [
+                "62.943"
+            ],
+            "entrypoint_ids": [
+                110
+            ]
+        },
+        "getAllTypesStage": {
             "method_index": 530,
             "actions": [
                 "62.945"
             ],
             "entrypoint_ids": [
-                111
+                108
             ]
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 531,
             "actions": [
                 "62.946"
             ],
             "entrypoint_ids": [
-                110
+                112
             ]
         },
         "class_id": "33",
         "class_name": "TypeStageController"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Access.java": {
-        "getAccessLibelle": {
+        "setAccessLibelle": {
             "method_index": 532,
             "actions": []
         },
-        "getAuthority": {
+        "getAccessLibelle": {
             "method_index": 533,
             "actions": []
         },
-        "getAccessId": {
+        "setAuthority": {
             "method_index": 534,
             "actions": []
         },
-        "setAccessLibelle": {
+        "getAuthority": {
             "method_index": 535,
             "actions": []
         },
-        "setAccessId": {
+        "toString": {
             "method_index": 536,
             "actions": []
         },
-        "toString": {
+        "getAccessId": {
             "method_index": 537,
             "actions": []
         },
-        "setAuthority": {
+        "setAccessId": {
             "method_index": 538,
             "actions": []
         },
@@ -3166,51 +3166,51 @@
         "class_name": "Access"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Acquerir.java": {
-        "getTypeStageId": {
+        "setCompetenceId": {
             "method_index": 539,
             "actions": []
         },
-        "setCompetence": {
+        "getNiveau": {
             "method_index": 540,
             "actions": []
         },
-        "getCompetence": {
+        "getTypeStage": {
             "method_index": 541,
             "actions": []
         },
-        "setTypeStage": {
+        "getId": {
             "method_index": 542,
             "actions": []
         },
-        "getTypeStage": {
+        "getTypeStageId": {
             "method_index": 543,
             "actions": []
         },
-        "setId": {
+        "setTypeStageId": {
             "method_index": 544,
             "actions": []
         },
-        "getCompetenceId": {
+        "setTypeStage": {
             "method_index": 545,
             "actions": []
         },
-        "setCompetenceId": {
+        "getCompetenceId": {
             "method_index": 546,
             "actions": []
         },
-        "getId": {
+        "setNiveau": {
             "method_index": 547,
             "actions": []
         },
-        "setNiveau": {
+        "getCompetence": {
             "method_index": 548,
             "actions": []
         },
-        "setTypeStageId": {
+        "setCompetence": {
             "method_index": 549,
             "actions": []
         },
-        "getNiveau": {
+        "setId": {
             "method_index": 550,
             "actions": []
         },
@@ -3230,47 +3230,47 @@
         "class_name": "Annee"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Candidat.java": {
-        "setEmail": {
+        "getStatut": {
             "method_index": 553,
             "actions": []
         },
-        "getDossierComplete": {
+        "getDossier": {
             "method_index": 554,
             "actions": []
         },
-        "getDossier": {
+        "setStatut": {
             "method_index": 555,
             "actions": []
         },
-        "getPromo": {
+        "setEmail": {
             "method_index": 556,
             "actions": []
         },
-        "setPromo": {
+        "setDossierComplete": {
             "method_index": 557,
             "actions": []
         },
-        "setNom": {
+        "getPromo": {
             "method_index": 558,
             "actions": []
         },
-        "getEmail": {
+        "setDossier": {
             "method_index": 559,
             "actions": []
         },
-        "setStatut": {
+        "setPromo": {
             "method_index": 560,
             "actions": []
         },
-        "getStatut": {
+        "getEmail": {
             "method_index": 561,
             "actions": []
         },
-        "setDossierComplete": {
+        "getPrenom": {
             "method_index": 562,
             "actions": []
         },
-        "setDossier": {
+        "setNom": {
             "method_index": 563,
             "actions": []
         },
@@ -3278,11 +3278,11 @@
             "method_index": 564,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 565,
             "actions": []
         },
-        "getNom": {
+        "getDossierComplete": {
             "method_index": 566,
             "actions": []
         },
@@ -3290,23 +3290,23 @@
         "class_name": "Candidat"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Competence.java": {
-        "setDesc": {
+        "getCode": {
             "method_index": 567,
             "actions": []
         },
-        "setCode": {
+        "getLibelle": {
             "method_index": 568,
             "actions": []
         },
-        "getLibelle": {
+        "setCode": {
             "method_index": 569,
             "actions": []
         },
-        "getCode": {
+        "setLibelle": {
             "method_index": 570,
             "actions": []
         },
-        "setLibelle": {
+        "setDesc": {
             "method_index": 571,
             "actions": []
         },
@@ -3318,47 +3318,47 @@
         "class_name": "Competence"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\DateStage.java": {
-        "setAnnee": {
+        "setDateDeb": {
             "method_index": 573,
             "actions": []
         },
-        "getTypeStageId": {
+        "getTypeStage": {
             "method_index": 574,
             "actions": []
         },
-        "setTypeStage": {
+        "setDateFin": {
             "method_index": 575,
             "actions": []
         },
-        "getTypeStage": {
+        "getId": {
             "method_index": 576,
             "actions": []
         },
-        "setDateDeb": {
+        "getTypeStageId": {
             "method_index": 577,
             "actions": []
         },
-        "setId": {
+        "setTypeStageId": {
             "method_index": 578,
             "actions": []
         },
-        "setAnneeId": {
+        "getAnneeId": {
             "method_index": 579,
             "actions": []
         },
-        "getAnnee": {
+        "setAnnee": {
             "method_index": 580,
             "actions": []
         },
-        "setDateFin": {
+        "getDateFin": {
             "method_index": 581,
             "actions": []
         },
-        "getDateFin": {
+        "getAnnee": {
             "method_index": 582,
             "actions": []
         },
-        "getId": {
+        "setTypeStage": {
             "method_index": 583,
             "actions": []
         },
@@ -3366,11 +3366,11 @@
             "method_index": 584,
             "actions": []
         },
-        "setTypeStageId": {
+        "setId": {
             "method_index": 585,
             "actions": []
         },
-        "getAnneeId": {
+        "setAnneeId": {
             "method_index": 586,
             "actions": []
         },
@@ -3382,35 +3382,35 @@
             "method_index": 587,
             "actions": []
         },
-        "getRaisonSoc": {
+        "setTelContact": {
             "method_index": 588,
             "actions": []
         },
-        "setId": {
+        "getAdrs": {
             "method_index": 589,
             "actions": []
         },
-        "getContact": {
+        "getTelContact": {
             "method_index": 590,
             "actions": []
         },
-        "getAdrs": {
+        "getId": {
             "method_index": 591,
             "actions": []
         },
-        "setFormeJur": {
+        "getContact": {
             "method_index": 592,
             "actions": []
         },
-        "getId": {
+        "setRaisonSoc": {
             "method_index": 593,
             "actions": []
         },
-        "getFormeJur": {
+        "getRaisonSoc": {
             "method_index": 594,
             "actions": []
         },
-        "setContact": {
+        "setFormeJur": {
             "method_index": 595,
             "actions": []
         },
@@ -3418,19 +3418,19 @@
             "method_index": 596,
             "actions": []
         },
-        "getTelStandard": {
+        "setContact": {
             "method_index": 597,
             "actions": []
         },
-        "setRaisonSoc": {
+        "getTelStandard": {
             "method_index": 598,
             "actions": []
         },
-        "setTelContact": {
+        "setId": {
             "method_index": 599,
             "actions": []
         },
-        "getTelContact": {
+        "getFormeJur": {
             "method_index": 600,
             "actions": []
         },
@@ -3438,23 +3438,23 @@
         "class_name": "Entreprise"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Etudiant.java": {
-        "getPromo": {
+        "setAdrs": {
             "method_index": 601,
             "actions": []
         },
-        "setAdrs": {
+        "setMention": {
             "method_index": 602,
             "actions": []
         },
-        "setPromo": {
+        "getSexe": {
             "method_index": 603,
             "actions": []
         },
-        "getMention": {
+        "getAdrs": {
             "method_index": 604,
             "actions": []
         },
-        "setNom": {
+        "getMention": {
             "method_index": 605,
             "actions": []
         },
@@ -3462,11 +3462,11 @@
             "method_index": 606,
             "actions": []
         },
-        "setId": {
+        "getId": {
             "method_index": 607,
             "actions": []
         },
-        "getAdrs": {
+        "getDateNaissance": {
             "method_index": 608,
             "actions": []
         },
@@ -3474,23 +3474,23 @@
             "method_index": 609,
             "actions": []
         },
-        "getDateNaissance": {
+        "setPromo": {
             "method_index": 610,
             "actions": []
         },
-        "setDateNaissance": {
+        "getPromo": {
             "method_index": 611,
             "actions": []
         },
-        "getId": {
+        "getPrenom": {
             "method_index": 612,
             "actions": []
         },
-        "getSexe": {
+        "setNom": {
             "method_index": 613,
             "actions": []
         },
-        "setMention": {
+        "setPrenom": {
             "method_index": 614,
             "actions": []
         },
@@ -3498,15 +3498,15 @@
             "method_index": 615,
             "actions": []
         },
-        "setPrenom": {
+        "getNom": {
             "method_index": 616,
             "actions": []
         },
-        "getPrenom": {
+        "setId": {
             "method_index": 617,
             "actions": []
         },
-        "getNom": {
+        "setDateNaissance": {
             "method_index": 618,
             "actions": []
         },
@@ -3514,55 +3514,55 @@
         "class_name": "Etudiant"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\FileData.java": {
-        "setFileName": {
+        "setFilePath": {
             "method_index": 619,
             "actions": []
         },
-        "setFileId": {
+        "setFileName": {
             "method_index": 620,
             "actions": []
         },
-        "fileName": {
+        "fileType": {
             "method_index": 621,
             "actions": []
         },
-        "getFileName": {
+        "build": {
             "method_index": 622,
             "actions": []
         },
-        "build": {
+        "getFileId": {
             "method_index": 623,
             "actions": []
         },
-        "getFileType": {
+        "getFileName": {
             "method_index": 624,
             "actions": []
         },
-        "filePath": {
+        "fileName": {
             "method_index": 625,
             "actions": []
         },
-        "getFilePath": {
+        "builder": {
             "method_index": 626,
             "actions": []
         },
-        "builder": {
+        "getFilePath": {
             "method_index": 627,
             "actions": []
         },
-        "getFileId": {
+        "getFileType": {
             "method_index": 628,
             "actions": []
         },
-        "setFilePath": {
+        "setFileType": {
             "method_index": 629,
             "actions": []
         },
-        "setFileType": {
+        "setFileId": {
             "method_index": 630,
             "actions": []
         },
-        "fileType": {
+        "filePath": {
             "method_index": 631,
             "actions": []
         },
@@ -3574,19 +3574,19 @@
             "method_index": 632,
             "actions": []
         },
-        "setNom": {
+        "getAdrs": {
             "method_index": 633,
             "actions": []
         },
-        "setId": {
+        "getId": {
             "method_index": 634,
             "actions": []
         },
-        "setDateDepart": {
+        "getTel": {
             "method_index": 635,
             "actions": []
         },
-        "getAdrs": {
+        "setDateDepart": {
             "method_index": 636,
             "actions": []
         },
@@ -3594,35 +3594,35 @@
             "method_index": 637,
             "actions": []
         },
-        "getTel": {
+        "getPrenom": {
             "method_index": 638,
             "actions": []
         },
-        "getId": {
+        "setNom": {
             "method_index": 639,
             "actions": []
         },
-        "setTel": {
+        "setPrenom": {
             "method_index": 640,
             "actions": []
         },
-        "getDateDepart": {
+        "setId": {
             "method_index": 641,
             "actions": []
         },
-        "setDateEmbauche": {
+        "setTel": {
             "method_index": 642,
             "actions": []
         },
-        "setPrenom": {
+        "setDateEmbauche": {
             "method_index": 643,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 644,
             "actions": []
         },
-        "getNom": {
+        "getDateDepart": {
             "method_index": 645,
             "actions": []
         },
@@ -3630,31 +3630,31 @@
         "class_name": "Professeur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Promo.java": {
-        "getDirigeant": {
+        "setNbrRecus": {
             "method_index": 646,
             "actions": []
         },
-        "setId": {
+        "setNbrInscrits": {
             "method_index": 647,
             "actions": []
         },
-        "getId": {
+        "getDirigeant": {
             "method_index": 648,
             "actions": []
         },
-        "setNbrRecus": {
+        "getId": {
             "method_index": 649,
             "actions": []
         },
-        "getNbrInscrits": {
+        "getNbrRecus": {
             "method_index": 650,
             "actions": []
         },
-        "setNbrInscrits": {
+        "getNbrInscrits": {
             "method_index": 651,
             "actions": []
         },
-        "getNbrRecus": {
+        "setId": {
             "method_index": 652,
             "actions": []
         },
@@ -3666,31 +3666,31 @@
         "class_name": "Promo"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Role.java": {
-        "setRoleLibelle": {
+        "getRoleAccesses": {
             "method_index": 654,
             "actions": []
         },
-        "setRoleAccesses": {
+        "setRoleId": {
             "method_index": 655,
             "actions": []
         },
-        "getRoleId": {
+        "setRoleAccesses": {
             "method_index": 656,
             "actions": []
         },
-        "getRoleLibelle": {
+        "toString": {
             "method_index": 657,
             "actions": []
         },
-        "setRoleId": {
+        "setRoleLibelle": {
             "method_index": 658,
             "actions": []
         },
-        "getRoleAccesses": {
+        "getRoleLibelle": {
             "method_index": 659,
             "actions": []
         },
-        "toString": {
+        "getRoleId": {
             "method_index": 660,
             "actions": []
         },
@@ -3698,35 +3698,35 @@
         "class_name": "Role"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Stage.java": {
-        "getCompteRendu": {
+        "getTypeStage": {
             "method_index": 661,
             "actions": []
         },
-        "getEntreprise": {
+        "getProf": {
             "method_index": 662,
             "actions": []
         },
-        "setAnnee": {
+        "getId": {
             "method_index": 663,
             "actions": []
         },
-        "getEtudiant": {
+        "getTuteur": {
             "method_index": 664,
             "actions": []
         },
-        "getTypeStage": {
+        "setAnnee": {
             "method_index": 665,
             "actions": []
         },
-        "setTypeStage": {
+        "setEntreprise": {
             "method_index": 666,
             "actions": []
         },
-        "getTuteur": {
+        "getAnnee": {
             "method_index": 667,
             "actions": []
         },
-        "setId": {
+        "setEtudiant": {
             "method_index": 668,
             "actions": []
         },
@@ -3734,15 +3734,15 @@
             "method_index": 669,
             "actions": []
         },
-        "getAnnee": {
+        "setTuteur": {
             "method_index": 670,
             "actions": []
         },
-        "getProf": {
+        "getEtudiant": {
             "method_index": 671,
             "actions": []
         },
-        "getId": {
+        "setTypeStage": {
             "method_index": 672,
             "actions": []
         },
@@ -3750,15 +3750,15 @@
             "method_index": 673,
             "actions": []
         },
-        "setEtudiant": {
+        "getEntreprise": {
             "method_index": 674,
             "actions": []
         },
-        "setTuteur": {
+        "getCompteRendu": {
             "method_index": 675,
             "actions": []
         },
-        "setEntreprise": {
+        "setId": {
             "method_index": 676,
             "actions": []
         },
@@ -3766,35 +3766,35 @@
         "class_name": "Stage"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\Tuteur.java": {
-        "setNom": {
+        "getId": {
             "method_index": 677,
             "actions": []
         },
-        "setId": {
+        "getTel": {
             "method_index": 678,
             "actions": []
         },
-        "getTel": {
+        "getPrenom": {
             "method_index": 679,
             "actions": []
         },
-        "getId": {
+        "setNom": {
             "method_index": 680,
             "actions": []
         },
-        "setTel": {
+        "setPrenom": {
             "method_index": 681,
             "actions": []
         },
-        "setPrenom": {
+        "setTel": {
             "method_index": 682,
             "actions": []
         },
-        "getPrenom": {
+        "getNom": {
             "method_index": 683,
             "actions": []
         },
-        "getNom": {
+        "setId": {
             "method_index": 684,
             "actions": []
         },
@@ -3802,7 +3802,7 @@
         "class_name": "Tuteur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\modal\\TypeStage.java": {
-        "setId": {
+        "getNbrSemaines": {
             "method_index": 685,
             "actions": []
         },
@@ -3810,7 +3810,7 @@
             "method_index": 686,
             "actions": []
         },
-        "getNbrSemaines": {
+        "setId": {
             "method_index": 687,
             "actions": []
         },
@@ -3826,15 +3826,15 @@
             "method_index": 689,
             "actions": []
         },
-        "getUsername": {
+        "setUsername": {
             "method_index": 690,
             "actions": []
         },
-        "getUserRole": {
+        "getUserPassword": {
             "method_index": 691,
             "actions": []
         },
-        "getUserPassword": {
+        "setUserPassword": {
             "method_index": 692,
             "actions": []
         },
@@ -3846,11 +3846,11 @@
             "method_index": 694,
             "actions": []
         },
-        "setUsername": {
+        "getUsername": {
             "method_index": 695,
             "actions": []
         },
-        "setUserPassword": {
+        "getUserRole": {
             "method_index": 696,
             "actions": []
         },
@@ -3862,47 +3862,47 @@
         "class_name": "Utilisateur"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\AcquerirDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 698,
             "actions": []
         },
-        "save": {
+        "findAcquerirById": {
             "method_index": 699,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 700,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 701,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 702,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 703,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 704,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 705,
             "actions": []
         },
-        "existsById": {
+        "save": {
             "method_index": 706,
             "actions": []
         },
-        "findById": {
+        "findAllById": {
             "method_index": 707,
             "actions": []
         },
-        "findAcquerirById": {
+        "deleteById": {
             "method_index": 708,
             "actions": []
         },
@@ -3910,47 +3910,47 @@
         "class_name": "AcquerirDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\CandidatDao.java": {
-        "deleteById": {
+        "findCandidatByEmail": {
             "method_index": 709,
             "actions": []
         },
-        "save": {
+        "deleteAll": {
             "method_index": 710,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 711,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 712,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 713,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 714,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 715,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 716,
             "actions": []
         },
-        "findCandidatByEmail": {
+        "save": {
             "method_index": 717,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 718,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 719,
             "actions": []
         },
@@ -3958,15 +3958,15 @@
         "class_name": "CandidatDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\CompetenceDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 720,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 721,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 722,
             "actions": []
         },
@@ -3974,35 +3974,35 @@
             "method_index": 723,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 724,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 725,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 726,
             "actions": []
         },
-        "count": {
+        "deleteCompetenceByCode": {
             "method_index": 727,
             "actions": []
         },
-        "findCompetenceByCode": {
+        "save": {
             "method_index": 728,
             "actions": []
         },
-        "deleteCompetenceByCode": {
+        "findAllById": {
             "method_index": 729,
             "actions": []
         },
-        "existsById": {
+        "deleteById": {
             "method_index": 730,
             "actions": []
         },
-        "findById": {
+        "findCompetenceByCode": {
             "method_index": 731,
             "actions": []
         },
@@ -4010,15 +4010,15 @@
         "class_name": "CompetenceDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\DateStageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 732,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 733,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 734,
             "actions": []
         },
@@ -4026,31 +4026,31 @@
             "method_index": 735,
             "actions": []
         },
-        "findDateStageById": {
+        "count": {
             "method_index": 736,
             "actions": []
         },
-        "findAllById": {
+        "findDateStageById": {
             "method_index": 737,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 738,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 739,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 740,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 741,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 742,
             "actions": []
         },
@@ -4058,15 +4058,15 @@
         "class_name": "DateStageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\EntrepriseDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 743,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 744,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 745,
             "actions": []
         },
@@ -4074,35 +4074,35 @@
             "method_index": 746,
             "actions": []
         },
-        "findEntrepriseById": {
+        "deleteEntrepriseById": {
             "method_index": 747,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 748,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 749,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 750,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 751,
             "actions": []
         },
-        "deleteEntrepriseById": {
+        "findAllById": {
             "method_index": 752,
             "actions": []
         },
-        "existsById": {
+        "deleteById": {
             "method_index": 753,
             "actions": []
         },
-        "findById": {
+        "findEntrepriseById": {
             "method_index": 754,
             "actions": []
         },
@@ -4110,27 +4110,27 @@
         "class_name": "EntrepriseDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\EtudiantDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 755,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 756,
             "actions": []
         },
-        "findEtudiantById": {
+        "findAll": {
             "method_index": 757,
             "actions": []
         },
-        "deleteAll": {
+        "saveAll": {
             "method_index": 758,
             "actions": []
         },
-        "saveAll": {
+        "count": {
             "method_index": 759,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 760,
             "actions": []
         },
@@ -4138,19 +4138,19 @@
             "method_index": 761,
             "actions": []
         },
-        "findAll": {
+        "findEtudiantById": {
             "method_index": 762,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 763,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 764,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 765,
             "actions": []
         },
@@ -4158,47 +4158,47 @@
         "class_name": "EtudiantDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\FileDataDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 766,
             "actions": []
         },
-        "save": {
+        "findByFileName": {
             "method_index": 767,
             "actions": []
         },
-        "deleteAll": {
+        "existsById": {
             "method_index": 768,
             "actions": []
         },
-        "saveAll": {
+        "findAll": {
             "method_index": 769,
             "actions": []
         },
-        "findAllById": {
+        "saveAll": {
             "method_index": 770,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 771,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 772,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 773,
             "actions": []
         },
-        "findByFileName": {
+        "save": {
             "method_index": 774,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 775,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 776,
             "actions": []
         },
@@ -4206,11 +4206,11 @@
         "class_name": "FileDataDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\ProfDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 777,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 778,
             "actions": []
         },
@@ -4218,7 +4218,7 @@
             "method_index": 779,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 780,
             "actions": []
         },
@@ -4226,11 +4226,11 @@
             "method_index": 781,
             "actions": []
         },
-        "findProfById": {
+        "count": {
             "method_index": 782,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 783,
             "actions": []
         },
@@ -4238,19 +4238,19 @@
             "method_index": 784,
             "actions": []
         },
-        "findAll": {
+        "findProfById": {
             "method_index": 785,
             "actions": []
         },
-        "count": {
+        "save": {
             "method_index": 786,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 787,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 788,
             "actions": []
         },
@@ -4258,15 +4258,15 @@
         "class_name": "ProfDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\PromoDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 789,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 790,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 791,
             "actions": []
         },
@@ -4274,11 +4274,11 @@
             "method_index": 792,
             "actions": []
         },
-        "findPromoById": {
+        "count": {
             "method_index": 793,
             "actions": []
         },
-        "findAllById": {
+        "findById": {
             "method_index": 794,
             "actions": []
         },
@@ -4286,19 +4286,19 @@
             "method_index": 795,
             "actions": []
         },
-        "findAll": {
+        "save": {
             "method_index": 796,
             "actions": []
         },
-        "count": {
+        "findAllById": {
             "method_index": 797,
             "actions": []
         },
-        "existsById": {
+        "findPromoById": {
             "method_index": 798,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 799,
             "actions": []
         },
@@ -4306,15 +4306,15 @@
         "class_name": "PromoDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\StageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 800,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 801,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 802,
             "actions": []
         },
@@ -4322,31 +4322,31 @@
             "method_index": 803,
             "actions": []
         },
-        "findAllById": {
+        "findStageById": {
             "method_index": 804,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 805,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 806,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 807,
             "actions": []
         },
-        "existsById": {
+        "save": {
             "method_index": 808,
             "actions": []
         },
-        "findById": {
+        "findAllById": {
             "method_index": 809,
             "actions": []
         },
-        "findStageById": {
+        "deleteById": {
             "method_index": 810,
             "actions": []
         },
@@ -4354,15 +4354,15 @@
         "class_name": "StageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\TuteurDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 811,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 812,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 813,
             "actions": []
         },
@@ -4370,35 +4370,35 @@
             "method_index": 814,
             "actions": []
         },
-        "findAllById": {
+        "deleteTuteurById": {
             "method_index": 815,
             "actions": []
         },
-        "delete": {
+        "count": {
             "method_index": 816,
             "actions": []
         },
-        "findAll": {
+        "findById": {
             "method_index": 817,
             "actions": []
         },
-        "count": {
+        "delete": {
             "method_index": 818,
             "actions": []
         },
-        "findTuteurById": {
+        "save": {
             "method_index": 819,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 820,
             "actions": []
         },
-        "findById": {
+        "findTuteurById": {
             "method_index": 821,
             "actions": []
         },
-        "deleteTuteurById": {
+        "deleteById": {
             "method_index": 822,
             "actions": []
         },
@@ -4406,15 +4406,15 @@
         "class_name": "TuteurDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\repository\\TypeStageDao.java": {
-        "deleteById": {
+        "deleteAll": {
             "method_index": 823,
             "actions": []
         },
-        "save": {
+        "existsById": {
             "method_index": 824,
             "actions": []
         },
-        "deleteAll": {
+        "findAll": {
             "method_index": 825,
             "actions": []
         },
@@ -4422,31 +4422,31 @@
             "method_index": 826,
             "actions": []
         },
-        "findAllById": {
+        "count": {
             "method_index": 827,
             "actions": []
         },
-        "delete": {
+        "findById": {
             "method_index": 828,
             "actions": []
         },
-        "findAll": {
+        "delete": {
             "method_index": 829,
             "actions": []
         },
-        "count": {
+        "findTypeStageById": {
             "method_index": 830,
             "actions": []
         },
-        "findTypeStageById": {
+        "save": {
             "method_index": 831,
             "actions": []
         },
-        "existsById": {
+        "findAllById": {
             "method_index": 832,
             "actions": []
         },
-        "findById": {
+        "deleteById": {
             "method_index": 833,
             "actions": []
         },
@@ -4454,7 +4454,7 @@
         "class_name": "TypeStageDao"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\AcquerirService.java": {
-        "updateAcquerir": {
+        "findAcquerirById": {
             "method_index": 834,
             "actions": []
         },
@@ -4462,15 +4462,15 @@
             "method_index": 835,
             "actions": []
         },
-        "getAllAcquerirs": {
+        "deleteAcquerir": {
             "method_index": 836,
             "actions": []
         },
-        "deleteAcquerir": {
+        "getAllAcquerirs": {
             "method_index": 837,
             "actions": []
         },
-        "findAcquerirById": {
+        "updateAcquerir": {
             "method_index": 838,
             "actions": []
         },
@@ -4478,23 +4478,23 @@
         "class_name": "AcquerirService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\CandidatService.java": {
-        "getAllCandidats": {
+        "findCandidatByEmail": {
             "method_index": 839,
             "actions": []
         },
-        "updateCandidat": {
+        "addCandidat": {
             "method_index": 840,
             "actions": []
         },
-        "findCandidatByEmail": {
+        "getAllCandidats": {
             "method_index": 841,
             "actions": []
         },
-        "deleteCandidat": {
+        "updateCandidat": {
             "method_index": 842,
             "actions": []
         },
-        "addCandidat": {
+        "deleteCandidat": {
             "method_index": 843,
             "actions": []
         },
@@ -4506,11 +4506,11 @@
             "method_index": 844,
             "actions": []
         },
-        "deleteCompetence": {
+        "updateCompetence": {
             "method_index": 845,
             "actions": []
         },
-        "updateCompetence": {
+        "deleteCompetence": {
             "method_index": 846,
             "actions": []
         },
@@ -4526,23 +4526,23 @@
         "class_name": "CompetenceService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\DateStageService.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 849,
             "actions": []
         },
-        "findDateStageById": {
+        "updateDateStage": {
             "method_index": 850,
             "actions": []
         },
-        "updateDateStage": {
+        "getAllDatesStage": {
             "method_index": 851,
             "actions": []
         },
-        "addDateStage": {
+        "findDateStageById": {
             "method_index": 852,
             "actions": []
         },
-        "getAllDatesStage": {
+        "deleteDateStage": {
             "method_index": 853,
             "actions": []
         },
@@ -4550,11 +4550,11 @@
         "class_name": "DateStageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\EntrepriseService.java": {
-        "addEntreprise": {
+        "getAllEntreprises": {
             "method_index": 854,
             "actions": []
         },
-        "findEntrepriseById": {
+        "updateEntreprise": {
             "method_index": 855,
             "actions": []
         },
@@ -4562,11 +4562,11 @@
             "method_index": 856,
             "actions": []
         },
-        "updateEntreprise": {
+        "addEntreprise": {
             "method_index": 857,
             "actions": []
         },
-        "getAllEntreprises": {
+        "findEntrepriseById": {
             "method_index": 858,
             "actions": []
         },
@@ -4574,19 +4574,19 @@
         "class_name": "EntrepriseService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\EtudiantService.java": {
-        "getAllEtudiants": {
+        "updateEtudiant": {
             "method_index": 859,
             "actions": []
         },
-        "findEtudiantById": {
+        "addEtudiant": {
             "method_index": 860,
             "actions": []
         },
-        "addEtudiant": {
+        "getAllEtudiants": {
             "method_index": 861,
             "actions": []
         },
-        "updateEtudiant": {
+        "findEtudiantById": {
             "method_index": 862,
             "actions": []
         },
@@ -4602,15 +4602,15 @@
             "method_index": 864,
             "actions": []
         },
-        "getAllProfs": {
+        "findProfById": {
             "method_index": 865,
             "actions": []
         },
-        "findProfById": {
+        "updateProf": {
             "method_index": 866,
             "actions": []
         },
-        "updateProf": {
+        "getAllProfs": {
             "method_index": 867,
             "actions": []
         },
@@ -4622,11 +4622,11 @@
         "class_name": "ProfService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\PromoService.java": {
-        "findPromoById": {
+        "updatePromo": {
             "method_index": 869,
             "actions": []
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 870,
             "actions": []
         },
@@ -4634,11 +4634,11 @@
             "method_index": 871,
             "actions": []
         },
-        "getAllPromos": {
+        "addPromo": {
             "method_index": 872,
             "actions": []
         },
-        "addPromo": {
+        "findPromoById": {
             "method_index": 873,
             "actions": []
         },
@@ -4646,19 +4646,19 @@
         "class_name": "PromoService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\StageService.java": {
-        "addStage": {
+        "findStageById": {
             "method_index": 874,
             "actions": []
         },
-        "findStageById": {
+        "getAllStages": {
             "method_index": 875,
             "actions": []
         },
-        "updateStage": {
+        "addStage": {
             "method_index": 876,
             "actions": []
         },
-        "getAllStages": {
+        "updateStage": {
             "method_index": 877,
             "actions": []
         },
@@ -4670,38 +4670,38 @@
         "class_name": "StageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\StorageService.java": {
-        "uploadFile": {
+        "findFileDataByFileName": {
             "method_index": 879,
             "actions": [
-                "38.627",
+                "41.767"
+            ]
+        },
+        "uploadFile": {
+            "method_index": 880,
+            "actions": [
+                "41.767",
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
                 "38.629",
                 "unknown.unknown",
                 "unknown.unknown",
+                "41.774",
                 "unknown.unknown",
                 "unknown.unknown",
                 "unknown.unknown",
-                "41.767",
-                "38.630",
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "41.774"
+                "38.619",
+                "38.626"
             ]
         },
         "downloadFile": {
-            "method_index": 880,
-            "actions": [
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "unknown.unknown",
-                "41.774"
-            ]
-        },
-        "findFileDataByFileName": {
             "method_index": 881,
             "actions": [
-                "41.774"
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
+                "unknown.unknown",
+                "41.767"
             ]
         },
         "class_id": "7",
@@ -4712,7 +4712,7 @@
             "method_index": 882,
             "actions": []
         },
-        "updateTuteur": {
+        "findTuteurById": {
             "method_index": 883,
             "actions": []
         },
@@ -4720,11 +4720,11 @@
             "method_index": 884,
             "actions": []
         },
-        "findTuteurById": {
+        "getAllTuteurs": {
             "method_index": 885,
             "actions": []
         },
-        "getAllTuteurs": {
+        "updateTuteur": {
             "method_index": 886,
             "actions": []
         },
@@ -4732,11 +4732,11 @@
         "class_name": "TuteurService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\TypeStageService.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 887,
             "actions": []
         },
-        "getAllTypesStage": {
+        "addTypeStage": {
             "method_index": 888,
             "actions": []
         },
@@ -4744,11 +4744,11 @@
             "method_index": 889,
             "actions": []
         },
-        "updateTypeStage": {
+        "getAllTypesStage": {
             "method_index": 890,
             "actions": []
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 891,
             "actions": []
         },
@@ -4756,70 +4756,70 @@
         "class_name": "TypeStageService"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\AcquerirServiceImpl.java": {
-        "updateAcquerir": {
+        "findAcquerirById": {
             "method_index": 892,
             "actions": [
-                "43.699"
+                "43.699",
+                "unknown.unknown"
             ]
         },
         "addAcquerir": {
             "method_index": 893,
             "actions": [
-                "43.699"
-            ]
-        },
-        "getAllAcquerirs": {
-            "method_index": 894,
-            "actions": [
-                "43.704"
+                "43.706"
             ]
         },
         "deleteAcquerir": {
-            "method_index": 895,
+            "method_index": 894,
             "actions": [
-                "unknown.unknown",
-                "43.708"
+                "43.699",
+                "unknown.unknown"
             ]
         },
-        "findAcquerirById": {
+        "getAllAcquerirs": {
+            "method_index": 895,
+            "actions": [
+                "43.701"
+            ]
+        },
+        "updateAcquerir": {
             "method_index": 896,
             "actions": [
-                "unknown.unknown",
-                "43.708"
+                "43.706"
             ]
         },
         "class_id": "42",
         "class_name": "AcquerirServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\CandidatServiceImpl.java": {
-        "getAllCandidats": {
-            "method_index": 897,
-            "actions": [
-                "45.715"
-            ]
-        },
-        "updateCandidat": {
-            "method_index": 898,
-            "actions": [
-                "45.710"
-            ]
-        },
         "findCandidatByEmail": {
-            "method_index": 899,
-            "actions": [
-                "45.717"
-            ]
-        },
-        "deleteCandidat": {
-            "method_index": 900,
+            "method_index": 897,
             "actions": [
                 "45.709"
             ]
         },
         "addCandidat": {
+            "method_index": 898,
+            "actions": [
+                "45.717"
+            ]
+        },
+        "getAllCandidats": {
+            "method_index": 899,
+            "actions": [
+                "45.712"
+            ]
+        },
+        "updateCandidat": {
+            "method_index": 900,
+            "actions": [
+                "45.717"
+            ]
+        },
+        "deleteCandidat": {
             "method_index": 901,
             "actions": [
-                "45.710"
+                "45.719"
             ]
         },
         "class_id": "44",
@@ -4829,135 +4829,135 @@
         "addCompetence": {
             "method_index": 902,
             "actions": [
-                "47.721"
-            ]
-        },
-        "deleteCompetence": {
-            "method_index": 903,
-            "actions": [
-                "47.729"
+                "47.728"
             ]
         },
         "updateCompetence": {
+            "method_index": 903,
+            "actions": [
+                "47.728"
+            ]
+        },
+        "deleteCompetence": {
             "method_index": 904,
             "actions": [
-                "47.721"
+                "47.727"
             ]
         },
         "findCompetenceByCode": {
             "method_index": 905,
             "actions": [
-                "47.728"
+                "47.731"
             ]
         },
         "getAllCompetences": {
             "method_index": 906,
             "actions": [
-                "47.726"
+                "47.722"
             ]
         },
         "class_id": "46",
         "class_name": "CompetenceServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\DateStageServiceImpl.java": {
-        "deleteDateStage": {
+        "addDateStage": {
             "method_index": 907,
             "actions": [
-                "unknown.unknown",
-                "49.736"
-            ]
-        },
-        "findDateStageById": {
-            "method_index": 908,
-            "actions": [
-                "unknown.unknown",
-                "49.736"
+                "49.740"
             ]
         },
         "updateDateStage": {
-            "method_index": 909,
+            "method_index": 908,
             "actions": [
-                "49.733"
-            ]
-        },
-        "addDateStage": {
-            "method_index": 910,
-            "actions": [
-                "49.733"
+                "49.740"
             ]
         },
         "getAllDatesStage": {
+            "method_index": 909,
+            "actions": [
+                "49.734"
+            ]
+        },
+        "findDateStageById": {
+            "method_index": 910,
+            "actions": [
+                "49.737",
+                "unknown.unknown"
+            ]
+        },
+        "deleteDateStage": {
             "method_index": 911,
             "actions": [
-                "49.739"
+                "49.737",
+                "unknown.unknown"
             ]
         },
         "class_id": "48",
         "class_name": "DateStageServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EntrepriseServiceImpl.java": {
-        "addEntreprise": {
+        "getAllEntreprises": {
             "method_index": 912,
             "actions": [
-                "51.744"
+                "51.745"
             ]
         },
-        "findEntrepriseById": {
+        "updateEntreprise": {
             "method_index": 913,
             "actions": [
-                "51.747"
+                "51.751"
             ]
         },
         "deleteEntreprise": {
             "method_index": 914,
             "actions": [
-                "51.743"
+                "51.753"
             ]
         },
-        "updateEntreprise": {
+        "addEntreprise": {
             "method_index": 915,
             "actions": [
-                "51.744"
+                "51.751"
             ]
         },
-        "getAllEntreprises": {
+        "findEntrepriseById": {
             "method_index": 916,
             "actions": [
-                "51.750"
+                "51.754"
             ]
         },
         "class_id": "50",
         "class_name": "EntrepriseServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\EtudiantServiceImpl.java": {
-        "getAllEtudiants": {
+        "updateEtudiant": {
             "method_index": 917,
             "actions": [
-                "53.762"
+                "53.763"
             ]
         },
-        "findEtudiantById": {
+        "addEtudiant": {
             "method_index": 918,
+            "actions": [
+                "53.763"
+            ]
+        },
+        "getAllEtudiants": {
+            "method_index": 919,
             "actions": [
                 "53.757"
             ]
         },
-        "addEtudiant": {
-            "method_index": 919,
-            "actions": [
-                "53.756"
-            ]
-        },
-        "updateEtudiant": {
+        "findEtudiantById": {
             "method_index": 920,
             "actions": [
-                "53.756"
+                "53.762"
             ]
         },
         "deleteEtudiant": {
             "method_index": 921,
             "actions": [
-                "53.755"
+                "53.765"
             ]
         },
         "class_id": "52",
@@ -4970,96 +4970,96 @@
                 "55.779"
             ]
         },
-        "getAllProfs": {
+        "findProfById": {
             "method_index": 923,
             "actions": [
                 "55.785"
             ]
         },
-        "findProfById": {
+        "updateProf": {
             "method_index": 924,
             "actions": [
-                "55.782"
+                "55.786"
             ]
         },
-        "updateProf": {
+        "getAllProfs": {
             "method_index": 925,
             "actions": [
-                "55.778"
+                "55.780"
             ]
         },
         "addProf": {
             "method_index": 926,
             "actions": [
-                "55.778"
+                "55.786"
             ]
         },
         "class_id": "54",
         "class_name": "ProfServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\PromoServiceImpl.java": {
-        "findPromoById": {
+        "updatePromo": {
             "method_index": 927,
             "actions": [
-                "57.793"
+                "57.796"
             ]
         },
-        "updatePromo": {
+        "getAllPromos": {
             "method_index": 928,
             "actions": [
-                "57.790"
+                "57.791"
             ]
         },
         "deletePromo": {
             "method_index": 929,
             "actions": [
-                "57.789"
+                "57.799"
             ]
         },
-        "getAllPromos": {
+        "addPromo": {
             "method_index": 930,
             "actions": [
                 "57.796"
             ]
         },
-        "addPromo": {
+        "findPromoById": {
             "method_index": 931,
             "actions": [
-                "57.790"
+                "57.798"
             ]
         },
         "class_id": "56",
         "class_name": "PromoServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\StageServiceImpl.java": {
-        "addStage": {
+        "findStageById": {
             "method_index": 932,
             "actions": [
-                "59.801"
-            ]
-        },
-        "findStageById": {
-            "method_index": 933,
-            "actions": [
-                "59.810"
-            ]
-        },
-        "updateStage": {
-            "method_index": 934,
-            "actions": [
-                "59.801"
+                "59.804"
             ]
         },
         "getAllStages": {
+            "method_index": 933,
+            "actions": [
+                "59.802"
+            ]
+        },
+        "addStage": {
+            "method_index": 934,
+            "actions": [
+                "59.808"
+            ]
+        },
+        "updateStage": {
             "method_index": 935,
             "actions": [
-                "59.806"
+                "59.808"
             ]
         },
         "deleteStage": {
             "method_index": 936,
             "actions": [
-                "59.800"
+                "59.810"
             ]
         },
         "class_id": "58",
@@ -5069,65 +5069,65 @@
         "addTuteur": {
             "method_index": 937,
             "actions": [
-                "61.812"
+                "61.819"
             ]
         },
-        "updateTuteur": {
+        "findTuteurById": {
             "method_index": 938,
             "actions": [
-                "61.812"
+                "61.821"
             ]
         },
         "deleteTuteur": {
             "method_index": 939,
             "actions": [
-                "61.811"
-            ]
-        },
-        "findTuteurById": {
-            "method_index": 940,
-            "actions": [
-                "61.819"
+                "61.822"
             ]
         },
         "getAllTuteurs": {
+            "method_index": 940,
+            "actions": [
+                "61.813"
+            ]
+        },
+        "updateTuteur": {
             "method_index": 941,
             "actions": [
-                "61.817"
+                "61.819"
             ]
         },
         "class_id": "60",
         "class_name": "TuteurServiceImpl"
     },
     "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\service\\implementation\\TypeStageServiceImpl.java": {
-        "deleteTypeStage": {
+        "updateTypeStage": {
             "method_index": 942,
             "actions": [
-                "63.823"
+                "63.831"
             ]
         },
-        "getAllTypesStage": {
+        "addTypeStage": {
             "method_index": 943,
             "actions": [
-                "63.829"
+                "63.831"
             ]
         },
         "findTypeStageById": {
             "method_index": 944,
             "actions": [
-                "63.831"
+                "63.830"
             ]
         },
-        "updateTypeStage": {
+        "getAllTypesStage": {
             "method_index": 945,
             "actions": [
-                "63.824"
+                "63.825"
             ]
         },
-        "addTypeStage": {
+        "deleteTypeStage": {
             "method_index": 946,
             "actions": [
-                "63.824"
+                "63.833"
             ]
         },
         "class_id": "62",

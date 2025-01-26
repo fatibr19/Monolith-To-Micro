@@ -4,6 +4,7 @@ import { Card, CardContent,  Typography, useTheme } from '@mui/material';
 import { useState, ChangeEvent } from 'react';
 import AnimationComponent from './animation';
 import StyledDropzone from './dropZone';
+import { cookies } from "next/headers";
 
 export default function Home() {
   const theme = useTheme();

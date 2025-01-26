@@ -130,7 +130,7 @@ class SpringBootAnalyzer:
     def analyze(self):
         for java_file in self.root_path.rglob("*.java"):
             if not any(exclude in str(java_file) for exclude in ['./test/', 'target/', 'build/']):
-                print(f"Analyzing {java_file}")
+                # print(f"Analyzing {java_file}")
                 self.analyze_java_file(java_file)
 
         excluded_packages = {"java.", "javax.", "org.springframework.", "com.fasterxml.jackson.", "lombok."}

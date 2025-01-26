@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 
@@ -20,6 +21,6 @@ export default function LoadingComponent() {
   }, []);
 
   return (
-    <div ref={animationContainer} style={{ width: 500, height: 500, marginRight: 30 }} />
+    <div ref={animationContainer} style={{ width: 100, height: 100, marginLeft: 160 }} />
   );
 }

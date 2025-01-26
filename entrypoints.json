@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "get",
         "endpointPath": "/get/{typeStageId}/{competenceId}",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "delete",
         "endpointPath": "/delete/{typeStageId}/{competenceId}",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "get",
         "endpointPath": "/get/{email}",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "post",
         "endpointPath": "Literal(postfix_operators=[], prefix_operators=[], qualifier=None, selectors=[], value=\"/add\")",
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "post",
         "endpointPath": "Literal(postfix_operators=[], prefix_operators=[], qualifier=None, selectors=[], value=\"/addCandidatWithDossier\")",
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -81,7 +81,7 @@
     },
     {
         "id": 11,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "delete",
         "endpointPath": "/delete/{email}",
@@ -89,7 +89,7 @@
     },
     {
         "id": 12,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -97,7 +97,7 @@
     },
     {
         "id": 13,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "get",
         "endpointPath": "/get/{code}",
@@ -105,7 +105,7 @@
     },
     {
         "id": 14,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -113,7 +113,7 @@
     },
     {
         "id": 15,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -121,7 +121,7 @@
     },
     {
         "id": 16,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "delete",
         "endpointPath": "/delete/{code}",
@@ -129,7 +129,7 @@
     },
     {
         "id": 17,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -137,7 +137,7 @@
     },
     {
         "id": 18,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "get",
         "endpointPath": "/get/{typeStageId}/{anneeId}",
@@ -145,7 +145,7 @@
     },
     {
         "id": 19,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -153,7 +153,7 @@
     },
     {
         "id": 20,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -161,7 +161,7 @@
     },
     {
         "id": 21,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "delete",
         "endpointPath": "/delete/{typeStageId}/{anneeId}",
@@ -169,7 +169,7 @@
     },
     {
         "id": 22,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -177,7 +177,7 @@
     },
     {
         "id": 23,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -185,7 +185,7 @@
     },
     {
         "id": 24,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -193,7 +193,7 @@
     },
     {
         "id": 25,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -201,7 +201,7 @@
     },
     {
         "id": 26,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -209,7 +209,7 @@
     },
     {
         "id": 27,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -217,7 +217,7 @@
     },
     {
         "id": 28,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -225,7 +225,7 @@
     },
     {
         "id": 29,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -233,7 +233,7 @@
     },
     {
         "id": 30,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -241,7 +241,7 @@
     },
     {
         "id": 31,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -249,7 +249,7 @@
     },
     {
         "id": 32,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -257,7 +257,7 @@
     },
     {
         "id": 33,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -265,7 +265,7 @@
     },
     {
         "id": 34,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -273,7 +273,7 @@
     },
     {
         "id": 35,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -281,7 +281,7 @@
     },
     {
         "id": 36,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -289,7 +289,7 @@
     },
     {
         "id": 37,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -297,7 +297,7 @@
     },
     {
         "id": 38,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -305,7 +305,7 @@
     },
     {
         "id": 39,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -313,7 +313,7 @@
     },
     {
         "id": 40,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -321,7 +321,7 @@
     },
     {
         "id": 41,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -329,7 +329,7 @@
     },
     {
         "id": 42,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -337,7 +337,7 @@
     },
     {
         "id": 43,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -345,7 +345,7 @@
     },
     {
         "id": 44,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -353,7 +353,7 @@
     },
     {
         "id": 45,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -361,7 +361,7 @@
     },
     {
         "id": 46,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -369,7 +369,7 @@
     },
     {
         "id": 47,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -377,7 +377,7 @@
     },
     {
         "id": 48,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -385,7 +385,7 @@
     },
     {
         "id": 49,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -393,7 +393,7 @@
     },
     {
         "id": 50,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -401,7 +401,7 @@
     },
     {
         "id": 51,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -409,7 +409,7 @@
     },
     {
         "id": 52,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -417,7 +417,7 @@
     },
     {
         "id": 53,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -425,7 +425,7 @@
     },
     {
         "id": 54,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -433,7 +433,7 @@
     },
     {
         "id": 55,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -441,7 +441,7 @@
     },
     {
         "id": 56,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -449,7 +449,7 @@
     },
     {
         "id": 57,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -457,7 +457,7 @@
     },
     {
         "id": 58,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "get",
         "endpointPath": "/get/{typeStageId}/{competenceId}",
@@ -465,7 +465,7 @@
     },
     {
         "id": 59,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -473,7 +473,7 @@
     },
     {
         "id": 60,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -481,7 +481,7 @@
     },
     {
         "id": 61,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\AcquerirController.java",
         "classControllerPath": "/api/acquerir",
         "endpointType": "delete",
         "endpointPath": "/delete/{typeStageId}/{competenceId}",
@@ -489,7 +489,7 @@
     },
     {
         "id": 62,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -497,7 +497,7 @@
     },
     {
         "id": 63,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "get",
         "endpointPath": "/get/{email}",
@@ -505,7 +505,7 @@
     },
     {
         "id": 64,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "post",
         "endpointPath": "Literal(postfix_operators=[], prefix_operators=[], qualifier=None, selectors=[], value=\"/add\")",
@@ -513,7 +513,7 @@
     },
     {
         "id": 65,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "post",
         "endpointPath": "Literal(postfix_operators=[], prefix_operators=[], qualifier=None, selectors=[], value=\"/addCandidatWithDossier\")",
@@ -521,7 +521,7 @@
     },
     {
         "id": 66,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -529,7 +529,7 @@
     },
     {
         "id": 67,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CandidatController.java",
         "classControllerPath": "/api/candidat",
         "endpointType": "delete",
         "endpointPath": "/delete/{email}",
@@ -537,7 +537,7 @@
     },
     {
         "id": 68,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -545,7 +545,7 @@
     },
     {
         "id": 69,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "get",
         "endpointPath": "/get/{code}",
@@ -553,7 +553,7 @@
     },
     {
         "id": 70,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -561,7 +561,7 @@
     },
     {
         "id": 71,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -569,7 +569,7 @@
     },
     {
         "id": 72,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\CompetenceController.java",
         "classControllerPath": "/api/competence",
         "endpointType": "delete",
         "endpointPath": "/delete/{code}",
@@ -577,7 +577,7 @@
     },
     {
         "id": 73,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -585,7 +585,7 @@
     },
     {
         "id": 74,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "get",
         "endpointPath": "/get/{typeStageId}/{anneeId}",
@@ -593,7 +593,7 @@
     },
     {
         "id": 75,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -601,7 +601,7 @@
     },
     {
         "id": 76,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -609,7 +609,7 @@
     },
     {
         "id": 77,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\DateStageController.java",
         "classControllerPath": "/api/dateStage",
         "endpointType": "delete",
         "endpointPath": "/delete/{typeStageId}/{anneeId}",
@@ -617,7 +617,7 @@
     },
     {
         "id": 78,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -625,7 +625,7 @@
     },
     {
         "id": 79,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -633,7 +633,7 @@
     },
     {
         "id": 80,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -641,7 +641,7 @@
     },
     {
         "id": 81,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -649,7 +649,7 @@
     },
     {
         "id": 82,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EntrepriseController.java",
         "classControllerPath": "/api/entreprise",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -657,7 +657,7 @@
     },
     {
         "id": 83,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -665,7 +665,7 @@
     },
     {
         "id": 84,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -673,7 +673,7 @@
     },
     {
         "id": 85,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -681,7 +681,7 @@
     },
     {
         "id": 86,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -689,7 +689,7 @@
     },
     {
         "id": 87,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\EtudiantController.java",
         "classControllerPath": "/api/etudiant",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -697,7 +697,7 @@
     },
     {
         "id": 88,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -705,7 +705,7 @@
     },
     {
         "id": 89,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -713,7 +713,7 @@
     },
     {
         "id": 90,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -721,7 +721,7 @@
     },
     {
         "id": 91,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -729,7 +729,7 @@
     },
     {
         "id": 92,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\ProfController.java",
         "classControllerPath": "/api/prof",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -737,7 +737,7 @@
     },
     {
         "id": 93,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -745,7 +745,7 @@
     },
     {
         "id": 94,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -753,7 +753,7 @@
     },
     {
         "id": 95,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -761,7 +761,7 @@
     },
     {
         "id": 96,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -769,7 +769,7 @@
     },
     {
         "id": 97,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\PromoController.java",
         "classControllerPath": "/api/promo",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -777,7 +777,7 @@
     },
     {
         "id": 98,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -785,7 +785,7 @@
     },
     {
         "id": 99,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -793,7 +793,7 @@
     },
     {
         "id": 100,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -801,7 +801,7 @@
     },
     {
         "id": 101,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -809,7 +809,7 @@
     },
     {
         "id": 102,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\StageController.java",
         "classControllerPath": "/api/stage",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -817,7 +817,7 @@
     },
     {
         "id": 103,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -825,7 +825,7 @@
     },
     {
         "id": 104,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -833,7 +833,7 @@
     },
     {
         "id": 105,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -841,7 +841,7 @@
     },
     {
         "id": 106,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -849,7 +849,7 @@
     },
     {
         "id": 107,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TuteurController.java",
         "classControllerPath": "/api/tuteur",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",
@@ -857,7 +857,7 @@
     },
     {
         "id": 108,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "get",
         "endpointPath": "/getAll",
@@ -865,7 +865,7 @@
     },
     {
         "id": 109,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "get",
         "endpointPath": "/get/{id}",
@@ -873,7 +873,7 @@
     },
     {
         "id": 110,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "post",
         "endpointPath": "/add",
@@ -881,7 +881,7 @@
     },
     {
         "id": 111,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "put",
         "endpointPath": "/update",
@@ -889,7 +889,7 @@
     },
     {
         "id": 112,
-        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
+        "controllerFilePath": "springboot-projects\\projet_SI_gestion_ECM-main\\src\\main\\java\\com\\example\\projetSI\\controller\\TypeStageController.java",
         "classControllerPath": "/api/typeStage",
         "endpointType": "delete",
         "endpointPath": "/delete/{id}",

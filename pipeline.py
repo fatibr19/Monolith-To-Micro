@@ -21,7 +21,7 @@ from project_analysis_results_with_inheritanceJson import process_project_analys
 from cogcn.cogcn.vi_output import load_pickle, visualize_embeddings, visualize_outliers
 from cogcn.cogcn.graph_visualisation import main_graph_visualisation
 
-def main(uploaded_zip):
+def main(uploaded_zip, k):
     # Current working directory operations
     base_project_dir = os.getcwd()  # Current project directory
     project_dir = unzip_java_project(uploaded_zip, base_project_dir)
@@ -123,7 +123,7 @@ def main(uploaded_zip):
     training_cmd = [
         sys.executable, 'train.py', 
         '--dataset-str', 'data/apps/ECM', 
-        '--k', '5'
+        '--k', f"{k}"
     ]
     
     try:
@@ -172,6 +172,7 @@ def main(uploaded_zip):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process Java project ZIP file')
     parser.add_argument('zip_file', help='Path to the Java project ZIP file')
+    parser.add_argument('-k', type=int, default=5, help='Value of k for the k-nearest neighbor algorithm')
     args = parser.parse_args()
     
-    main(args.zip_file)
+    main(args.zip_file, args.k)

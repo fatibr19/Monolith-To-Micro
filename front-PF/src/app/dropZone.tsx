@@ -4,45 +4,55 @@ import { Button, Card, Typography } from "@mui/material";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import axios from 'axios';
 import LoadingComponent from "./loading";
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 function StyledDropzone() {
   const [fileInfo, setFileInfo] = useState<{ file: File; size: string } | null>(null);
-   const [isloading, setIsLoading] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     const file = acceptedFiles[0];
     if (file && (file.type === "application/x-zip-compressed" || file.type === "application/zip")) {
       setFileInfo({
         file,
-        size: (file.size / 1024 / 1024).toFixed(2) + " MB", // Conversion de la taille en MB
+        size: (file.size / 1024 / 1024).toFixed(2) + " MB",
       });
     } else {
       alert("Veuillez déposer un fichier .zip valide!");
-      setFileInfo(null); // Réinitialiser les infos du fichier si incorrect
+      setFileInfo(null);
     }
   }, []);
 
-  const handleSubmit = async () => { // Ajout de async ici
+  const handleSubmit = async () => {
     if (fileInfo) {
       const formData = new FormData();
-      formData.append("file", fileInfo.file); // Correction ici, passer fileInfo.file
-      setIsLoading(true)
+      formData.append("file", fileInfo.file);
+      setIsLoading(true);
       try {
         const response = await axios.post("http://127.0.0.1:8000/upload/", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
         });
-        setIsLoading(false)
-        alert('File uploaded successfully');
-        console.log(response.data);
+        setIsLoading(false);
+
+        // Create a new URLSearchParams object
+        const params = new URLSearchParams(searchParams);
+        params.set('image', response.data.image_url);
+        params.set('zip_path',response.data.zip_path)
+
+        // Navigate with the new search parameters
+        router.push(`/predict?${params.toString()}`);
       } catch (error) {
         alert('Error uploading file');
         console.error('Error uploading file:', error);
-        setIsLoading(false)
+        setIsLoading(false);
       }
     } else {
-      alert("Please upload a .zip file");
+      alert("Please select a file to upload.");
     }
   };
 
@@ -84,7 +94,7 @@ function StyledDropzone() {
           )}
         </Card>
       </Card>
-      {isloading &&(
+      {isLoading && (
         <LoadingComponent/>
       )}
       {fileInfo && (
